@@ -1,57 +1,25 @@
-body {
-    margin: 0;
-    padding: 0;
-    max-width: 1440px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Initiation à l’entrepreneuriat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scene">
+        <!-- Nouveau fond personnalisé -->
+        <img src="images/IMG_0698.png" alt="fond personnalisé" class="layer background">
 
-.scene {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
+        <!-- Autres éléments décoratifs -->
+        <img src="images/kit-3.png" alt="décoratif" class="layer decoration">
+        <img src="images/kit-13.png" alt="parchemin" class="layer parchment">
+        <img src="images/kit-9.png" alt="traces" class="layer footsteps">
+        <img src="images/kit-6.png" alt="ampoule et texte" class="layer top-content">
 
-/* L'image de fond personnalisée */
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* pour remplir sans déformation */
-    z-index: 0;
-}
-
-/* Styles pour les autres couches */
-.layer {
-    position: absolute;
-}
-
-.decoration {
-    z-index: 1;
-}
-
-.parchment {
-    z-index: 2;
-}
-
-.footsteps {
-    z-index: 3;
-}
-
-.top-content {
-    z-index: 4;
-}
-
-.treasure-button {
-    z-index: 5;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.treasure-button:hover {
-    transform: scale(1.05);
-}
+        <!-- Lien vers la suite -->
+        <a href="page1.html" class="treasure-link">
+            <img src="images/treasure.png" alt="coffre au trésor" class="layer treasure-button">
+        </a>
+    </div>
+</body>
+</html>
