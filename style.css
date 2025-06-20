@@ -24,7 +24,7 @@ body {
 /* Images principales : chaque visuel prend toute la largeur disponible */
 .layer {
     width: 100%;
-    max-width: 940px;
+    max-width: 1440px;
     height: auto;
     margin-bottom: 20px;
 }
@@ -33,7 +33,6 @@ body {
 .background {
     width: 100%;
     height: auto;
-    object-fit: cover;
 }
 
 /* Bouton du trésor */
