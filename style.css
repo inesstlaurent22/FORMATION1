@@ -1,3 +1,4 @@
+/* Réinitialisation de base */
 * {
     margin: 0;
     padding: 0;
@@ -7,56 +8,44 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
     overflow-x: hidden;
     position: relative;
-    height: 100vh;
+    height: auto;
 }
 
 .scene {
-    position: relative;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Fond plein écran */
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-}
-
-/* Couche par défaut */
+/* Images principales : chaque visuel prend toute la largeur disponible */
 .layer {
-    position: absolute;
-    width: auto;
+    width: 100%;
+    max-width: 940px;
     height: auto;
+    margin-bottom: 20px;
 }
 
-.decoration { z-index: 1; }
-.parchment { z-index: 2; }
-.footsteps { z-index: 3; }
+/* Fond en tant que première image (plus de position absolute) */
+.background {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
-.top-content {
-    z-index: 4;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    max-width: 600px;
+/* Bouton du trésor */
+.treasure-link {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
 }
 
 .treasure-button {
-    z-index: 5;
     width: 120px;
     height: auto;
-    bottom: 60px;
-    right: 60px;
-    position: absolute;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -65,20 +54,18 @@ body {
     transform: scale(1.05);
 }
 
+/* Lien sans soulignement */
 a {
     text-decoration: none;
 }
 
-/* Responsive */
+/* Responsive design */
 @media (max-width: 768px) {
-    .top-content {
-        width: 90%;
-        top: 80px;
+    .layer {
+        max-width: 100%;
     }
 
     .treasure-button {
         width: 80px;
-        bottom: 30px;
-        right: 30px;
     }
 }
