@@ -1,68 +1,20 @@
-body {
+/* Réinitialisation de base */
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
 }
 
-.scene {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    pointer-events: none;
-}
-
-.background { z-index: 1; }
-.decoration { z-index: 2; }
-.parchment { z-index: 3; }
-.footsteps { z-index: 4; }
-.top-content { z-index: 5; }
-
-.treasure-button {
-    z-index: 6;
-    width: 100px;
-    height: auto;
-    left: 70%;
-    top: 80%;
-    transform: translate(-50%, -50%);
-    pointer-events: auto;
-}
-
-.treasure-link {
-    position: absolute !important;
-    left: 515px !important;
-    top: 40px !important;
-    width: 678px !important;
-    height: 639px !important;
-    display: block;
-    z-index: 1000;
-}
-
-.treasure-link img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain;
-    display: block;
-}
 body {
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
     max-width: 1440px;
     margin: 0 auto;
-    font-family: Arial, sans-serif;
     overflow-x: hidden;
+    position: relative;
+    height: 100vh;
 }
 
+/* Conteneur principal de la scène */
 .scene {
     position: relative;
     width: 100%;
@@ -70,22 +22,25 @@ body {
     overflow: hidden;
 }
 
-/* L'image de fond personnalisée */
+/* Image de fond (kit-in.png) */
 .background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* pour remplir sans déformation */
+    object-fit: cover;
     z-index: 0;
 }
 
-/* Styles pour les autres couches */
+/* Couches positionnées au-dessus du fond */
 .layer {
     position: absolute;
+    width: auto;
+    height: auto;
 }
 
+/* Calques intermédiaires (à ajuster au besoin) */
 .decoration {
     z-index: 1;
 }
@@ -102,6 +57,7 @@ body {
     z-index: 4;
 }
 
+/* Bouton du coffre au trésor */
 .treasure-button {
     z-index: 5;
     cursor: pointer;
@@ -112,3 +68,27 @@ body {
     transform: scale(1.05);
 }
 
+/* Lien sans soulignement */
+a {
+    text-decoration: none;
+}
+
+/* Responsive design pour petits écrans */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+    }
+
+    .scene {
+        height: auto;
+    }
+
+    .layer {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .treasure-button {
+        width: 100px;
+    }
+}
