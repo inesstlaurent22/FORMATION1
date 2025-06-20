@@ -1,4 +1,3 @@
-/* Réinitialisation de base */
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    max-width: 940px;
-    margin: 0 auto;
+    margin: 0;
     overflow-x: hidden;
     position: relative;
     height: 100vh;
 }
 
-/* Conteneur principal de la scène */
 .scene {
     position: relative;
     width: 100%;
@@ -22,7 +19,7 @@ body {
     overflow: hidden;
 }
 
-/* Image de fond (Component13.png) */
+/* Fond plein écran */
 .background {
     position: absolute;
     top: 0;
@@ -33,33 +30,33 @@ body {
     z-index: 0;
 }
 
-/* Couches positionnées au-dessus du fond */
+/* Couche par défaut */
 .layer {
     position: absolute;
     width: auto;
     height: auto;
 }
 
-/* Calques intermédiaires (à ajuster au besoin) */
-.decoration {
-    z-index: 1;
-}
-
-.parchment {
-    z-index: 2;
-}
-
-.footsteps {
-    z-index: 3;
-}
+.decoration { z-index: 1; }
+.parchment { z-index: 2; }
+.footsteps { z-index: 3; }
 
 .top-content {
     z-index: 4;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 600px;
 }
 
-/* Bouton du coffre au trésor */
 .treasure-button {
     z-index: 5;
+    width: 120px;
+    height: auto;
+    bottom: 60px;
+    right: 60px;
+    position: absolute;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -68,27 +65,20 @@ body {
     transform: scale(1.05);
 }
 
-/* Lien sans soulignement */
 a {
     text-decoration: none;
 }
 
-/* Responsive design pour petits écrans */
+/* Responsive */
 @media (max-width: 768px) {
-    body {
-        height: auto;
-    }
-
-    .scene {
-        height: auto;
-    }
-
-    .layer {
-        max-width: 100%;
-        height: auto;
+    .top-content {
+        width: 90%;
+        top: 80px;
     }
 
     .treasure-button {
-        width: 100px;
+        width: 80px;
+        bottom: 30px;
+        right: 30px;
     }
 }
