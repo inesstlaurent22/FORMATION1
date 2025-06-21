@@ -99,15 +99,15 @@ html, body {
 /* Bouton coffre */
 .treasure-link {
     position: absolute;
-    top: 103px;    /* position Y depuis la maquette */
-    left: 602px;   /* position X depuis la maquette */
+    top: 503px;    /* position Y depuis la maquette */
+    left: 302px;   /* position X depuis la maquette */
     position: absolute;
   z-index: 10;
 }
 
 .treasure-button {
-    width: 878px;   /* largeur */
-    height: 839px;  /* hauteur */
+    width: 1078px;   /* largeur */
+    height: 1039px;  /* hauteur */
     cursor: pointer;
     transition: transform 0.3s ease;
 }
