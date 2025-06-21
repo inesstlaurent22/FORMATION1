@@ -80,7 +80,7 @@ html, body {
 .treasure-link {
     position: absolute;
     top: 203px;    /* position Y depuis la maquette */
-    left: 402px;   /* position X depuis la maquette */
+    left: 202px;   /* position X depuis la maquette */
     position: absolute;
   z-index: 10;
 }
