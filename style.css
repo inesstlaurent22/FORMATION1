@@ -1,4 +1,4 @@
-/* Réinitialisation de base */
+/* Réinitialisation */
 * {
     margin: 0;
     padding: 0;
@@ -7,44 +7,48 @@
 
 html, body {
     width: 100%;
-    height: auto;
-    overflow-y: auto;
+    height: 100%;
+    overflow: hidden;
     font-family: Arial, sans-serif;
-    background-color: #fff;
 }
 
 /* Barre de navigation */
 #navbar {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
+    width: 650px; /* moitié de 1300px */
+    height: 100px; /* moitié de 200px */
     z-index: 1000;
-    width: 1300px;
-    height: 200px;
-    background-image: url("images/Component12.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     pointer-events: none;
 }
 
-/* Boutons de navigation */
-.nav-buttons {
-    display: flex;
-    gap: 2cm;
-    align-items: center;
-    justify-content: center;
+/* Image Component12.png (fond de la navbar) */
+.navbar-bg {
+    position: absolute;
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Boutons dans la barre */
+.nav-buttons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Espace entre les boutons (~1cm) */
+    z-index: 2;
     pointer-events: auto;
 }
 
 .nav-buttons img {
-    width: 100px; /* taille réduite pour rester dans la barre */
+    width: 80px;
     height: auto;
+    max-height: 30px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -53,25 +57,25 @@ html, body {
     transform: scale(1.05);
 }
 
-/* Conteneur principal */
+/* Scène */
 .scene {
     width: 100vw;
-    height: auto;
+    height: 100vh;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
 }
 
-/* Image de fond */
+/* Image de fond Component13 */
 .background {
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
     top: 0;
     left: 0;
 }
 
-/* Bouton vers la page suivante */
+/* Bouton coffre */
 .treasure-link {
     position: absolute;
     top: 183px;
@@ -93,26 +97,4 @@ html, body {
 /* Supprime le soulignement des liens */
 a {
     text-decoration: none;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    #navbar {
-        width: 100%;
-        height: auto;
-        top: 0;
-        left: 0;
-        background-size: contain;
-        flex-direction: column;
-    }
-
-    .nav-buttons {
-        gap: 10px;
-        flex-direction: column;
-    }
-
-    .nav-buttons img {
-        width: 80px;
-        height: auto;
-    }
 }
