@@ -48,8 +48,8 @@ html, body {
 /* Image de fond */
 .background {
     width: 100%;
-    height: 100vh; /* Prend toute la hauteur de l'écran */
-    object-fit: cover;
+    height: auto; 
+    object-fit: contain;
 }
 
 /* Lien vers la page suivante */
