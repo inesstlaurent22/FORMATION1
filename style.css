@@ -6,59 +6,69 @@
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
-  background: none;
-  overflow-x: hidden;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-color: #fff;
 }
-
 
 /* Barre de navigation */
 #navbar {
     position: fixed;
     top: 20px;
     left: 20px;
-    width: 800px; /* Augmenté pour contenir tous les boutons */
-    height: 120px;
     z-index: 1000;
 }
 
 #navbar img:first-child {
-    width: 100%;
+    width: 300px; /* ou la taille adaptée de l’image principale */
     height: auto;
+}
+
+/* Boutons dans la nav */
+.nav-buttons {
+    position: absolute;
+    top: 74px;       /* alignement vertical */
+    left: 60px;      /* position initiale */
+    display: flex;
+    gap: 2cm;        /* espacement de 2cm entre chaque bouton */
+    align-items: center;
+}
+
+.nav-buttons img {
+    width: 138px;
+    height: 39px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nav-buttons img:hover {
+    transform: scale(1.05);
 }
 
 /* Conteneur principal */
 .scene {
-  position: relative;
-  min-height: 100vh;
-}
-
-/* Images générales */
-.layer {
     width: 100%;
-    max-width: 1440px;
-    height: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 /* Image de fond */
 .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-
 
 /* Lien vers la page suivante */
 .treasure-link {
     position: absolute;
-    top: 283px;
-    left: 662px;
+    top: 183px;
+    left: 762px;
     z-index: 100;
 }
 
@@ -78,54 +88,7 @@ a {
     text-decoration: none;
 }
 
-/* Boutons PNG personnalisés */
-.nav-buttons {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.nav-buttons a {
-    position: absolute;
-    display: block;
-    width: 138px;
-    height: 39px;
-}
-
-.nav-buttons img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.nav-buttons img:hover {
-    transform: scale(1.05);
-}
-
-/* Positions spécifiques des boutons */
-.nav-buttons a.accueil {
-    left: 113.69px;
-    top: 54.6px;
-}
-
-.nav-buttons a.histoire {
-    left: 246.87px;
-    top: 54.4px;
-}
-
-.nav-buttons a.carte {
-    left: 357.94px;
-    top: 54.4px;
-}
-
-.nav-buttons a.sacados {
-    left: 430.54px;
-    top: 54.4px;
-}
-
-/* Responsive design */
+/* Responsive */
 @media (max-width: 768px) {
     .layer {
         max-width: 100%;
@@ -136,13 +99,20 @@ a {
     }
 
     #navbar {
-        width: 100%;
+        width: 150px;
         top: 10px;
         left: 10px;
     }
 
-    .nav-buttons a {
-        transform: scale(0.5);
-        transform-origin: top left;
+    .nav-buttons {
+        gap: 10px;
+        flex-direction: column;
+        left: 0;
+        top: 100px;
+    }
+
+    .nav-buttons img {
+        width: 100px;
+        height: auto;
     }
 }
