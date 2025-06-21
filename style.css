@@ -14,11 +14,11 @@ html, body {
 
 /* Barre de navigation */
 #navbar {
-    position: fixed;
+    position: sticky; /* <-- changement ici */
     top: 0;
-    right: 0;
-    width: 1300px; /* moitié de 1300px */
-    height: 200px; /* moitié de 200px */
+    left: 0;
+    width: 650px;
+    height: 100px;
     z-index: 1000;
     pointer-events: none;
 }
