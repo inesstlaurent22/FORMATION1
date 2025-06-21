@@ -86,7 +86,7 @@ html, body {
 }
 
 .treasure-button {
-    width: 1128px;   /* largeur */
+    width: 400px;   /* largeur */
     height: 1119px;  /* hauteur */
     cursor: pointer;
     transition: transform 0.3s ease;
