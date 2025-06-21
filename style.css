@@ -18,9 +18,9 @@ html, body {
 #navbar {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 650px; /* s’adapte au design */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 650px; /* largeur exacte de Component12.png */
     height: 100px;
     z-index: 1000;
     pointer-events: none;
@@ -58,6 +58,24 @@ html, body {
 
 .nav-buttons img:hover {
     transform: scale(1.05);
+}
+/* Ajustement précis des boutons */
+.nav-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 32px; /* ≈ 2cm à l'écran pour un DPI standard */
+    z-index: 2;
+    pointer-events: auto;
+}
+
+.nav-buttons img {
+    height: 40px; /* Ajuste selon la taille de Component12.png */
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 /* Scène */
