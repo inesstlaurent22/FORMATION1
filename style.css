@@ -15,15 +15,19 @@ html, body {
 /* Barre de navigation */
 #navbar {
     position: fixed;
-    left: 20px;
-    top: 20px;
+    top: 0px;       /* Y = 0 */
+    left: 1px;      /* X = 1 */
+    width: 1139px;
+    height: 114px;
     z-index: 1000;
-    width: 720px;
-    height: 120px;
+    background-image: url("images/Component12.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-    pointer-events: none; /* permet aux enfants d'être cliquables sans bloquer la souris */
+    pointer-events: none;
 }
 
 .nav-buttons {
@@ -63,7 +67,7 @@ html, body {
     left: 0;
 }
 
-/* Lien vers la page suivante */
+/* Bouton vers la page suivante */
 .treasure-link {
     position: absolute;
     top: 183px;
