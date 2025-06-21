@@ -38,12 +38,11 @@ html, body {
 /* Boutons dans la barre *
 .nav-buttons {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    top: 50%; /* centre verticalement dans la barre */
+    left: 20%; /* ajuste pour centrer horizontalement les boutons dans l'image */
+    transform: translateY(-50%);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+    gap: 32px; /* ≈ 2 cm à l’écran */
     z-index: 2;
     pointer-events: auto;
 }
