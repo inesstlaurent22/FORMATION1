@@ -71,7 +71,7 @@ html, body {
     height: 100vh;
     object-fit: contain;
     top: 0;
-    left: 0;
+    left: 1;
 }
 
 /* Bouton coffre */
