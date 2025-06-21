@@ -107,7 +107,7 @@ a {
 /* Positions spécifiques des boutons */
 .nav-buttons a.accueil {
     left: 113.69px;
-    top: 94.6px;
+    top: 54.6px;
 }
 
 .nav-buttons a.histoire {
@@ -117,12 +117,12 @@ a {
 
 .nav-buttons a.carte {
     left: 357.94px;
-    top: 114.4px;
+    top: 54.4px;
 }
 
 .nav-buttons a.sacados {
     left: 430.54px;
-    top: 34.4px;
+    top: 54.4px;
 }
 
 /* Responsive design */
