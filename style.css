@@ -47,7 +47,7 @@ html, body {
 }
 
 .nav-buttons img {
-    height: 10px;  /* taille uniforme, adaptée à Component12.png */
+    height: 5px;  /* taille uniforme, adaptée à Component12.png */
     width: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -80,13 +80,13 @@ html, body {
 .treasure-link {
     position: absolute;
     top: 203px;    /* position Y depuis la maquette */
-    left: 202px;   /* position X depuis la maquette */
+    left: 602px;   /* position X depuis la maquette */
     position: absolute;
   z-index: 10;
 }
 
 .treasure-button {
-    width: 400px;   /* largeur */
+    width: 1100px;   /* largeur */
     height: 1119px;  /* hauteur */
     cursor: pointer;
     transition: transform 0.3s ease;
