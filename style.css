@@ -11,8 +11,9 @@ html, body {
     height: 100%;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
-    background-color: #fff; /* Couleur de fond en cas de transparence */
+    background-color: transparent; /* était #fff */
 }
+
 
 /* Barre de navigation */
 #navbar {
@@ -49,10 +50,15 @@ html, body {
 
 /* Image de fond */
 .background {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
+
 
 /* Lien vers la page suivante */
 .treasure-link {
