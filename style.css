@@ -82,7 +82,7 @@ html, body {
 .treasure-link {
     position: absolute;
     top: 203px;    /* position verticale du bouton */
-    left: 20%;     /* décalé à gauche de 20% */
+    left: 60%;     /* décalé à gauche de 20% */
     z-index: 10;
 }
 
