@@ -81,15 +81,15 @@ html, body {
 /* Bouton coffre */
 .treasure-link {
     position: absolute;
-    top: 183px;    /* position Y depuis la maquette */
+    top: 233px;    /* position Y depuis la maquette */
     left: 762px;   /* position X depuis la maquette */
     position: absolute;
   z-index: 10;
 }
 
 .treasure-button {
-    width: 678px;   /* largeur */
-    height: 639px;  /* hauteur */
+    width: 878px;   /* largeur */
+    height: 839px;  /* hauteur */
     cursor: pointer;
     transition: transform 0.3s ease;
 }
