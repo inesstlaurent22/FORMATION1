@@ -37,7 +37,7 @@ html, body {
 /* Boutons dans la barre : disposition verticale centrée */
 .nav-buttons {
     position: absolute;
-    top: 50%;     /* centre verticalement dans la barre */
+    top: 80%;     /* centre verticalement dans la barre */
     left: 50%;    /* centre horizontalement */
     transform: translate(-50%, -50%);
     display: flex;
@@ -49,7 +49,7 @@ html, body {
 }
 
 .nav-buttons img {
-    width: 80px;      /* largeur des boutons */
+    width: 110px;      /* largeur des boutons */
     height: auto;     /* conserve les proportions */
     cursor: pointer;
     transition: transform 0.3s ease;
