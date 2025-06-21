@@ -17,8 +17,8 @@ html, body {
     position: fixed;
     top: 0;
     right: 0;
-    width: 650px; /* moitié de 1300px */
-    height: 100px; /* moitié de 200px */
+    width: 1300px; /* moitié de 1300px */
+    height: 200px; /* moitié de 200px */
     z-index: 1000;
     pointer-events: none;
 }
