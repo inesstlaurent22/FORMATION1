@@ -1,4 +1,4 @@
-/* Réinitialisation de base */
+/* Réinitialisation */
 * {
     margin: 0;
     padding: 0;
@@ -16,14 +16,14 @@ html, body {
 #navbar {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 1300px;
-    height: 200px;
+    right: 0;
+    width: 650px; /* moitié de 1300px */
+    height: 100px; /* moitié de 200px */
     z-index: 1000;
     pointer-events: none;
 }
 
-/* Image de fond de la navbar */
+/* Image Component12.png (fond de la navbar) */
 .navbar-bg {
     position: absolute;
     width: 100%;
@@ -32,7 +32,7 @@ html, body {
     z-index: 1;
 }
 
-/* Conteneur des boutons */
+/* Boutons dans la barre */
 .nav-buttons {
     position: absolute;
     width: 100%;
@@ -40,16 +40,15 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 75px; /* ~2 cm */
+    gap: 40px; /* Espace entre les boutons (~1cm) */
     z-index: 2;
     pointer-events: auto;
 }
 
-/* Style des boutons */
 .nav-buttons img {
-    width: 130px;
+    width: 80px;
     height: auto;
-    max-height: 50px;
+    max-height: 30px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -58,7 +57,7 @@ html, body {
     transform: scale(1.05);
 }
 
-/* Scène principale */
+/* Scène */
 .scene {
     width: 100vw;
     height: 100vh;
@@ -66,7 +65,7 @@ html, body {
     overflow: hidden;
 }
 
-/* Image de fond */
+/* Image de fond Component13 */
 .background {
     width: 100vw;
     height: 100vh;
@@ -76,7 +75,7 @@ html, body {
     left: 0;
 }
 
-/* Bouton vers page suivante */
+/* Bouton coffre */
 .treasure-link {
     position: absolute;
     top: 183px;
@@ -95,7 +94,7 @@ html, body {
     transform: scale(1.05);
 }
 
-/* Supprimer soulignement des liens */
+/* Supprime le soulignement des liens */
 a {
     text-decoration: none;
 }
