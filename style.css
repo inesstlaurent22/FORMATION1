@@ -6,34 +6,32 @@
 }
 
 html, body {
+    width: 100%;
     height: 100%;
-    font-family: Arial, sans-serif;
     overflow: hidden;
-    background-color: #fff;
+    font-family: Arial, sans-serif;
 }
 
 /* Barre de navigation */
 #navbar {
     position: fixed;
-    top: 20px;
     left: 20px;
+    top: 20px;
     z-index: 1000;
-    width: 700px; /* Ajusté à la taille réelle de Component12.png */
-    height: 120px; /* Ajusté selon l’image Component12.png */
-    background-image: url("images/Component12.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 720px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
+    pointer-events: none; /* permet aux enfants d'être cliquables sans bloquer la souris */
 }
 
-/* Boutons dans la nav */
 .nav-buttons {
     display: flex;
     gap: 2cm;
     align-items: center;
+    justify-content: center;
+    pointer-events: auto;
 }
 
 .nav-buttons img {
@@ -49,20 +47,20 @@ html, body {
 
 /* Conteneur principal */
 .scene {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 
 /* Image de fond */
 .background {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* Lien vers la page suivante */
@@ -87,34 +85,4 @@ html, body {
 /* Supprime le soulignement des liens */
 a {
     text-decoration: none;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .layer {
-        max-width: 100%;
-    }
-
-    .treasure-button {
-        width: 80px;
-    }
-
-    #navbar {
-        width: 100%;
-        height: auto;
-        top: 10px;
-        left: 0;
-        background-size: contain;
-        flex-direction: column;
-    }
-
-    .nav-buttons {
-        gap: 10px;
-        flex-direction: column;
-    }
-
-    .nav-buttons img {
-        width: 100px;
-        height: auto;
-    }
 }
