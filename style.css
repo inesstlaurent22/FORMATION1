@@ -47,7 +47,7 @@ html, body {
 }
 
 .nav-buttons img {
-    height: 40px;  /* taille uniforme, adaptée à Component12.png */
+    height: 20px;  /* taille uniforme, adaptée à Component12.png */
     width: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -56,8 +56,6 @@ html, body {
 .nav-buttons img:hover {
     transform: scale(1.05);
 }
-
-
 
 /* Scène */
 .scene {
