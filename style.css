@@ -14,19 +14,18 @@ html, body {
   background-color: #000;
 }
 
-/* Barre de navigation */
+/* === Barre de navigation === */
 #navbar {
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     width: 650px; /* largeur exacte de Component12.png */
     height: 100px;
     z-index: 10;
     pointer-events: none;
 }
 
-/* Image Component12.png (fond de la navbar) */
+/* Image de fond Component12.png */
 .navbar-bg {
     position: absolute;
     width: 100%;
@@ -35,22 +34,21 @@ html, body {
     z-index: 1;
 }
 
-/* Boutons dans la barre *
+/* Boutons dans la barre */
 .nav-buttons {
     position: absolute;
-    top: 50%; /* centre verticalement dans la barre */
-    left: 20%; /* ajuste pour centrer horizontalement les boutons dans l'image */
-    transform: translateY(-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
-    gap: 32px; /* ≈ 2 cm à l’écran */
+    gap: 32px; /* ≈ 2 cm visuellement */
     z-index: 2;
     pointer-events: auto;
 }
 
 .nav-buttons img {
-    width: 80px;
-    height: auto;
-    max-height: 30px;
+    height: 40px;  /* taille uniforme, adaptée à Component12.png */
+    width: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -58,24 +56,8 @@ html, body {
 .nav-buttons img:hover {
     transform: scale(1.05);
 }
-/* Ajustement précis des boutons */
-.nav-buttons {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    gap: 32px; /* ≈ 2cm à l'écran pour un DPI standard */
-    z-index: 2;
-    pointer-events: auto;
-}
 
-.nav-buttons img {
-    height: 40px; /* Ajuste selon la taille de Component12.png */
-    width: auto;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
+
 
 /* Scène */
 .scene {
