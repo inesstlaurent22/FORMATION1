@@ -22,7 +22,7 @@ html, body {
     width: 650px; /* largeur exacte de Component12.png */
     height: 100px;
     z-index: 10;
-    pointer-events: none;
+    pointer-events: auto; /* permet les clics */
 }
 
 /* Image de fond Component12.png */
@@ -33,22 +33,24 @@ html, body {
     object-fit: contain;
     z-index: 1;
 }
-/* Boutons dans la barre */
+
+/* Boutons dans la barre : disposition verticale centrée */
 .nav-buttons {
     position: absolute;
-    top: 10%;
-    left: 50%;
+    top: 50%;     /* centre verticalement dans la barre */
+    left: 50%;    /* centre horizontalement */
     transform: translate(-50%, -50%);
     display: flex;
-    gap: 32px;
+    flex-direction: column; /* empile les boutons verticalement */
+    align-items: center;
+    gap: 12px;    /* espace entre les boutons */
     z-index: 2;
     pointer-events: auto;
 }
 
 .nav-buttons img {
-    width: 40px;
-    height: auto;
-    max-height: 10px;
+    width: 80px;      /* largeur des boutons */
+    height: auto;     /* conserve les proportions */
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -57,15 +59,7 @@ html, body {
     transform: scale(1.05);
 }
 
-/* Scène */
-.scene {
-    width: 100%;
-    height: auto;
-    position: relative;
-    overflow: visible;
-}
-
-/* Scène */
+/* Scène principale */
 .scene {
     width: 100%;
     height: auto;
@@ -87,15 +81,14 @@ html, body {
 /* Bouton coffre */
 .treasure-link {
     position: absolute;
-    top: 203px;    /* position Y depuis la maquette */
-    left: 602px;   /* position X depuis la maquette */
-    position: absolute;
-  z-index: 10;
+    top: 203px;    /* position verticale du bouton */
+    left: 20%;     /* décalé à gauche de 20% */
+    z-index: 10;
 }
 
 .treasure-button {
-    width: 1100px;   /* largeur */
-    height: 1119px;  /* hauteur */
+    width: 400px;   /* taille ajustée raisonnablement */
+    height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -108,7 +101,7 @@ html, body {
 a {
     text-decoration: none;
 }
-/* Fond de la page start */
+
 /* Fond de la page start */
 .start-background {
     position: fixed;
