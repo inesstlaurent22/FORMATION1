@@ -47,9 +47,9 @@ html, body {
 }
 
 .nav-buttons img {
-    width: 80px;
+    width: 40px;
     height: auto;
-    max-height: 30px;
+    max-height: 10px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
