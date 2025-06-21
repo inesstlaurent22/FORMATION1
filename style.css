@@ -17,8 +17,8 @@ html, body {
     position: sticky; /* <-- changement ici */
     top: 0;
     left: 0;
-    width: 650px;
-    height: 100px;
+    width: 1400px;
+    height: 200px;
     z-index: 1000;
     pointer-events: none;
 }
