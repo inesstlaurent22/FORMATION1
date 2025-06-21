@@ -92,4 +92,21 @@ a {
         top: 10px;
         left: 10px;
     }
+    .nav-buttons {
+    position: absolute;
+    top: 35px;  /* Ajuste si nécessaire pour l’alignement vertical */
+    left: 100px;  /* Position horizontale à droite de l’icône pirate */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-buttons img {
+    height: 25px; /* Dimensions selon les PNG fournis */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nav-buttons img:hover {
+    transform: scale(1.05);
 }
