@@ -82,12 +82,12 @@ html, body {
 .treasure-link {
     position: absolute;
     top: 200px;    /* position verticale du bouton */
-    left: 50px;   
+    left: 100px;   
     z-index: 10;
 }
 
 .treasure-button {
-    width: 600px;   /* taille ajustée raisonnablement */
+    width: 800px;   /* taille ajustée raisonnablement */
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
