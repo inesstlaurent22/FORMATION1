@@ -26,5 +26,24 @@
     <img src="images/treasure.png" alt="Coffre au trésor" class="treasure-button">
         </a>
     </div>
+    <script>
+  function positionTreasure() {
+    const treasure = document.querySelector('.treasure-link');
+    const treasureWidth = 678;
+    const treasureHeight = 639;
+
+    const windowWidth = window.innerWidth;
+    const windowHeight = window.innerHeight;
+
+    const left = (windowWidth - treasureWidth) / 2;
+    const top = (windowHeight - treasureHeight) / 2;
+
+    treasure.style.left = `${left}px`;
+    treasure.style.top = `${top}px`;
+  }
+
+  window.addEventListener('load', positionTreasure);
+  window.addEventListener('resize', positionTreasure);
+</script>
 </body>
 </html>
