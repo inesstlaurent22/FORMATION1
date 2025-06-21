@@ -57,8 +57,8 @@ html, body {
 /* Lien vers la page suivante */
 .treasure-link {
     position: absolute;
-    top: 183px;
-    left: 762px;
+    top: 283px;
+    left: 662px;
     z-index: 100;
 }
 
