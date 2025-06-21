@@ -102,7 +102,7 @@ a {
 }
 
 .nav-buttons img {
-    height: 25px; /* Dimensions selon les PNG fournis */
+    height: 8px; /* Dimensions selon les PNG fournis */
     cursor: pointer;
     transition: transform 0.3s ease;
 }
