@@ -109,17 +109,19 @@ a {
     text-decoration: none;
 }
 /* Fond de la page start */
+/* Fond de la page start */
 .start-background {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000; /* fond noir sous l’image */
+    background-color: #000; /* fond noir si l’image ne couvre pas tout */
     background-image: url('images/Start2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
 }
+
 
