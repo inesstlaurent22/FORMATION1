@@ -10,6 +10,7 @@ html, body {
     height: 100%;
     overflow: hidden;
     font-family: Arial, sans-serif;
+    background-color: #000;
 }
 
 /* Barre de navigation */
@@ -67,12 +68,13 @@ html, body {
 
 /* Image de fond Component13 */
 .background {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+    z-index: -1;
 }
 
 /* Bouton coffre */
