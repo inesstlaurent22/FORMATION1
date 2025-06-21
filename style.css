@@ -47,7 +47,7 @@ html, body {
 }
 
 .nav-buttons img {
-    height: 5px;  /* taille uniforme, adaptée à Component12.png */
+    height: 10px;  /* taille uniforme, adaptée à Component12.png */
     width: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
