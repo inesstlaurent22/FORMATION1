@@ -37,11 +37,11 @@ html, body {
 /* Boutons dans la barre : disposition verticale centrée */
 .nav-buttons {
     position: absolute;
-    top: 80%;     /* centre verticalement dans la barre */
+    top: 50%;     /* centre verticalement */
     left: 50%;    /* centre horizontalement */
     transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column; /* empile les boutons verticalement */
+    flex-direction: row; /* aligne horizontalement */
     align-items: center;
     gap: 12px;    /* espace entre les boutons */
     z-index: 2;
