@@ -18,20 +18,21 @@ html, body {
     top: 20px;
     left: 20px;
     z-index: 1000;
-}
-
-#navbar img:first-child {
-    width: 300px; /* ou la taille adaptée de l’image principale */
-    height: auto;
+    width: 700px; /* Ajusté à la taille réelle de Component12.png */
+    height: 120px; /* Ajusté selon l’image Component12.png */
+    background-image: url("images/Component12.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Boutons dans la nav */
 .nav-buttons {
-    position: absolute;
-    top: 74px;       /* alignement vertical */
-    left: 60px;      /* position initiale */
     display: flex;
-    gap: 2cm;        /* espacement de 2cm entre chaque bouton */
+    gap: 2cm;
     align-items: center;
 }
 
@@ -99,16 +100,17 @@ a {
     }
 
     #navbar {
-        width: 150px;
+        width: 100%;
+        height: auto;
         top: 10px;
-        left: 10px;
+        left: 0;
+        background-size: contain;
+        flex-direction: column;
     }
 
     .nav-buttons {
         gap: 10px;
         flex-direction: column;
-        left: 0;
-        top: 100px;
     }
 
     .nav-buttons img {
