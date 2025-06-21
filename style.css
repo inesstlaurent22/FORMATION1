@@ -106,23 +106,23 @@ a {
 
 /* Positions spécifiques des boutons */
 .nav-buttons a.accueil {
-    left: 93.69px;
-    top: 74.6px;
+    left: 113.69px;
+    top: 94.6px;
 }
 
 .nav-buttons a.histoire {
-    left: 276.87px;
-    top: 74.4px;
+    left: 246.87px;
+    top: 54.4px;
 }
 
 .nav-buttons a.carte {
-    left: 457.94px;
-    top: 74.4px;
+    left: 357.94px;
+    top: 114.4px;
 }
 
 .nav-buttons a.sacados {
-    left: 630.54px;
-    top: 74.4px;
+    left: 430.54px;
+    top: 34.4px;
 }
 
 /* Responsive design */
