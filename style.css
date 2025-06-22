@@ -11,6 +11,7 @@ html, body {
   min-height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;  /* autorise le scroll vertical */
+  background-color: #000;
 }
 
 /* === Barre de navigation === */
