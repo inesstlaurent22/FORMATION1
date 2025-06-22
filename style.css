@@ -1,136 +1,112 @@
-/* Réinitialisation */
+/* === Réinitialisation générale === */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  background-color: #000; /* fond noir si l'image ne couvre pas tout */
   overflow-x: hidden;
-  overflow-y: auto;  /* autorise le scroll vertical */
-  background-color: #000;
+  overflow-y: auto;
 }
 
 /* === Barre de navigation === */
 #navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 650px; /* largeur exacte de Component12.png */
-    height: 100px;
-    z-index: 10;
-    pointer-events: auto; /* permet les clics */
-    background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 650px; /* largeur exacte de Component12.png */
+  height: 100px;
+  z-index: 10;
+  background: transparent;
+  pointer-events: auto;
 }
 
-/* Image de fond Component12.png */
 .navbar-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
 }
 
-/* Boutons dans la barre : disposition verticale centrée */
 .nav-buttons {
-    position: absolute;
-    top: 50%;     /* centre verticalement */
-    left: 50%;    /* centre horizontalement */
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: row; /* aligne horizontalement */
-    align-items: center;
-    gap: 12px;    /* espace entre les boutons */
-    z-index: 2;
-    pointer-events: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  z-index: 2;
+  pointer-events: auto;
 }
 
 .nav-buttons img {
-    width: 70px;      /* largeur des boutons */
-    height: auto;     /* conserve les proportions */
-    cursor: pointer;
-    transition: transform 0.3s ease;
+  width: 70px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .nav-buttons img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-/* Scène principale */
+/* === Scène principale (page d'accueil) === */
 .scene {
-    width: 100%;
-    height: auto;
-    position: relative;
-    overflow: visible;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: visible;
 }
 
-/* Image de fond Component13 */
 .background {
-    pointer-events: none;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
 }
 
-/* Bouton coffre */
+/* === Bouton coffre (page d'accueil) === */
 .treasure-link {
-    position: absolute;
-    top: 150px;    /* position verticale du bouton */
-    left: 80px;   
-    z-index: 10;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
 }
 
 .treasure-button {
-    width: 800px;   /* taille ajustée raisonnablement */
-    height: auto;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+  width: 800px;
+  height: auto;
+  transition: transform 0.3s ease;
 }
 
 .treasure-button:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-/* Supprime le soulignement des liens */
+/* === Style des liens === */
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-/* === Page start === */
+/* === Contenu spécifique à la page START === */
 .start-content {
   position: relative;
   z-index: 1;
-  padding-top: 120px; /* espace pour laisser apparaître la navbar */
+  padding-top: 120px; /* espace pour la barre de navigation */
 }
 
 .start-image {
   display: block;
   width: 100%;
-  height: auto; /* conserve les proportions même si l'image est très haute */
+  height: auto; /* permet de scroller selon la hauteur de l'image */
 }
-
-/* Bouton carte */
-.carte-link {
-    position: absolute;
-    top: 150px;    /* position verticale du bouton */
-    left: 80px;   
-    z-index: 10;
-}
-
-.carte-button {
-    width: 800px;   /* taille ajustée raisonnablement */
-    height: auto;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.carte-button:hover {
-    transform: scale(1.05);
