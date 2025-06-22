@@ -178,19 +178,6 @@ a {
   font-size: 2rem;
   border-right: 2px solid #444;
 }
-
-/* MENU 2 - Page 4 */
-.menu-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
-}
-
-.menu-image {
-  display: block;
-  width: 100%;
-  height: auto; /* permet de scroller selon la hauteur de l'image */
-}
 .creation-button {
   position: absolute;
   bottom: 80px;   /* Position verticale sur l'image */
@@ -235,4 +222,19 @@ a {
 
 .lancement-button img:hover {
   transform: scale(1.05);
+}
+
+
+
+/* MENU 2 - Page 4 */
+.menu-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+}
+
+.menu-image {
+  display: block;
+  width: 100%;
+  height: auto; /* permet de scroller selon la hauteur de l'image */
 }
