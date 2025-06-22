@@ -25,7 +25,7 @@ html, body {
   background: transparent;
   pointer-events: auto;
 }
-
+  
 .navbar-bg {
   position: absolute;
   width: 100%;
@@ -145,3 +145,22 @@ a {
   width: 100%;
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
+
+.menu-container {
+  display: inline-flex;    /* éléments alignés horizontalement */
+  height: 100vh;
+}
+
+.menu-section {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  background-color: #222;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border-right: 2px solid #444;
+}
+
