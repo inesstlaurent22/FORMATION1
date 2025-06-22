@@ -112,3 +112,25 @@ a {
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
 
+.carteimage-button {
+  position: absolute;
+  top: 1156px;   /* Position verticale sur l'image */
+  left: 983px;   /* Position horizontale sur l'image */
+  width: 400.8px;
+  height: 334px;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.carteimage-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.carteimage-button img:hover {
+  transform: scale(1.05);
+}
+
