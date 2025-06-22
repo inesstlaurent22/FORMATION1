@@ -111,19 +111,4 @@ a {
   width: 100%;
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
-.carte-button-container {
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px 30px; /* espace autour du bouton */
-}
 
-.carte-button {
-  width: 200px; /* ajuste la taille comme tu veux */
-  height: auto;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-.carte-button:hover {
-  transform: scale(1.05);
-}
