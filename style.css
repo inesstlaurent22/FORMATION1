@@ -106,13 +106,40 @@ a {
 
 /* === Page start === */
 .start-content {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  top: 100px; /* conforme à la hauteur nav bar, ou padding-top : 100px; */
+  width: 100%;
+    height: auto;
+    position: relative;
+    overflow: visible;
 }
+.background {
+    pointer-events: none;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
 
 .start-image {
     display: block;
     width: 100%;
-  
+}
+
+/* Bouton carte */
+.carte-link {
+    position: absolute;
+    top: 150px;    /* position verticale du bouton */
+    left: 80px;   
+    z-index: 10;
+}
+
+.carte-button {
+    width: 800px;   /* taille ajustée raisonnablement */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.carte-button:hover {
+    transform: scale(1.05);
