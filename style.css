@@ -117,3 +117,16 @@ a {
     overflow-x: hidden;
     overflow-y: auto;
 }
+    
+.start-content {
+    position: relative;
+    z-index: 1; /* au-dessus du fond */
+    padding-top: 120px; /* pour laisser la place à la barre de navigation */
+}
+
+.start-image {
+    display: block;
+    width: 100%;
+    height: auto; /* conserve les proportions */
+}
+}
