@@ -23,6 +23,7 @@ html, body {
     height: 100px;
     z-index: 10;
     pointer-events: auto; /* permet les clics */
+    background: transparent;
 }
 
 /* Image de fond Component12.png */
@@ -105,7 +106,10 @@ a {
 
 /* === Page start === */
 .start-content {
-    padding-top: 120px; /* espace pour la barre de navigation */
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 100px; /* conforme à la hauteur nav bar, ou padding-top : 100px; */
 }
 
 .start-image {
