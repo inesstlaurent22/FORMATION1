@@ -49,7 +49,7 @@ html, body {
 }
 
 .nav-buttons img {
-    width: 110px;      /* largeur des boutons */
+    width: 70px;      /* largeur des boutons */
     height: auto;     /* conserve les proportions */
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -81,8 +81,8 @@ html, body {
 /* Bouton coffre */
 .treasure-link {
     position: absolute;
-    top: 200px;    /* position verticale du bouton */
-    left: 100px;   
+    top: 150px;    /* position verticale du bouton */
+    left: 80px;   
     z-index: 10;
 }
 
