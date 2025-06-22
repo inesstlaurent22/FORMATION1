@@ -114,3 +114,14 @@ a {
     width: 100%;
     height: auto;
 }
+/* Conteneur de l'image */
+.start-content {
+  padding-top: 120px; /* laisse de l'espace pour la navbar */
+}
+
+/* Image principale */
+.start-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
