@@ -102,26 +102,13 @@ html, body {
 a {
     text-decoration: none;
 }
-/* Contenu scrollable avec image Start2 */
+
+/* === Page start === */
 .start-content {
-    position: relative;
-    z-index: 1;
-    padding-top: 120px; /* espace sous la navbar */
+    padding-top: 120px; /* espace pour la barre de navigation */
 }
 
 .start-image {
     display: block;
     width: 100%;
-    height: auto;
-}
-/* Conteneur de l'image */
-.start-content {
-  padding-top: 120px; /* laisse de l'espace pour la navbar */
-}
-
-/* Image principale */
-.start-image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+  
