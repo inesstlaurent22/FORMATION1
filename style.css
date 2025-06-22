@@ -106,24 +106,15 @@ a {
 
 /* === Page start === */
 .start-content {
-  width: 100%;
-    height: auto;
-    position: relative;
-    overflow: visible;
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour laisser apparaître la navbar */
 }
-.background {
-    pointer-events: none;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
 
 .start-image {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
+  height: auto; /* conserve les proportions même si l'image est très haute */
 }
 
 /* Bouton carte */
