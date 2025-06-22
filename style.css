@@ -125,7 +125,7 @@ a {
   bottom: 30px;   /* Position verticale sur l'image */
   left: 60%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
-  width: 300.8px;
+  width: 100.8px;
   height: auto;
   display: block;
   z-index: 5;
