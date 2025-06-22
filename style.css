@@ -110,19 +110,17 @@ a {
   width: 100%;
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
-
-.carte-button-link {
-  position: absolute;
-  top: 400px;   /* ajuste cette valeur pour placer ton bouton verticalement */
-  left: 60px;   /* ajuste pour la position horizontale */
-  z-index: 10;
-  cursor: pointer;
+.carte-button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px; /* espace autour du bouton */
 }
 
 .carte-button {
-  width: 300px;   /* adapte selon ta maquette ou tes besoins */
+  width: 200px; /* ajuste la taille comme tu veux */
   height: auto;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .carte-button:hover {
