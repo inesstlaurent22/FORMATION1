@@ -69,6 +69,7 @@ html, body {
 
 /* Image de fond Component13 */
 .background {
+    pointer-events: none;
     width: 100%;
     height: auto;
     object-fit: contain;
