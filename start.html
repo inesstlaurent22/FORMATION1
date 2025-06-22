@@ -27,25 +27,12 @@
       <img src="images/Carteimage.png" alt="Carte" class="carte-button">
     </a>
   </div>
-
-    <script>
-  function positionCarte() {
-    const carte = document.querySelector('.carte-link');
-    const carteWidth = 678;
-    const carteHeight = 639;
-
-    const windowWidth = window.innerWidth;
-    const windowHeight = window.innerHeight;
-
-    const left = (windowWidth - carteHeight) / 2;
-    const top = (windowHeight - windowHeight) / 2;
-
-    carte.style.left = `${left}px`;
-    carte.style.top = `${top}px`;
-  }
-
-  window.addEventListener('load', positionTreasure);
-  window.addEventListener('resize', positionTreasure);
-
+       <div class="map-button">
+    <a href="map.html">
+      <img src="images/Carteimage.png" alt="Carte" class="map-icon">
+    </a>
+  </div>   
+      </div>
+ 
 </body>
 </html>
