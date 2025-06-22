@@ -17,7 +17,7 @@ html, body {
 
 
 
-/* === Barre de navigation === */
+/* BARRE DE NAVIGATION */
 #navbar {
   position: fixed;
   top: 0;
@@ -65,7 +65,7 @@ html, body {
 
 
 
-/* === Scène principale (page d'accueil) === */
+/* PAGE ACCUEIL */
 .scene {
   width: 100%;
   height: auto;
@@ -83,7 +83,7 @@ html, body {
   display: block;
 }
 
-/* === Bouton coffre (page d'accueil) === */
+/* COFFRE - BOUTON */
 .treasure-link {
   position: absolute;
   z-index: 10;
@@ -91,7 +91,11 @@ html, body {
 }
 
 .treasure-button {
-  width: 1500px;
+  position: absolute;
+  up: 30px;   /* Position verticale sur l'image */
+  left: 60%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 100.8px;
   height: auto;
   transition: transform 0.3s ease;
 }
@@ -99,15 +103,13 @@ html, body {
 .treasure-button:hover {
   transform: scale(1.05);
 }
-
-/* === Style des liens === */
 a {
   text-decoration: none;
 }
 
 
 
-/* === Contenu spécifique à la page START === */
+/* START - Page 2 */
 .start-content {
   position: relative;
   z-index: 1;
@@ -146,7 +148,7 @@ a {
 
 
 
-/* === Contenu spécifique à la page MENU === */
+/* MENU - Page 3 */
 .menu-content {
   position: relative;
   z-index: 1;
