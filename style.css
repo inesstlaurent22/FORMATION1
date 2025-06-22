@@ -103,7 +103,7 @@ a {
 
 /* Fond de la page start */
 .start-background {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
