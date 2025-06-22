@@ -21,5 +21,29 @@
     <div class="scene">
         <img src="images/START-2" alt="fond page2" class="background">
 
+       <!-- Bouton trésor au-dessus du fond -->
+<a href="start.html" class="treasure-link">
+  <img src="images/Carteimage.png" alt="Carte" class="treasure-button">
+</a>
+    </div>
+    <script>
+  function positionTreasure() {
+    const treasure = document.querySelector('.treasure-link');
+    const treasureWidth = 678;
+    const treasureHeight = 639;
+
+    const windowWidth = window.innerWidth;
+    const windowHeight = window.innerHeight;
+
+    const left = (windowWidth - treasureWidth) / 2;
+    const top = (windowHeight - treasureHeight) / 2;
+
+    treasure.style.left = `${left}px`;
+    treasure.style.top = `${top}px`;
+  }
+
+  window.addEventListener('load', positionTreasure);
+  window.addEventListener('resize', positionTreasure);
+
 </body>
 </html>
