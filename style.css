@@ -218,10 +218,10 @@ a {
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
 .parchemin-button {
-  bottom: 30px;             /* Garde le même écart du bas */
-  left: 60%;                /* 50% (centré) + 10% = 60% */
+  bottom: 80px;             /* Garde le même écart du bas */
+  left: 800px;                /* 50% (centré) + 10% = 60% */
   transform: translateX(-50%);
-  width: 120px;             /* Agrandissement du bouton (ancien : 80.8px) */
+  width: 220px;             /* Agrandissement du bouton (ancien : 80.8px) */
   height: auto;
   display: block;
   z-index: 5;
