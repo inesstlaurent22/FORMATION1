@@ -219,8 +219,8 @@ a {
 }
 .parchemin-button {
   position: absolute;
-  up: 60%;   /* Position verticale sur l'image */
-  left: 60%;   /* Position horizontale sur l'image */
+  bottom: 30px;           /* Position depuis le bas */
+  left: 50%;              /* Centre horizontalement */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
