@@ -182,7 +182,7 @@ a {
 
 .lancement-button {
   position: absolute;
-  top: 40px;   /* Position verticale sur l'image */
+  top: 60px;   /* Position verticale sur l'image */
   left: 85%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
