@@ -219,8 +219,6 @@ a {
 }
 .parchemin-button {
   border: 2px solid red; /* temporaire pour repérer */
-  background: yellow;
-  position: absolute;
   bottom: 30px;           /* Position depuis le bas */
   left: 50%;              /* Centre horizontalement */
   transform: translateX(-50%);
