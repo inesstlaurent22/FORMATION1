@@ -217,6 +217,12 @@ a {
   width: 100%;
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
+.sacados-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* ou une largeur fixe adaptée à ton image */
+  margin: 0 auto;
+}
 .parchemin-button {
   top: 30%;             /* Garde le même écart du bas */
   left: 60%;                /* 50% (centré) + 10% = 60% */
