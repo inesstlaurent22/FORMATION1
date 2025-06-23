@@ -312,6 +312,13 @@ html, body {
   max-width: 1200px; /* ou une largeur fixe adaptée à ton image */
   margin: 0 auto;
 }
+.triple-background {
+  height: 300vh; /* 100vh par image : ajustable */
+  background-image: url('images/photo1.png'), url('images/photo2.png'), url('images/photo3.png');
+  background-position: top, center, bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
