@@ -242,7 +242,7 @@ a {
 .marketing-button {
   position: absolute;
   top: 40%;   /* Position verticale sur l'image */
-  left: 40%;   /* Position horizontale sur l'image */
+  left: 30%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -264,7 +264,7 @@ a {
 .communication-button {
   position: absolute;
   top: 40%;   /* Position verticale sur l'image */
-  left: 50%;   /* Position horizontale sur l'image */
+  left: 30%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -286,7 +286,7 @@ a {
 .trade-button {
   position: absolute;
   top: 40%;   /* Position verticale sur l'image */
-  left: 60%;   /* Position horizontale sur l'image */
+  left: 30%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -308,7 +308,7 @@ a {
 .finance-button {
   position: absolute;
   top: 40%;   /* Position verticale sur l'image */
-  left: 70%;   /* Position horizontale sur l'image */
+  left: 30%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -330,7 +330,7 @@ a {
 .legal-button {
   position: absolute;
   top: 40%;   /* Position verticale sur l'image */
-  left: 80%;   /* Position horizontale sur l'image */
+  left: 30%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -352,7 +352,7 @@ a {
 .businessplan-button {
   position: absolute;
   top: 35%;   /* Position verticale sur l'image */
-  left: 45%;   /* Position horizontale sur l'image */
+  left: 60%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -374,7 +374,7 @@ a {
 .charte-button {
   position: absolute;
   top: 35%;   /* Position verticale sur l'image */
-  left: 25%;   /* Position horizontale sur l'image */
+  left: 50%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -396,7 +396,7 @@ a {
 .flyers-button {
   position: absolute;
   top: 35%;   /* Position verticale sur l'image */
-  left: 55%;   /* Position horizontale sur l'image */
+  left: 75%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
