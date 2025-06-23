@@ -121,7 +121,7 @@ a {
 
 .carteimage-button {
   position: absolute;
-  bottom: -5px;   /* Position verticale sur l'image */
+  bottom: 0px;   /* Position verticale sur l'image */
   left: 55%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 200.8px;
