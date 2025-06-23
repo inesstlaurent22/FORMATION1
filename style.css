@@ -221,7 +221,7 @@ a {
   top: 30%;             /* Garde le même écart du bas */
   left: 60%;                /* 50% (centré) + 10% = 60% */
   transform: translateX(-50%);
-  width: 400px;             /* Agrandissement du bouton (ancien : 80.8px) */
+  width: 250px;             /* Agrandissement du bouton (ancien : 80.8px) */
   height: auto;
   display: block;
   z-index: 5;
@@ -241,7 +241,7 @@ a {
 
 .marketing-button {
   position: absolute;
-  bottom: 40%;   /* Position verticale sur l'image */
+  top: 40%;   /* Position verticale sur l'image */
   left: 40%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
@@ -351,8 +351,8 @@ a {
 }
 .businessplan-button {
   position: absolute;
-  top: 40%;   /* Position verticale sur l'image */
-  left: 25%;   /* Position horizontale sur l'image */
+  top: 35%;   /* Position verticale sur l'image */
+  left: 45%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -373,8 +373,8 @@ a {
 }
 .charte-button {
   position: absolute;
-  top: 50%;   /* Position verticale sur l'image */
-  left: 20%;   /* Position horizontale sur l'image */
+  top: 35%;   /* Position verticale sur l'image */
+  left: 25%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -395,8 +395,8 @@ a {
 }
 .flyers-button {
   position: absolute;
-  top: 60%;   /* Position verticale sur l'image */
-  left: 26%;   /* Position horizontale sur l'image */
+  top: 35%;   /* Position verticale sur l'image */
+  left: 55%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
