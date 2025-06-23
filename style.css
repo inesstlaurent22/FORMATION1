@@ -89,8 +89,8 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  top: 35%;   /* Position verticale sur l'image */
-  right: 55%;   /* Position horizontale sur l'image */
+  top: 60%;   /* Position verticale sur l'image */
+  right: 70%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 250px;
   height: auto;
@@ -121,7 +121,7 @@ a {
 
 .carteimage-button {
   position: absolute;
-  bottom: 0px;   /* Position verticale sur l'image */
+  bottom: -10px;   /* Position verticale sur l'image */
   left: 55%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 200.8px;
@@ -159,8 +159,8 @@ a {
 }
 .creation-button {
   position: absolute;
-  top: 20%;   /* Position verticale sur l'image */
-  left: 80%;   /* Position horizontale sur l'image */
+  top: 25%;   /* Position verticale sur l'image */
+  left: 85%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
@@ -182,8 +182,8 @@ a {
 
 .lancement-button {
   position: absolute;
-  top: 40px;   /* Position verticale sur l'image */
-  left: 83%;   /* Position horizontale sur l'image */
+  top: 42px;   /* Position verticale sur l'image */
+  left: 73%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
