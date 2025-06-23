@@ -239,3 +239,179 @@ a {
 .parchemin-button img:hover {
   transform: scale(1.05);
 }
+.marketing-button {
+  position: absolute;
+  up: 20%;   /* Position verticale sur l'image */
+  left: 80%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.marketing-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.marketing-button img:hover {
+  transform: scale(1.05);
+}
+.communication-button {
+  position: absolute;
+  up: 20%;   /* Position verticale sur l'image */
+  left: 80%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.communication-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.communication-button img:hover {
+  transform: scale(1.05);
+}
+.trade-button {
+  position: absolute;
+  up: 20%;   /* Position verticale sur l'image */
+  left: 80%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.trade-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.trade-button img:hover {
+  transform: scale(1.05);
+}
+.finance-button {
+  position: absolute;
+  up: 20%;   /* Position verticale sur l'image */
+  left: 80%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.finance-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.finance-button img:hover {
+  transform: scale(1.05);
+}
+.legal-button {
+  position: absolute;
+  up: 20%;   /* Position verticale sur l'image */
+  left: 80%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.legal-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.legal-button img:hover {
+  transform: scale(1.05);
+}
+.businessplan-button {
+  position: absolute;
+  up: 20%;   /* Position verticale sur l'image */
+  left: 80%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.businessplan-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.businessplan-button img:hover {
+  transform: scale(1.05);
+}
+.charte-button {
+  position: absolute;
+  up: 20%;   /* Position verticale sur l'image */
+  left: 80%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.charte-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.charte-button img:hover {
+  transform: scale(1.05);
+}
+.flyers-button {
+  position: absolute;
+  up: 20%;   /* Position verticale sur l'image */
+  left: 80%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.flyers-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.flyers-button img:hover {
+  transform: scale(1.05);
+}
