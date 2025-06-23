@@ -121,7 +121,7 @@ a {
 
 .carteimage-button {
   position: absolute;
-  bottom: 0px;   /* Position verticale sur l'image */
+  bottom: -5px;   /* Position verticale sur l'image */
   left: 55%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 200.8px;
@@ -219,8 +219,8 @@ a {
 }
 .parchemin-button {
   position: absolute;
-  up: 20%;   /* Position verticale sur l'image */
-  left: 80%;   /* Position horizontale sur l'image */
+  up: 60%;   /* Position verticale sur l'image */
+  left: 60%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
   height: auto;
