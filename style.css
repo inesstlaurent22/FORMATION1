@@ -100,11 +100,6 @@ html, body {
 .treasure-button:hover {
   transform: scale(1.05);
 }
-a {
-  text-decoration: none;
-}
-
-
 
 /* START - Page 2 */
 .start-content {
