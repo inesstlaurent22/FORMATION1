@@ -84,10 +84,10 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  top: 50%;    /* position verticale */
-  left: 20%;   /* position horizontale */
+  top: 90%;    /* position verticale */
+  left: 60%;   /* position horizontale */
   transform: translate(-50%, -50%); /* centre parfaitement */
-  width: 300px;
+  width: 600px;
   height: auto;
   transition: transform 0.3s ease;
 }
@@ -172,7 +172,7 @@ html, body {
 
 .lancement-button {
   position: absolute;
-  bottom: 27%;   /* Position verticale sur l'image */
+  bottom: 40%;   /* Position verticale sur l'image */
   left: 85%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
@@ -261,8 +261,8 @@ html, body {
 }
 .doc-buttons {
   position: absolute;
-  top: 20%;
-  left: 40%;
+  top: 25%;
+  left: 38%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
