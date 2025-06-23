@@ -288,3 +288,48 @@ html, body {
 .doc-buttons img:hover {
   transform: scale(1.05);
 }
+
+
+
+
+
+
+/* CREATION - Page 5 */
+.creation-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+}
+
+.creation-image {
+  display: block;
+  width: 100%;
+  height: auto; /* permet de scroller selon la hauteur de l'image */
+}
+.creation-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* ou une largeur fixe adaptée à ton image */
+  margin: 0 auto;
+}
+
+
+
+/* LANCEMENT - Page 6 */
+.lancement-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+}
+
+.lancement-image {
+  display: block;
+  width: 100%;
+  height: auto; /* permet de scroller selon la hauteur de l'image */
+}
+.lancement-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* ou une largeur fixe adaptée à ton image */
+  margin: 0 auto;
+}
