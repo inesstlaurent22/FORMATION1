@@ -218,11 +218,10 @@ a {
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
 .parchemin-button {
-  border: 2px solid red; /* temporaire pour repérer */
-  bottom: 30px;           /* Position depuis le bas */
-  left: 50%;              /* Centre horizontalement */
+  bottom: 30px;             /* Garde le même écart du bas */
+  left: 60%;                /* 50% (centré) + 10% = 60% */
   transform: translateX(-50%);
-  width: 80.8px;
+  width: 120px;             /* Agrandissement du bouton (ancien : 80.8px) */
   height: auto;
   display: block;
   z-index: 5;
@@ -239,6 +238,7 @@ a {
 .parchemin-button img:hover {
   transform: scale(1.05);
 }
+
 .marketing-button {
   position: absolute;
   up: 20%;   /* Position verticale sur l'image */
