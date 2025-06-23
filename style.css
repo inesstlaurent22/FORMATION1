@@ -64,23 +64,18 @@ html, body {
 
 /* PAGE ACCUEIL */
 .scene {
+  position: relative; /* important ! */
   width: 100%;
   height: auto;
-  position: relative;
-  overflow: visible;
+  display: block;
 }
 
 .background {
   width: 100%;
   height: auto;
-  object-fit: contain;
-  position: relative;
-  top: 0;
-  left: 0;
   display: block;
 }
 
-/* COFFRE - BOUTON */
 .treasure-link {
   position: absolute;
   z-index: 10;
@@ -89,9 +84,9 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  bottom: 50%;   /* Position verticale sur l'image */
-  left: 20%;   /* Position horizontale sur l'image */
-  transform: translateX(-50%);
+  top: 50%;    /* position verticale */
+  left: 20%;   /* position horizontale */
+  transform: translate(-50%, -50%); /* centre parfaitement */
   width: 300px;
   height: auto;
   transition: transform 0.3s ease;
