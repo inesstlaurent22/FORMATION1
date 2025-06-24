@@ -64,16 +64,21 @@ html, body {
 
 /* PAGE ACCUEIL */
 .scene {
-  position: relative; /* important ! */
+  position: relative;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100vh; /* prend toute la hauteur de l'écran */
+  background-color: black; /* fond noir */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.background {
+.profile {
+  max-width: 300px;
   width: 100%;
   height: auto;
-  display: block;
+  border-radius: 10px; /* optionnel : coins arrondis */
+  box-shadow: 0 0 20px white; /* optionnel : effet lumineux */
 }
 
 .treasure-link {
