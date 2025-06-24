@@ -82,8 +82,8 @@ html, body {
   cursor: pointer;
 }
 
-.treasure-button {
-  position: absolute;
+.treasure-button.fixed {
+  position: fixed;
   bottom: 100px;    /* position verticale */
   left: 100px;   /* position horizontale */
   transform: translate(-50%, -50%); /* centre parfaitement */
@@ -92,7 +92,7 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.treasure-button:hover {
+.treasure-button.fixed:hover {
   transform: scale(1.05);
 }
 
