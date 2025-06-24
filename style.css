@@ -172,7 +172,7 @@ html, body {
 
 .lancement-button {
   position: absolute;
-  bottom: 40%;   /* Position verticale sur l'image */
+  bottom: 46%;   /* Position verticale sur l'image */
   left: 85%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
   width: 80.8px;
@@ -249,7 +249,7 @@ html, body {
 }
 
 .form-buttons img {
-  width: 70px;
+  width: 90px;
   height: auto;
   object-fit: contain;
   cursor: pointer;
@@ -262,7 +262,7 @@ html, body {
 .doc-buttons {
   position: absolute;
   top: 23%;
-  left: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
