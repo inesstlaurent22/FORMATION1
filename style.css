@@ -84,7 +84,7 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  bottom: 110px;    /* position verticale */
+  bottom: 90px;    /* position verticale */
   left: 90px;   /* position horizontale */
   transform: translate(-50%, -50%); /* centre parfaitement */
   width: 1100px;
