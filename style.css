@@ -301,20 +301,20 @@ html, body {
 }
 
 /* LANCEMENT - Page 6 */
-.scene {
+.Lancementfond-content {
   position: relative;
-  width: 100%;
-  height: 100vh; /* prend toute la hauteur de l'écran */
-  background-color: #000; /* fond noir */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
 }
 
-.profile {
-  max-width: 300px;
+.Lancementfond-image {
+  display: block;
   width: 100%;
-  height: auto;
-  border-radius: 10px; /* optionnel : coins arrondis */
-  box-shadow: 0 0 20px white; /* optionnel : effet lumineux */
+  height: auto; /* permet de scroller selon la hauteur de l'image */
+}
+.Lancementfond-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* ou une largeur fixe adaptée à ton image */
+  margin: 0 auto;
 }
