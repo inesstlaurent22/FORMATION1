@@ -81,8 +81,8 @@ html, body {
 
 .treasure-button.fixed {
   position: fixed;
-  bottom: 100px;    /* position verticale */
-  left: 100px;   /* position horizontale */
+  bottom: 50px;    /* position verticale */
+  left: 20px;   /* position horizontale */
   transform: translate(-50%, -50%); /* centre parfaitement */
   width: 1100px;
   height: auto;
