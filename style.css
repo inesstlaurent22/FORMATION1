@@ -83,15 +83,9 @@ html, body {
   position: fixed;
   bottom: 50px;    /* position verticale */
   left: 20px;   /* position horizontale */
-  transform: translate(-50%, -50%); /* centre parfaitement */
   width: 1100px;
   height: auto;
-  transition: transform 0.3s ease;
-}
 
-.treasure-button.fixed:hover {
-  transform: scale(1.05);
-}
 
 /* START - Page 2 */
 .start-content {
