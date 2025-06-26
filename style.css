@@ -305,16 +305,27 @@ html, body {
   position: relative;
   z-index: 1;
   padding-top: 120px; /* espace pour la barre de navigation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* hauteur visible de la page */
+  overflow: hidden; /* empêche l'image de déborder */
 }
 
 .Lancementfond-image {
+  max-width: 100%;
+  max-height: 80vh; /* ajuste la hauteur pour ne pas dépasser la page */
+  height: auto;
+  width: auto;
   display: block;
-  width: 100%;
-  height: auto; /* permet de scroller selon la hauteur de l'image */
+  object-fit: contain; /* garde les proportions sans déformation */
 }
+
 .Lancementfond-container {
   position: relative;
   width: 100%;
-  max-width: 1200px; /* ou une largeur fixe adaptée à ton image */
+  max-width: 1000px; /* réduit un peu la largeur max */
   margin: 0 auto;
+  padding: 0 20px; /* un peu de marge intérieure sur petits écrans */
+  text-align: center; /* centre le contenu */
 }
