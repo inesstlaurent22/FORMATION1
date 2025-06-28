@@ -84,6 +84,7 @@ img {
   position: relative;
   width: 100%;
   min-height: 100vh;
+  height: auto; /* permettre la hauteur variable */
   overflow: hidden;
   display: flex;
   justify-content: center;
