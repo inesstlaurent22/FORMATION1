@@ -1,42 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <title>Sac à dos - Formation</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <title>Sac à dos</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="navbar">
-        <img src="images/Component12.png" alt="Barre de navigation" class="navbar-bg">
-        <div class="nav-buttons">
-            <a href="index.html"><img src="images/ACCUEIL.png" alt="Accueil"></a>
-            <a href="histoire.html"><img src="images/HISTOIRE.png" alt="Histoire"></a>
-            <a href="carte.html"><img src="images/CARTE.png" alt="Carte"></a>
-            <a href="sacados.html"><img src="images/SAC A DOS.png" alt="Sac à dos"></a>
-        </div>
-    </div>
-  
-  <main class="sacados-container">
-    <img src="images/menu2.png" alt="Image de fond sac à dos" class="sacados-image" />
-    <a href="menu.html" class="parchemin-button" aria-label="Retour menu">
-      <img src="images/Parchemin.png" alt="Bouton retour" />
-    </a>
+  <nav class="navbar">
+    <a href="index.html"><img src="images/Component12.png" alt="Accueil"></a>
+    <a href="start.html"><img src="images/Component12.png" alt="Histoire"></a>
+    <a href="menu.html"><img src="images/Component12.png" alt="Carte"></a>
+    <a href="sacados.html"><img src="images/Component12.png" alt="Sac à dos"></a>
+  </nav>
 
-    <div class="form-buttons" role="navigation" aria-label="Formations">
-      <a href="#"><img src="images/marketing.png" alt="Formation marketing" /></a>
-      <a href="#"><img src="images/communication.png" alt="Formation communication" /></a>
-      <a href="#"><img src="images/trade.png" alt="Formation trade" /></a>
-      <a href="#"><img src="images/finance.png" alt="Formation finance" /></a>
-      <a href="#"><img src="images/legal.png" alt="Formation juridique" /></a>
+  <div class="menu2-container">
+    <img src="images/menu2.png" alt="Menu secondaire">
+    <a href="menu.html"><img src="images/Parchemin.png" alt="Retour" class="parchemin-button"></a>
+
+    <!-- Boutons formulaire -->
+    <div class="form-buttons">
+      <button>Marketing</button>
+      <button>Communication</button>
+      <button>Trade</button>
+      <button>Finance</button>
+      <button>Legal</button>
     </div>
 
-    <div class="doc-buttons" role="navigation" aria-label="Documents">
-      <a href="#"><img src="images/businessplan.png" alt="Document business plan" /></a>
-      <a href="#"><img src="images/charte.png" alt="Document charte" /></a>
-      <a href="#"><img src="images/flyers.png" alt="Document flyers" /></a>
+    <!-- Boutons document -->
+    <div class="doc-buttons">
+      <button>Business Plan</button>
+      <button>Charte</button>
+      <button>Flyers</button>
     </div>
-  </main>
-  
+  </div>
 </body>
 </html>
