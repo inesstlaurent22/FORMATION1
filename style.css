@@ -1,322 +1,91 @@
-/* style.css */
-
-/* Reset basique */
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff;
-  color: #333;
-  min-height: 100vh;
-  position: relative;
-  padding-bottom: 80px; /* espace pour nav fixe */
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* Barre de navigation fixe */
-#navbar {
+.navbar {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  background: transparent;
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  pointer-events: none; /* empêcher interaction sur l'image bg */
-}
-
-#navbar .navbar-bg {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  pointer-events: none;
-  object-fit: cover;
-  z-index: -1;
-}
-
-#navbar .nav-buttons {
-  display: flex;
-  gap: 20px;
-  pointer-events: auto; /* autoriser interaction sur les liens */
-}
-
-#navbar .nav-buttons a {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  transition: transform 0.3s ease;
-}
-
-#navbar .nav-buttons a[aria-current="page"] img {
-  filter: brightness(1.2);
-  transform: scale(1.1);
-}
-
-#navbar .nav-buttons a:hover img,
-#navbar .nav-buttons a:focus img {
-  transform: scale(1.1);
-  filter: brightness(1.3);
-  outline: none;
-}
-
-/* Conteneurs principaux avec image de fond */
-
-.scene,
-.start-content,
-.menu-content,
-.sacados-container,
-.creation-container,
-.Lancementfond-container {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  height: auto; /* permettre la hauteur variable */
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 80px; /* pour nav fixe */
-}
-
-/* Image de fond positionnée en absolu */
-
-.background,
-.start-image,
-.menu-image,
-.sacados-image,
-.creation-image,
-.Lancementfond-image {
-  position: absolute;
   top: 0;
-  left: 0;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+.navbar img {
+  height: 50px;
+}
+
+.scene, .Menu-container, .menu2-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scene img.background,
+.Menu-container img,
+.menu2-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
 }
 
-/* Boutons images positionnés */
-
-/* Accueil : bouton trésor centré */
-
-.treasure-link {
-  position: relative;
-  z-index: 10;
+.treasure-button,
+.carteimage-button,
+.creation-button,
+.lancement-button,
+.parchemin-button {
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
 }
 
 .treasure-button {
-  width: 100px;
-  max-width: 15vw;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-.treasure-button:hover,
-.treasure-button:focus {
-  transform: scale(1.15);
-  outline: none;
-}
-
-/* start.html : bouton carte */
 
 .carteimage-button {
-  position: relative;
-  z-index: 10;
-}
-
-.carteimage-button img {
-  width: 120px;
-  max-width: 20vw;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.carteimage-button img:hover,
-.carteimage-button img:focus {
-  transform: scale(1.1);
-  outline: none;
-}
-
-/* menu.html : boutons création et lancement */
-
-.creation-button,
-.lancement-button {
-  position: absolute;
-  bottom: 40%;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-  max-width: 20vw;
-  width: 120px;
-  z-index: 10;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .creation-button {
-  left: 25%;
+  top: 40%;
+  left: 30%;
 }
 
 .lancement-button {
-  right: 25%;
+  top: 40%;
+  right: 30%;
 }
-
-.creation-button img,
-.lancement-button img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.creation-button:hover img,
-.lancement-button:hover img,
-.creation-button:focus img,
-.lancement-button:focus img {
-  transform: scale(1.1);
-  outline: none;
-}
-
-/* sacados.html : boutons */
 
 .parchemin-button {
+  top: 5%;
+  left: 5%;
+}
+
+.form-buttons, .doc-buttons {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 10;
-  cursor: pointer;
-}
-
-.parchemin-button img {
-  width: 80px;
-  max-width: 12vw;
-  transition: transform 0.3s ease;
-}
-
-.parchemin-button:hover img,
-.parchemin-button:focus img {
-  transform: scale(1.1);
-  outline: none;
-}
-
-/* Conteneurs boutons formations et documents */
-
-.form-buttons,
-.doc-buttons {
-  position: relative;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  justify-content: center;
-  gap: 25px;
-  margin-top: 70vh;
+  gap: 10px;
   flex-wrap: wrap;
-  padding: 0 10px;
-  z-index: 10;
+  justify-content: center;
 }
 
-.form-buttons a,
-.doc-buttons a {
-  display: inline-block;
-  width: 80px;
-  max-width: 15vw;
+button {
+  padding: 10px 20px;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.form-buttons a:hover img,
-.doc-buttons a:hover img,
-.form-buttons a:focus img,
-.doc-buttons a:focus img {
-  transform: scale(1.1);
-  outline: none;
-}
-
-/* creation.html et lancement.html contenu textuel */
-
-.creation-content,
-.Lancementfond-content {
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.85);
-  padding: 2rem 3rem;
-  max-width: 700px;
-  margin: 20vh auto 5rem auto;
-  border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-}
-
-.creation-content h1,
-.Lancementfond-content h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #1a1a1a;
-}
-
-.creation-content p,
-.Lancementfond-content p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  color: #333;
-}
-
-/* Responsive */
-
-@media (max-width: 768px) {
-  #navbar .nav-buttons a {
-    width: 50px;
-    height: 50px;
-  }
-
-  .treasure-button,
-  .carteimage-button img,
-  .creation-button,
-  .lancement-button,
-  .parchemin-button img,
-  .form-buttons a,
-  .doc-buttons a {
-    max-width: 25vw;
-  }
-
-  .creation-content,
-  .Lancementfond-content {
-    margin: 10vh 1rem 3rem 1rem;
-    padding: 1rem 1.5rem;
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  #navbar {
-    height: 60px;
-  }
-
-  #navbar .navbar-bg {
-    height: 60px;
-  }
-
-  #navbar .nav-buttons a {
-    width: 40px;
-    height: 40px;
-  }
-
-  .creation-content,
-  .Lancementfond-content {
-    font-size: 0.9rem;
-    padding: 1rem;
-  }
-
-  .form-buttons,
-  .doc-buttons {
-    margin-top: 60vh;
-    gap: 15px;
-  }
+  font-weight: bold;
 }
