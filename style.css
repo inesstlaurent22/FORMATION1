@@ -60,16 +60,21 @@ html, body {
 
 /* PAGE ACCUEIL */
 .scene {
-  position: relative; /* important ! */
+  position: relative;
   width: 100%;
-  height: auto;
+  min-height: 100vh; /* prend toute la hauteur visible au minimum */
   display: block;
+  overflow: hidden;
 }
 
 .background {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: cover; /* couvre toute la zone sans déformer */
+  z-index: -1; /* envoie l’image en arrière-plan */
 }
 
 .treasure-link {
