@@ -72,9 +72,9 @@ html, body {
 
 .bouton {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 5%;           /* Distance du bas de la page */
+  left: 50%;            /* Centrage horizontal */
+  transform: translateX(-50%);  /* Décalage pour centrer */
   z-index: 5;
 }
 
