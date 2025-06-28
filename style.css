@@ -1,91 +1,325 @@
-body {
+Et le style.css : « * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
-.navbar {
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000; /* fond noir si l'image ne couvre pas tout */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* BARRE DE NAVIGATION */
+#navbar {
   position: fixed;
   top: 0;
-  width: 100%;
-  background-color: transparent;
-  display: flex;
-  justify-content: space-around;
+  left: 0;
+  width: 650px; /* largeur exacte de Component12.png */
+  height: 100px;
   z-index: 10;
+  background: transparent;
+  pointer-events: auto;
 }
-
-.navbar img {
-  height: 50px;
-}
-
-.scene, .Menu-container, .menu2-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.scene img.background,
-.Menu-container img,
-.menu2-container img {
+  
+.navbar-bg {
+  position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  z-index: 1;
 }
 
-.treasure-button,
-.carteimage-button,
-.creation-button,
-.lancement-button,
-.parchemin-button {
+.nav-buttons {
   position: absolute;
-  width: 100px;
-  cursor: pointer;
-}
-
-.treasure-button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.nav-buttons img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.nav-buttons img:hover {
+  transform: scale(1.05);
+}
+
+/* PAGE ACCUEIL */
+.scene {
+  position: relative; /* important ! */
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.treasure-link {
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.treasure-button.fixed {
+  position: relative;
+  bottom: 50px;    /* position verticale */
+  left: 20px;   /* position horizontale */
+  width: 1100px;
+  height: auto;
+
+
+/* START - Page 2 */
+.start-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+}
+
+.start-image {
+  display: block;
+  width: 100%;
+  height: auto; /* permet de scroller selon la hauteur de l'image */
 }
 
 .carteimage-button {
-  bottom: 10%;
-  left: 50%;
+  position: relative;
+  bottom: -20px;   /* Position verticale sur l'image */
+  left: 55%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
+  width: 200.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
 }
 
+.carteimage-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.carteimage-button img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+/* CARTE - Page 3 */
+.menu-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+}
+
+.menu-image {
+  display: block;
+  width: 100%;
+  height: auto; /* permet de scroller selon la hauteur de l'image */
+}
 .creation-button {
-  top: 40%;
-  left: 30%;
+  position: relative;
+  top: 25%;   /* Position verticale sur l'image */
+  left: 85%;   /* Position horizontale sur l'image */
+  transform: translateX(-50%);
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.creation-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.creation-button img:hover {
+  transform: scale(1.05);
 }
 
 .lancement-button {
-  top: 40%;
-  right: 30%;
-}
-
-.parchemin-button {
-  top: 5%;
-  left: 5%;
-}
-
-.form-buttons, .doc-buttons {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
+  position: relative;
+  bottom: 25%;   /* Position verticale sur l'image */
+  left: 85%;   /* Position horizontale sur l'image */
   transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 80.8px;
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #ffd700;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
+.lancement-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
 }
+
+.lancement-button img:hover {
+  transform: scale(1.05);
+}
+
+
+
+/* SAC A DOS - Page 4 */
+.sacados-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+}
+
+.sacados-image {
+  display: block;
+  width: 100%;
+  height: auto; /* permet de scroller selon la hauteur de l'image */
+}
+.sacados-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* ou une largeur fixe adaptée à ton image */
+  margin: 0 auto;
+}
+.parchemin-button {
+  top: 50%;             /* Garde le même écart du bas */
+  left: 40%;                /* 50% (centré) + 10% = 60% */
+  transform: translateX(-50%);
+  width: 20%;             /* Agrandissement du bouton (ancien : 80.8px) */
+  height: auto;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.parchemin-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.parchemin-button img:hover {
+  transform: scale(1.05);
+}
+
+.form-buttons {
+  position: relative;
+  bottom: 10%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.form-buttons img {
+  width: 90px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.form-buttons img:hover {
+  transform: scale(1.05);
+}
+.doc-buttons {
+  position: relative;
+  top: 23%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.doc-buttons img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.doc-buttons img:hover {
+  transform: scale(1.05);
+}
+
+/* CREATION - Page 5 */
+.creation-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+}
+
+.creation-image {
+  display: block;
+  width: 100%;
+  height: auto; /* permet de scroller selon la hauteur de l'image */
+}
+.creation-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* ou une largeur fixe adaptée à ton image */
+  margin: 0 auto;
+}
+
+/* LANCEMENT - Page 6 */
+.Lancementfond-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* hauteur visible de la page */
+  overflow: hidden; /* empêche l'image de déborder */
+}
+
+.Lancementfond-image {
+  max-width: 100%;
+  max-height: 80vh; /* ajuste la hauteur pour ne pas dépasser la page */
+  height: auto;
+  width: auto;
+  display: block;
+  object-fit: contain; /* garde les proportions sans déformation */
+}
+
+.Lancementfond-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px; /* réduit un peu la largeur max */
+  margin: 0 auto;
+  padding: 0 20px; /* un peu de marge intérieure sur petits écrans */
+  text-align: center; /* centre le contenu */
+}
+« 
