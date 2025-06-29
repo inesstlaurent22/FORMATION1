@@ -202,7 +202,7 @@ html, body {
 
 .form-buttons {
   position: absolute;               /* Pour placement précis sur la scène */
-  bottom: 10%;                      /* Distance depuis le bas */
+  bottom: 20%;                      /* Distance depuis le bas */
   left: 68%;                        /* Position horizontale */
   transform: translateX(-50%);      /* Centrage horizontal */
   display: flex;
@@ -228,8 +228,8 @@ html, body {
 
 .doc-buttons {
   position: absolute;               /* Positionnement précis sur l’image de fond */
-  top: 23%;                         /* Position verticale depuis le haut */
-  left: 40%;                        /* Position horizontale */
+  top: 19%;                         /* Position verticale depuis le haut */
+  left: 30%;                        /* Position horizontale */
   transform: translateX(-50%);      /* Centrage horizontal */
   display: flex;
   flex-direction: row;
