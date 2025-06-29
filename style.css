@@ -102,7 +102,6 @@ html, body {
   position: absolute;               /* Pour positionner précisément sur la scène */
   bottom: 20px;                     /* Distance depuis le bas */
   left: 50%;                        /* Centré horizontalement */
-  transform: translateX(-50%);
   width: 90px;                     /* Taille du bouton */
   height: auto;
   display: block;
@@ -133,7 +132,6 @@ html, body {
   position: absolute;               /* Pour un positionnement précis */
   top: 25%;                         /* Distance depuis le haut */
   left: 85%;                        /* Position horizontale */
-  transform: translateX(-50%);
   width: 120px;                     /* Taille ajustable */
   height: auto;
   display: block;
@@ -150,7 +148,6 @@ html, body {
   position: absolute;               /* Pour un placement libre sur l’image de fond */
   bottom: 25%;                      /* Distance depuis le bas */
   left: 85%;                        /* Position horizontale */
-  transform: translateX(-50%);
   width: 120px;                     /* Taille ajustable selon image */
   height: auto;
   display: block;
@@ -187,7 +184,6 @@ html, body {
   position: absolute;               /* Pour positionner précisément */
   top: 50%;                         /* Distance depuis le haut */
   left: 40%;                        /* Position horizontale */
-  transform: translateX(-50%);
   width: 20%;                       /* Taille responsive (ou fixe en px si préféré) */
   height: auto;
   display: block;
@@ -204,7 +200,6 @@ html, body {
   position: absolute;               /* Pour placement précis sur la scène */
   bottom: 20%;                      /* Distance depuis le bas */
   left: 68%;                        /* Position horizontale */
-  transform: translateX(-50%);      /* Centrage horizontal */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -230,7 +225,6 @@ html, body {
   position: absolute;               /* Positionnement précis sur l’image de fond */
   top: 19%;                         /* Position verticale depuis le haut */
   left: 30%;                        /* Position horizontale */
-  transform: translateX(-50%);      /* Centrage horizontal */
   display: flex;
   flex-direction: row;
   align-items: center;
