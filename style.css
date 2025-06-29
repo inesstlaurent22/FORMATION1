@@ -58,18 +58,18 @@ html, body {
   transform: scale(1.05);
 }
 
-/* BARRE DE FORMATION */
+/* BARRE DE FORMATION VERTICALE À GAUCHE */
 #barreform {
   position: fixed;
   top: 0;
   left: 0;
-  width: 650px; /* largeur exacte de Component12.png */
-  height: 100px;
+  width: 100px;       /* largeur réduite pour barre verticale */
+  height: 100vh;       /* toute la hauteur de l’écran */
   z-index: 10;
   background: transparent;
   pointer-events: auto;
 }
-  
+
 .barreform-bg {
   position: absolute;
   width: 100%;
@@ -78,21 +78,22 @@ html, body {
   z-index: 1;
 }
 
+/* Affichage vertical des boutons */
 .barreform-buttons {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: row;
+  flex-direction: column; /* vertical au lieu de row */
   align-items: center;
-  gap: 12px;
+  gap: 20px;
   z-index: 2;
   pointer-events: auto;
 }
 
 .barreform-buttons img {
-  width: 70px;
+  width: 60px; /* légèrement plus petit si nécessaire */
   height: auto;
   object-fit: contain;
   cursor: pointer;
