@@ -129,7 +129,7 @@ html, body {
   width: 100%;
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
-.creation-button {
+.creation2-button {
   position: absolute;               /* Pour un positionnement précis */
   top: 25%;                         /* Distance depuis le haut */
   left: 85%;                        /* Position horizontale */
@@ -146,7 +146,7 @@ html, body {
   transform: translateX(-50%) scale(1.05);  /* Animation + centrage maintenu */
 }
 
-.lancement-button {
+.lancement2-button {
   position: absolute;               /* Pour un placement libre sur l’image de fond */
   bottom: 25%;                      /* Distance depuis le bas */
   left: 85%;                        /* Position horizontale */
