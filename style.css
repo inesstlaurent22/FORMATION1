@@ -74,7 +74,6 @@ html, body {
   position: absolute;
   bottom: 30%;
   left: 70%;
-  transform: translateX(-50%);
   width: 300px;
   height: auto;
   cursor: pointer;
