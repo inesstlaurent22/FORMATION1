@@ -118,7 +118,7 @@ html, body {
 }
 
 .barreform-buttons img {
-  width: 60px; /* légèrement plus petit si nécessaire */
+  width: 30px; /* légèrement plus petit si nécessaire */
   height: auto;
   object-fit: contain;
   cursor: pointer;
