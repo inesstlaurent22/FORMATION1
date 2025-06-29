@@ -72,14 +72,14 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  bottom: 5%;           /* Distance du bas de la page */
-  left: 50%;            /* Centrage horizontal */
+  bottom: 30%;           /* Distance du bas de la page */
+  left: 70%;            /* Centrage horizontal */
   transform: translateX(-50%);  /* Décalage pour centrer */
   z-index: 5;
 }
 
 .treasure-button {
-  width: 120px;
+  width: 300px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
