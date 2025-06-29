@@ -383,29 +383,188 @@ html, body {
 }
 
 /* MARKETING - Page 7 */
+.marketing-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* hauteur visible de la page */
+  overflow: hidden;
+  background-color: #fff; /* optionnel : couleur de fond */
+}
+
 .marketing-container {
   position: relative;
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  max-width: 900px; /* limite la largeur à 900px */
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
 }
 
-.fond-marketing {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+.marketing-image {
+  max-width: 100%;
   height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px; /* optionnel : arrondir les coins */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
+}
+
+/* COMMERCE - Page 8 */
+.commerce-content {
+  position: relative;
   z-index: 1;
-  object-fit: cover;
+  padding-top: 120px; /* espace pour la barre de navigation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* hauteur visible de la page */
+  overflow: hidden;
+  background-color: #fff; /* optionnel : couleur de fond */
 }
 
-.fond-marketing1 {
-  position: absolute;
-  top: 0;
-  left: 0;
+.commerce-container {
+  position: relative;
   width: 100%;
-  height: auto;
-  z-index: 2;
-  object-fit: cover;
+  max-width: 900px; /* limite la largeur à 900px */
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
 }
+
+.commerce-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px; /* optionnel : arrondir les coins */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
+}
+
+/* COMMUNICATION - Page 8 */
+.communication-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* hauteur visible de la page */
+  overflow: hidden;
+  background-color: #fff; /* optionnel : couleur de fond */
+}
+
+.communication-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px; /* limite la largeur à 900px */
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.communication-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px; /* optionnel : arrondir les coins */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
+}
+
+/* COMMERCE - Page 9 */
+.commerce-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* hauteur visible de la page */
+  overflow: hidden;
+  background-color: #fff; /* optionnel : couleur de fond */
+}
+
+.commerce-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px; /* limite la largeur à 900px */
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.commerce-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px; /* optionnel : arrondir les coins */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
+}
+
+/* FINANCE - Page 10 */
+.finance-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* hauteur visible de la page */
+  overflow: hidden;
+  background-color: #fff; /* optionnel : couleur de fond */
+}
+
+.finance-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px; /* limite la largeur à 900px */
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.finance-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px; /* optionnel : arrondir les coins */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
+}
+
+/* LEGAL - Page 8 */
+.legal-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px; /* espace pour la barre de navigation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* hauteur visible de la page */
+  overflow: hidden;
+  background-color: #fff; /* optionnel : couleur de fond */
+}
+
+.legal-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px; /* limite la largeur à 900px */
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.legal-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px; /* optionnel : arrondir les coins */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
+}
+
