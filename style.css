@@ -142,7 +142,7 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.creation-button:hover {
+.creation2-button:hover {
   transform: translateX(-50%) scale(1.05);  /* Animation + centrage maintenu */
 }
 
@@ -159,7 +159,7 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.lancement-button:hover {
+.lancement2-button:hover {
   transform: translateX(-50%) scale(1.05);  /* Animation + centrage maintenu */
 }
 
