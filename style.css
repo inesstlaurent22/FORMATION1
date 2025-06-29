@@ -152,8 +152,8 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.treasure-button:hover {
-  transform: translateX(-50%) scale(1.05); /* Combine centrage + zoom */
+.treasure-buttons img:hover {
+  transform: scale(1.05);           /* Animation au survol */
 }
 
 /* START - Page 2 */
@@ -181,8 +181,8 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.carteimage-button:hover {
-  transform: translateX(-50%) scale(1.05); /* Animation au survol */
+.carteimage-buttons img:hover {
+  transform: scale(1.05);           /* Animation au survol */
 }
 
 
@@ -203,7 +203,7 @@ html, body {
   position: absolute;               /* Pour un positionnement précis */
   top: 25%;                         /* Distance depuis le haut */
   left: 85%;                        /* Position horizontale */
-  width: 120px;                     /* Taille ajustable */
+  width: 90px;                     /* Taille ajustable */
   height: auto;
   display: block;
   z-index: 5;
@@ -211,8 +211,8 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.creation2-button:hover {
-  transform: translateX(-50%) scale(1.05);  /* Animation + centrage maintenu */
+.creation2-buttons img:hover {
+  transform: scale(1.05);           /* Animation au survol */
 }
 
 .lancement2-button {
@@ -227,8 +227,8 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.lancement2-button:hover {
-  transform: translateX(-50%) scale(1.05);  /* Animation + centrage maintenu */
+.lancement2-buttons img:hover {
+  transform: scale(1.05);           /* Animation au survol */
 }
 
 
@@ -263,8 +263,8 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.parchemin-button:hover {
-  transform: translateX(-50%) scale(1.05); /* Effet hover avec centrage conservé */
+.parchemin-buttons img:hover {
+  transform: scale(1.05);           /* Animation au survol */
 }
 
 .form-buttons {
