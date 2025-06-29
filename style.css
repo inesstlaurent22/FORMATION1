@@ -171,9 +171,9 @@ html, body {
 
 .carteimage-button {
   position: absolute;               /* Pour positionner précisément sur la scène */
-  bottom: 20px;                     /* Distance depuis le bas */
+  bottom: 50px;                     /* Distance depuis le bas */
   left: 50%;                        /* Centré horizontalement */
-  width: 90px;                     /* Taille du bouton */
+  width: 40px;                     /* Taille du bouton */
   height: auto;
   display: block;
   z-index: 5;
