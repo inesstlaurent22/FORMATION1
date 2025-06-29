@@ -106,7 +106,7 @@ html, body {
 /* Affichage vertical des boutons */
 .barreform-buttons {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -118,7 +118,7 @@ html, body {
 }
 
 .barreform-buttons img {
-  width: 30px; /* légèrement plus petit si nécessaire */
+  width: 40px; /* légèrement plus petit si nécessaire */
   height: auto;
   object-fit: contain;
   cursor: pointer;
