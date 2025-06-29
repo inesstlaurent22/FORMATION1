@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapitre 2 : Le lancement </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="Legal-container">
+<img src="images/Legal.png" alt="fond page legal" class="fondl"> 
+</div>
+  
+</body>
+</html>
