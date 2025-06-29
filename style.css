@@ -72,18 +72,18 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  bottom: 30%;              /* Distance du bas de la page */
-  left: 70%;                /* Centrage horizontal */
+  bottom: 30%;
+  left: 70%;
   transform: translateX(-50%);
-  z-index: 5;
-  width: 300px;             /* Taille du coffre */
+  width: 300px;
   height: auto;
   cursor: pointer;
+  z-index: 5;
   transition: transform 0.3s ease;
 }
 
 .treasure-button:hover {
-  transform: scale(1.05);   /* Légère animation au survol */
+  transform: translateX(-50%) scale(1.05); /* Combine centrage + zoom */
 }
 
 /* START - Page 2 */
