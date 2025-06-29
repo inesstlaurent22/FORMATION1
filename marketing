@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapitre 2 : Le lancement </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="Marketing-container">
+<img src="images/Marketing.png" alt="fond page marketing" class="fondm"> 
+</div>
+  
+</body>
+</html> 
