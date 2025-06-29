@@ -70,7 +70,7 @@ html, body {
   display: block;
 }
 
-.bouton {
+.treasure-button {
   position: absolute;
   bottom: 5%;           /* Distance du bas de la page */
   left: 50%;            /* Centrage horizontal */
