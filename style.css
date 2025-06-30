@@ -325,33 +325,30 @@ html, body {
 .creation-content {
   position: relative;
   z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
+  padding-top: 120px; /* laisse de l’espace pour la barre de navigation */
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 120px); /* hauteur visible de la page */
   overflow: hidden;
-  background-color: #fff; /* optionnel : couleur de fond */
+  background-color: #fff;
 }
 
 .creation-container {
   position: relative;
   width: 100%;
-  max-width: 900px; /* limite la largeur à 900px */
-  margin: 0 auto;
-  padding: 0 20px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
 .creation-image {
-  max-width: 100%;
-  height: auto;
+  width: 100vw;
+  height: calc(100vh - 120px); /* occupe la hauteur visible sous la nav */
+  object-fit: cover; /* couvre tout l’espace sans se déformer */
   display: block;
-  object-fit: contain;
-  border-radius: 8px; /* optionnel : arrondir les coins */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
 }
-
 
 
 /* LANCEMENT - Page 6 */
