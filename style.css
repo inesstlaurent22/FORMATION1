@@ -325,32 +325,31 @@ html, body {
 .creation-content {
   position: relative;
   z-index: 1;
-  padding-top: 120px;
+  padding-top: 120px; /* espace pour la barre de navigation */
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 120px);
-  overflow: hidden;
+  flex-direction: column; /* nouveau : pour l'empilement vertical */
   background-color: #fff;
 }
 
 .creation-container {
-  position: relative;
   width: 100%;
-  height: auto;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.creation-image {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain; /* ou 'none' si tu veux garder l’image à sa taille d'origine */
+.creation-container img {
+  width: 100%;            /* prend toute la largeur de l'écran */
+  height: auto;           /* garde les proportions */
+  object-fit: contain;
   display: block;
   image-rendering: auto;
+  margin-bottom: 10px;    /* espace entre les images */
 }
-
 
 /* LANCEMENT - Page 6 */
 .Lancementfond-content {
