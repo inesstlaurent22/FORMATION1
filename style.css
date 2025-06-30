@@ -143,8 +143,8 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  bottom: 50%;
-  left: 20%;
+  up: 30%;
+  right: 30%;
   transform: translate(-50%, 50%);
   width: 700px;
   height: auto;
@@ -173,7 +173,8 @@ html, body {
 .carteimage-button {
   position: absolute;               /* Pour positionner précisément sur la scène */
   bottom: 50px;                     /* Distance depuis le bas */
-  left: 50%;                        /* Centré horizontalement */
+  left: 50%; 
+  transform: translate(-50%, 50%);
   width: 20px;                     /* Taille du bouton */
   height: auto;
   display: block;
