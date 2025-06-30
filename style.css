@@ -325,11 +325,11 @@ html, body {
 .creation-content {
   position: relative;
   z-index: 1;
-  padding-top: 120px; /* laisse de l’espace pour la barre de navigation */
+  padding-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 120px); /* hauteur visible de la page */
+  min-height: calc(100vh - 120px);
   overflow: hidden;
   background-color: #fff;
 }
@@ -337,17 +337,18 @@ html, body {
 .creation-container {
   position: relative;
   width: 100%;
-  height: 100%;
-  margin: 0;
+  height: auto;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
 }
 
 .creation-image {
-  width: 100vw;
-  height: calc(100vh - 120px); /* occupe la hauteur visible sous la nav */
-  object-fit: cover; /* couvre tout l’espace sans se déformer */
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* ou 'none' si tu veux garder l’image à sa taille d'origine */
   display: block;
+  image-rendering: auto;
 }
 
 
