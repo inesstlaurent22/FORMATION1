@@ -144,7 +144,7 @@ html, body {
 .treasure-button {
   position: absolute;
   bottom: 50%;
-  left: 50%;
+  left: 20%;
   width: 700px;
   height: auto;
   cursor: pointer;
