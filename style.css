@@ -173,7 +173,7 @@ html, body {
   position: absolute;               /* Pour positionner précisément sur la scène */
   bottom: 50px;                     /* Distance depuis le bas */
   left: 50%;                        /* Centré horizontalement */
-  width: 40px;                     /* Taille du bouton */
+  width: 20px;                     /* Taille du bouton */
   height: auto;
   display: block;
   z-index: 5;
