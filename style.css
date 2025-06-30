@@ -368,19 +368,21 @@ html, body {
 .Lancementfond-container {
   position: relative;
   width: 100%;
-  max-width: 900px; /* limite la largeur à 900px */
+  max-width: 1200px; /* largeur max adaptée à la plupart des écrans */
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
 }
 
 .Lancementfond-image {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
-  object-fit: contain;
-  border-radius: 8px; /* optionnel : arrondir les coins */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
+  max-width: 100%;
+  object-fit: contain; /* garde les proportions sans déformation */
+  image-rendering: auto; /* pour garder la netteté */
+  border-radius: 8px; /* optionnel */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel */
 }
 
 /* MARKETING - Page 7 */
