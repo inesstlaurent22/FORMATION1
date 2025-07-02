@@ -294,7 +294,6 @@ html, body {
   transform: scale(1.05);           /* Animation au survol */
 }
 
-
 .doc-buttons {
   position: absolute;               /* Positionnement précis sur l’image de fond */
   top: 19%;                         /* Position verticale depuis le haut */
