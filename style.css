@@ -174,8 +174,7 @@ html, body {
   position: absolute;               /* Pour positionner précisément sur la scène */
   bottom: 50px;                     /* Distance depuis le bas */
   left: 50%; 
-  transform: translate(-50%, 50%);
-  width: 30%;                     /* Taille du bouton */
+  width: 15%;                     /* Taille du bouton */
   height: auto;
   display: block;
   z-index: 5;
