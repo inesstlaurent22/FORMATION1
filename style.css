@@ -201,10 +201,10 @@ html, body {
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
 .creation2-button {
-  position: absolute;               /* Pour un positionnement précis */
-  top: 25%;                         /* Distance depuis le haut */
-  left: 85%;                        /* Position horizontale */
-  width: 50px;                     /* Taille ajustable */
+  position: absolute;
+  top: 25%;
+  left: 75%;                      /* Décalé de 10% vers la gauche */
+  width: 24px;                    /* Taille réduite (anciennement 30px) */
   height: auto;
   display: block;
   z-index: 5;
@@ -212,15 +212,15 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.creation2-buttons img:hover {
-  transform: scale(1.05);           /* Animation au survol */
+.creation2-button:hover {
+  transform: scale(1.05);
 }
 
 .lancement2-button {
-  position: absolute;               /* Pour un placement libre sur l’image de fond */
-  bottom: 25%;                      /* Distance depuis le bas */
-  left: 85%;                        /* Position horizontale */
-  width: 30px;                     /* Taille ajustable selon image */
+  position: absolute;
+  bottom: 25%;
+  left: 75%;                      /* Décalé de 10% vers la gauche */
+  width: 28px;                    /* Taille réduite (anciennement 35px) */
   height: auto;
   display: block;
   z-index: 5;
@@ -228,8 +228,8 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.lancement2-buttons img:hover {
-  transform: scale(1.05);           /* Animation au survol */
+.lancement2-button:hover {
+  transform: scale(1.05);
 }
 
 
