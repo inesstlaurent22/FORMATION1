@@ -382,10 +382,10 @@ html, body {
 .Lancementfond-container {
   position: relative;
   width: 100%;
-  max-width: 1200px; /* largeur max adaptée à la plupart des écrans */
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
+  height: 100vh;
+  background-image: url("images/Fond/Lancementfond.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .Lancementfond-image {
