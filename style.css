@@ -67,8 +67,8 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100px;
-  height: 100vh;
+  width: 265px;
+  height: 1241px;
   z-index: 10;
   background: transparent;
   pointer-events: auto;
@@ -79,8 +79,8 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;    /* largeur de la barre */
-  height: 100%;   /* hauteur de la barre */
+  width: 265px;    /* largeur de la barre */
+  height: 1241px;   /* hauteur de la barre */
   object-fit: contain;
   z-index: 1;
   transform: none;  
