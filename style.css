@@ -41,14 +41,14 @@ html, body {
     flex-direction: row;           /* ✅ alignement horizontal */
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: 100%;                   /* ✅ s'assure que le conteneur prend la largeur */
+    gap: 2cm;                      /* ✅ espace d’environ 2 centimètres */
+    width: 100%;                   
     z-index: 2;
     pointer-events: auto;
 }
 
 .ecriture-buttons img {
-    width: 130px !important;       /* ✅ taille des boutons */
+    width: 130px !important;       
     height: auto;
     max-height: 85px;
     cursor: pointer;
