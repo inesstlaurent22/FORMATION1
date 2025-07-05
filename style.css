@@ -203,8 +203,8 @@ html, body {
 .creation2-button {
   position: absolute;
   top: 25%;
-  left: 75%;                      /* Décalé de 10% vers la gauche */
-  width: 16px;                    /* Taille réduite (anciennement 30px) */
+  left: 75%;                   
+  width: 10px;                   
   height: auto;
   display: block;
   z-index: 5;
@@ -219,8 +219,8 @@ html, body {
 .lancement2-button {
   position: absolute;
   bottom: 25%;
-  left: 75%;                      /* Décalé de 10% vers la gauche */
-  width: 16px;                    /* Taille réduite (anciennement 35px) */
+  left: 75%;                      
+  width: 10px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -383,7 +383,6 @@ html, body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url("images/Fond/Lancementfond.jpg");
   background-size: cover;
   background-position: center;
 }
