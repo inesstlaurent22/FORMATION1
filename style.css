@@ -17,103 +17,91 @@ html, body {
 #barrenav1 {
     position: fixed;
     top: 0;
-    left: 0; /* ✅ déplacé à gauche */
-    width: 250px; /* ✅ largeur réduite */
-    height: auto;
+    right: 0;
+    width: 650px; /* moitié de 1300px */
+    height: 100px; /* moitié de 200px */
     z-index: 1000;
-    pointer-events: none; /* permet d'ignorer les clics sauf sur les éléments interactifs */
+    pointer-events: none;
 }
 
+/* Image Component12.png (fond de la navbar) */
 .barrenav1-bg {
-    position: relative;
-    width: 80%;   /* ✅ image réduite */
-    height: auto;
-    object-fit: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     z-index: 1;
-    display: block;
 }
 
+/* Boutons dans la barre */
 .ecriture-buttons {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: row; /* ✅ aligné horizontalement */
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
     z-index: 2;
-    pointer-events: auto; /* ✅ active les clics */
+    pointer-events: auto;
 }
 
 .ecriture-buttons img {
-    width: 22px; /* ✅ plus petit */
+    width: 80px;
     height: auto;
+    max-height: 30px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
 .ecriture-buttons img:hover {
-    transform: scale(1.1);
-}
-
-.ecriture-buttons span {
-    font-size: 18px;
-    font-weight: bold;
-    color: #000;
-    margin-left: 5px;
+    transform: scale(1.05);
 }
 
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
-#barrenav2 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 265px;
-  height: 1241px;
-  z-index: 10;
-  background: url('images/Barrebouton/Barreforma.png') no-repeat center center;
-  pointer-events: auto;
+/* Barre de navigation */
+#navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 650px; /* moitié de 1300px */
+    height: 100px; /* moitié de 200px */
+    z-index: 1000;
+    pointer-events: none;
 }
 
-/* Image de fond positionnée verticalement à gauche */
+/* Image Component12.png (fond de la navbar) */
 .barrenav2-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 265px;    /* largeur de la barre */
-  height: 1241px;   /* hauteur de la barre */
-  object-fit: contain;
-  z-index: 1;
-  transform: none;  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
 }
 
-/* Boutons centrés verticalement et horizontalement dans la barre */
-.formation-buttons {
-  position: absolute;
-  top: 50%;       /* centre vertical */
-  left: 50%;      /* centre horizontal dans la barre */
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  z-index: 2;
-  pointer-events: auto;
+/* Boutons dans la barre */
+.barrenav2-buttons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    z-index: 2;
+    pointer-events: auto;
 }
 
 .formation-buttons img {
-  width: 60px; /* taille boutons */
-  height: auto;
-  object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+    width: 80px;
+    height: auto;
+    max-height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 .formation-buttons img:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 /* PAGE ACCUEIL */
