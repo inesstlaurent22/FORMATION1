@@ -14,7 +14,6 @@ html, body {
 }
 
 /* BARRE DE NAVIGATION 1 — HORIZONTALE EN HAUT (barrenav1) */
-/* Barre de navigation horizontale positionnée en haut à gauche */
 #barrenav1 {
     position: fixed;
     top: 0;
@@ -75,19 +74,23 @@ html, body {
   pointer-events: auto;
 }
 
+/* Image de fond positionnée verticalement à gauche */
 .barrenav2-bg {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;    /* largeur de la barre */
+  height: 100%;   /* hauteur de la barre */
   object-fit: contain;
   z-index: 1;
-  transform: rotate(180deg); /* à adapter selon ton image */
+  transform: none;  /* enlever la rotation pour qu'elle soit verticale normale */
 }
 
+/* Boutons centrés verticalement et horizontalement dans la barre */
 .formation-buttons {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50%;       /* centre vertical */
+  left: 50%;      /* centre horizontal dans la barre */
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
@@ -98,7 +101,7 @@ html, body {
 }
 
 .formation-buttons img {
-  width: 60px; /* -15% par rapport à 70px */
+  width: 60px; /* taille boutons */
   height: auto;
   object-fit: contain;
   cursor: pointer;
