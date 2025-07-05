@@ -27,7 +27,7 @@ html, body {
 /* Image de fond réduite, qui ne dépasse pas le milieu */
 #barrenav1 {
     position: fixed;
-    top: 20px; /* 🔽 ajoute un peu d'espace en haut */
+    top: 0; /* 🔽 ajoute un peu d'espace en haut */
     right: 0; 
     width: 250px; /* 🔽 réduit encore la largeur */
     height: auto;
@@ -38,7 +38,7 @@ html, body {
 /* Image de fond de la barre */
 .barrenav1-bg {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: auto;
     object-fit: contain;
     z-index: 1;
