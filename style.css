@@ -20,7 +20,7 @@ html, body {
     left: 0; /* ✅ placé à gauche */
     width: 10vw; /* ✅ 10% de la largeur écran */
     height: 20vh; /* ✅ 20% de la hauteur écran */
-    z-index: 1000;
+    z-index: 10;
     pointer-events: none;
 }
 
