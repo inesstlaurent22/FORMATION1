@@ -58,53 +58,7 @@ html, body {
   transform: scale(1.05);
 }
 
-/* --- BARRE VERTICALE COLLÉE À GAUCHE --- */
-#barreform {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100px;           /* Largeur verticale */
-  height: 100vh;          /* Prend toute la hauteur */
-  z-index: 10;
-  background: transparent;
-  pointer-events: auto;
-}
 
-/* Image de fond de la barre (ex : Component12.png) */
-.barreform-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  z-index: 1;
-  transform: rotate(90deg); /* si nécessaire, à ajuster selon ton image */
-}
-
-/* --- BOUTONS ALIGNÉS VERTICALEMENT --- */
-.barreform-buttons {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;  /* Empile les boutons verticalement */
-  align-items: center;
-  gap: 20px;                /* Espacement entre les boutons */
-  z-index: 2;
-  pointer-events: auto;
-}
-
-.barreform-buttons img {
-  width: 60px;              /* Taille réduite pour un bon alignement */
-  height: auto;
-  object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.barreform-buttons img:hover {
-  transform: scale(1.05);
-}
 
 /* PAGE ACCUEIL */
 .scene {
@@ -412,7 +366,53 @@ html, body {
 
 
 
+/* --- BARRE VERTICALE COLLÉE À GAUCHE --- */
+#barreform {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;           /* Largeur verticale */
+  height: 100vh;          /* Prend toute la hauteur */
+  z-index: 10;
+  background: transparent;
+  pointer-events: auto;
+}
 
+/* Image de fond de la barre (ex : Component12.png) */
+.barreform-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+  transform: rotate(90deg); /* si nécessaire, à ajuster selon ton image */
+}
+
+/* --- BOUTONS ALIGNÉS VERTICALEMENT --- */
+.barreform-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;  /* Empile les boutons verticalement */
+  align-items: center;
+  gap: 20px;                /* Espacement entre les boutons */
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.barreform-buttons img {
+  width: 60px;              /* Taille réduite pour un bon alignement */
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.barreform-buttons img:hover {
+  transform: scale(1.05);
+}
 
 /* MARKETING - Page 7 */
 .marketing-content {
