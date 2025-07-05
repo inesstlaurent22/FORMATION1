@@ -130,12 +130,7 @@ html, body {
 }
 
 .treasure-buttons img:hover {
-   animation: pulse 1s infinite;
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.08); }
-  100% { transform: scale(1); }
-}
+    transform: scale(1.05);
 }
 
 
@@ -165,12 +160,7 @@ html, body {
 }
 
 .carteimage-buttons img:hover {
-   animation: pulse 1s infinite;
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.08); }
-  100% { transform: scale(1); }
-}
+    transform: scale(1.05);
 }
 
 
@@ -627,13 +617,6 @@ html, body {
   max-width: 100%;                /* Empêche le débordement sur petit écran */
 }
 
-
-
-
-
-
-
-
 /* FINANCE - Page 10 */
 .finance-content {
   position: relative;
@@ -680,9 +663,6 @@ html, body {
   height: auto;
   max-width: 100%;                /* Empêche le débordement sur petit écran */
 }
-
-
-
 
 
 /* LEGAL - Page 8 */
