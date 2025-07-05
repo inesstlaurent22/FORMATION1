@@ -14,7 +14,6 @@ html, body {
 }
 
 /* BARRE DE NAVIGATION 1 — HORIZONTALE EN HAUT (barrenav1) */
-/* --- BARRE DE NAVIGATION VERTICALE À GAUCHE --- */
 #barrenav1 {
     position: fixed;
     top: 0;
@@ -62,8 +61,7 @@ html, body {
 }
 
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
-/* Barre de navigation */
-#navbar {
+#barrenav2 {
     position: fixed;
     top: 0;
     right: 0;
