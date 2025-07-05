@@ -14,7 +14,6 @@ html, body {
 }
 
 /* BARRE DE NAVIGATION 1 — HORIZONTALE EN HAUT (barrenav1) */
-/* --- CONTENEUR PRINCIPAL DE LA BARRE --- */
 #barrenav1 {
     position: fixed;
     top: 0;
