@@ -19,7 +19,7 @@ html, body {
   top: 0;
   left: 0;
   width: 150px; /* largeur exacte de Component12.png */
-  height: 100px;
+  height: 30px;
   z-index: 10;
   background: transparent;
   pointer-events: auto;
