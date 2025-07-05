@@ -337,7 +337,7 @@ html, body {
   image-rendering: auto;
   margin-bottom: 10px;    /* espace entre les images */
 }
-
+/* Bouton rouge */
 .Boutonrouge-button {
   position: absolute;
   bottom: 20px;                    /* Distance par rapport au bas */
@@ -355,6 +355,23 @@ html, body {
   max-width: 100%;                /* Empêche le débordement sur petit écran */
 }
 
+/* Bouton retour - taille d'origine et position en haut à droite */
+.retour-button {
+  position: absolute;
+  top: 20px;        /* Distance depuis le haut */
+  right: 20px;      /* Distance depuis la droite */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+  transform: none;  /* Plus besoin de translate */
+}
+
+.retour-button img {
+  display: block;
+  width: auto;      /* Taille d'origine */
+  height: auto;     /* Taille d'origine */
+  max-width: none;  /* Désactive la contrainte de débordement */
+}
 
 
 
