@@ -59,39 +59,44 @@ html, body {
 }
 
 /* --- BARRE VERTICALE À GAUCHE --- */
-#barreform {
+/* --- BARRE VERTICALE COLLÉE À GAUCHE --- */
+#navbar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100px;            /* Largeur de la barre */
-  height: 100vh;           /* Hauteur complète de l'écran */
+  width: 100px;           /* Largeur verticale */
+  height: 100vh;          /* Prend toute la hauteur */
   z-index: 10;
   background: transparent;
   pointer-events: auto;
 }
-.barreform-bg {
+
+/* Image de fond de la barre (ex : Component12.png) */
+.navbar-bg {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: contain;
   z-index: 1;
+  transform: rotate(90deg); /* si nécessaire, à ajuster selon ton image */
 }
 
+/* --- BOUTONS ALIGNÉS VERTICALEMENT --- */
 .barreform-buttons {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);   /* Centre vertical et horizontal */
+  transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: column;             /* Aligne les boutons en colonne */
+  flex-direction: column;  /* Empile les boutons verticalement */
   align-items: center;
-  gap: 20px;                           /* Espacement entre les boutons */
+  gap: 20px;                /* Espacement entre les boutons */
   z-index: 2;
   pointer-events: auto;
 }
 
 .barreform-buttons img {
-  width: 60px;        /* Anciennement 70px, réduit de ~15% */
+  width: 60px;              /* Taille réduite pour un bon alignement */
   height: auto;
   object-fit: contain;
   cursor: pointer;
