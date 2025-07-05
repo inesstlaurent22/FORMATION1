@@ -41,7 +41,7 @@ html, body {
     flex-direction: row;           /* ✅ alignement horizontal */
     justify-content: center;
     align-items: center;
-    gap: 2cm;                      /* ✅ espace d’environ 2 centimètres */
+    gap: 0,5cm;                      /* ✅ espace d’environ 2 centimètres */
     width: 100%;                   
     z-index: 2;
     pointer-events: auto;
