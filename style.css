@@ -38,7 +38,7 @@ html, body {
     left: 50%;              /* centre horizontalement */
     transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column; /* ✅ empile verticalement */
+    flex-direction: row;    /* ✅ aligne les boutons horizontalement */
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -58,6 +58,7 @@ html, body {
 .ecriture-buttons img:hover {
     transform: scale(1.1);
 }
+
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
 #barrenav2 {
     position: fixed;
