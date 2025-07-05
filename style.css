@@ -41,7 +41,7 @@ html, body {
     flex-direction: row;           /* ✅ alignement horizontal */
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     width: 100%;                   /* ✅ s'assure que le conteneur prend la largeur */
     z-index: 2;
     pointer-events: auto;
