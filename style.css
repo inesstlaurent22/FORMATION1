@@ -162,7 +162,12 @@ html, body {
 }
 
 .carteimage-buttons img:hover {
-  transform: scale(1.05);           /* Animation au survol */
+   animation: pulse 1s infinite;
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
 }
 
 
