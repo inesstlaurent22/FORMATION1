@@ -31,24 +31,24 @@ html, body {
     object-fit: contain;
     z-index: 1;
 }
-
 .ecriture-buttons {
     position: absolute;
-    top: 5%;
-    left: 10%;
+    top: 50%;               /* ✅ centre verticalement */
+    left: 50%;              /* ✅ centre horizontalement */
+    transform: translate(-50%, -50%);  /* ✅ recentre exactement */
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: column; /* ✅ empile les boutons verticalement */
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     z-index: 2;
     pointer-events: auto;
 }
 
 .ecriture-buttons img {
-    width: 137px !important;  /* ✅ +50% par rapport à 110px */
+    width: 137px !important;  
     height: auto;
-    max-height: 90px;         /* ✅ +50% par rapport à 60px */
+    max-height: 90px;         
     cursor: pointer;
     transition: transform 0.3s ease;
 }
