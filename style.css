@@ -69,7 +69,7 @@ html, body {
   width: 265px;
   height: 1241px;
   z-index: 10;
-  background: url('images/Barreforma.png') no-repeat center center;
+  background: url('images/Barrebouton/Barreforma.png') no-repeat center center;
   pointer-events: auto;
 }
 
