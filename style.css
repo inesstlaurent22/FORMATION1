@@ -18,7 +18,7 @@ html, body {
     position: fixed;
     top: 0;
     left: 0; /* changé de right à left */
-    width: 60%; /* réduction à 60% de la largeur par rapport à son conteneur */
+    width: 929px; /* réduction à 60% de la largeur par rapport à son conteneur */
     height: auto;
     z-index: 1000;
     pointer-events: none;
