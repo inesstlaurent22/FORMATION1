@@ -399,7 +399,7 @@ html, body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel */
 }
 
-.Boutonrouge-button {
+.Boutonrouge1-button {
   position: absolute;
   bottom: 20px;                    /* Distance par rapport au bas */
   left: 50%;                       /* Position horizontale centrée */
@@ -409,7 +409,7 @@ html, body {
   display: block;
 }
 
-.Boutonrouge-button img {
+.Boutonrouge1-button img {
   display: block;
   width: auto;
   height: auto;
