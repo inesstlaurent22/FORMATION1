@@ -46,7 +46,7 @@ html, body {
 }
 
 .ecriture-buttons img {
-    width: 165px !important;  /* ✅ +50% par rapport à 110px */
+    width: 137px !important;  /* ✅ +50% par rapport à 110px */
     height: auto;
     max-height: 90px;         /* ✅ +50% par rapport à 60px */
     cursor: pointer;
