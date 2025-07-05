@@ -83,7 +83,7 @@ html, body {
   height: 100%;   /* hauteur de la barre */
   object-fit: contain;
   z-index: 1;
-  transform: none;  /* enlever la rotation pour qu'elle soit verticale normale */
+  transform: none;  
 }
 
 /* Boutons centrés verticalement et horizontalement dans la barre */
