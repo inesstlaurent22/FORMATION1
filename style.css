@@ -319,6 +319,9 @@ html, body {
 
 
 
+
+
+
 /* CREATION - Page 5 */
 .creation-content {
   position: relative;
@@ -365,6 +368,10 @@ html, body {
   height: auto;
   max-width: 100%;                /* Empêche le débordement sur petit écran */
 }
+
+
+
+
 
 /* LANCEMENT - Page 6 */
 .Lancementfond-content {
@@ -415,6 +422,10 @@ html, body {
   max-width: 100%;                /* Empêche le débordement sur petit écran */
 }
 
+
+
+
+
 /* MARKETING - Page 7 */
 .marketing-content {
   position: relative;
@@ -445,6 +456,27 @@ html, body {
   border-radius: 8px; /* optionnel : arrondir les coins */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
 }
+.Boutonrouge2-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.Boutonrouge2-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
+
+
+
+
 
 /* COMMERCE - Page 8 */
 .commerce-content {
@@ -476,6 +508,25 @@ html, body {
   border-radius: 8px; /* optionnel : arrondir les coins */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
 }
+.Boutonrouge3-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.Boutonrouge3-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
+
+
 
 /* COMMUNICATION - Page 8 */
 .communication-content {
@@ -507,6 +558,26 @@ html, body {
   border-radius: 8px; /* optionnel : arrondir les coins */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
 }
+.Boutonrouge4-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.Boutonrouge4-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
+
+
+
 
 /* COMMERCE - Page 9 */
 .commerce-content {
@@ -538,6 +609,29 @@ html, body {
   border-radius: 8px; /* optionnel : arrondir les coins */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
 }
+.Boutonrouge5-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.Boutonrouge5-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
+
+
+
+
+
+
 
 /* FINANCE - Page 10 */
 .finance-content {
@@ -569,6 +663,26 @@ html, body {
   border-radius: 8px; /* optionnel : arrondir les coins */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
 }
+.Boutonrouge6-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.Boutonrouge6-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
+
+
+
 
 /* LEGAL - Page 8 */
 .legal-content {
@@ -601,3 +715,19 @@ html, body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
 }
 
+.Boutonrouge6-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.Boutonrouge6-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
