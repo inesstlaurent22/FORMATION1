@@ -119,7 +119,7 @@ html, body {
   up: 50%;
   right: 30%;
   transform: translate(-50%, 50%);
-  width: 60%;
+  width: 678px;
   height: auto;
   cursor: pointer;
   z-index: 5;
@@ -148,7 +148,7 @@ html, body {
   position: absolute;               /* Pour positionner précisément sur la scène */
   bottom: 50px;                     /* Distance depuis le bas */
   left: 50%; 
-  width: 15%;                     /* Taille du bouton */
+  width: 401px;                     /* Taille du bouton */
   height: auto;
   display: block;
   z-index: 5;
@@ -178,7 +178,7 @@ html, body {
   position: absolute;
   top: 25%;
   left: 75%;                   
-  width: 10px;                   
+  width: 155px;                   
   height: auto;
   display: block;
   z-index: 5;
@@ -194,7 +194,7 @@ html, body {
   position: absolute;
   bottom: 25%;
   left: 75%;                      
-  width: 10px;                    
+  width: 149px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -231,7 +231,7 @@ html, body {
   top: 50%;                         /* Distance depuis le haut */
   left: 50%;   
   transform: translate(-50%, 50%);
-  width: 300px;                       /* Taille responsive (ou fixe en px si préféré) */
+  width: 140px;                       /* Taille responsive (ou fixe en px si préféré) */
   height: auto;
   display: block;
   z-index: 5;
@@ -256,7 +256,7 @@ html, body {
 }
 
 .form-buttons img {
-  width: 90px;                      /* Taille des boutons */
+  width: 128px;                      /* Taille des boutons */
   height: auto;
   object-fit: contain;
   cursor: pointer;
@@ -280,7 +280,7 @@ html, body {
 }
 
 .doc-buttons img {
-  width: 70px;                      /* Taille des documents */
+  width: 203px;                      /* Taille des documents */
   height: auto;
   object-fit: contain;
   cursor: pointer;
@@ -290,8 +290,6 @@ html, body {
 .doc-buttons img:hover {
   transform: scale(1.05);           /* Animation au survol */
 }
-
-
 
 
 
