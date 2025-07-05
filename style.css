@@ -17,28 +17,29 @@ html, body {
 #barrenav1 {
     position: fixed;
     top: 0;
-    left: 0; 
-    width: 929px; 
+    right: 0; /* ⬅️ positionne la bannière à droite */
+    width: 460px; /* ✅ largeur réduite (~50% de 929px) */
     height: auto;
     z-index: 1000;
     pointer-events: none;
 }
 
-/* Image de fond de la barre (réduite à 60%) */
+/* Image de fond réduite, qui ne dépasse pas le milieu */
 .barrenav1-bg {
     position: relative;
-    width: 80%;
+    width: 100%;  /* prend la largeur du conteneur */
     height: auto;
     object-fit: contain;
     z-index: 1;
     display: block;
 }
 
-/* Conteneur des boutons, centré sur l’image et aligné horizontalement */
+/* Conteneur des boutons, centré dans l'image */
 .ecriture-buttons {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%); /* ✅ centre exactement */
     display: flex;
     flex-direction: row;
     align-items: center;
