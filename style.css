@@ -52,8 +52,8 @@ html, body {
 
 /* Style des boutons (écriture) */
 .ecriture-buttons img {
-    width: auto;
-    height: 15px;
+    width: 30%;
+    height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
