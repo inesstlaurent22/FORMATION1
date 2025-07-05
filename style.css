@@ -204,7 +204,7 @@ html, body {
   position: absolute;
   top: 25%;
   left: 75%;                      /* Décalé de 10% vers la gauche */
-  width: 24px;                    /* Taille réduite (anciennement 30px) */
+  width: 16px;                    /* Taille réduite (anciennement 30px) */
   height: auto;
   display: block;
   z-index: 5;
@@ -220,7 +220,7 @@ html, body {
   position: absolute;
   bottom: 25%;
   left: 75%;                      /* Décalé de 10% vers la gauche */
-  width: 28px;                    /* Taille réduite (anciennement 35px) */
+  width: 16px;                    /* Taille réduite (anciennement 35px) */
   height: auto;
   display: block;
   z-index: 5;
