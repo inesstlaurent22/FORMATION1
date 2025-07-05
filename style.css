@@ -17,68 +17,53 @@ html, body {
 #barrenav1 {
     position: fixed;
     top: 0;
-    right: 0; 
-    width: 300px; 
+    left: 0; /* ✅ déplacé à gauche */
+    width: 250px; /* ✅ largeur réduite */
     height: auto;
     z-index: 1000;
-    pointer-events: none;
+    pointer-events: none; /* permet d'ignorer les clics sauf sur les éléments interactifs */
 }
 
-/* Image de fond réduite, qui ne dépasse pas le milieu */
-#barrenav1 {
-    position: fixed;
-    top: 0; /* 🔽 ajoute un peu d'espace en haut */
-    right: 0; 
-    width: 250px; /* 🔽 réduit encore la largeur */
-    height: auto;
-    z-index: 1000;
-    pointer-events: none;
-}
-
-/* Image de fond de la barre */
 .barrenav1-bg {
     position: relative;
-    width: 80%;
+    width: 80%;   /* ✅ image réduite */
     height: auto;
     object-fit: contain;
     z-index: 1;
     display: block;
 }
 
-/* Conteneur des boutons */
 .ecriture-buttons {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* ✅ aligné horizontalement */
     align-items: center;
     justify-content: center;
     gap: 12px;
     width: 100%;
     z-index: 2;
-    pointer-events: auto;
+    pointer-events: auto; /* ✅ active les clics */
 }
 
-/* Boutons image */
 .ecriture-buttons img {
-    width: 22px; /* 🔽 réduit encore l’image */
+    width: 22px; /* ✅ plus petit */
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
-/* Texte à côté ou dans les boutons (optionnel si tu ajoutes du texte) */
-.ecriture-buttons span {
-    font-size: 18px; /* 🔼 texte plus grand */
-    font-weight: bold;
-    color: #000; /* ou une autre couleur si ton fond est sombre */
-    margin-left: 5px;
-}
-
 .ecriture-buttons img:hover {
     transform: scale(1.1);
+}
+
+.ecriture-buttons span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 5px;
 }
 
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
