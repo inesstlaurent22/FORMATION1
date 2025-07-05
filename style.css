@@ -33,11 +33,11 @@ html, body {
 }
 .ecriture-buttons {
     position: absolute;
-    top: 50%;               /* ✅ centre verticalement */
-    left: 50%;              /* ✅ centre horizontalement */
-    transform: translate(-50%, -50%);  /* ✅ recentre exactement */
+    top: 50%;               /* centre verticalement */
+    left: 50%;              /* centre horizontalement */
+    transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column; /* ✅ empile les boutons verticalement */
+    flex-direction: column; /* ✅ empile verticalement */
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -45,10 +45,11 @@ html, body {
     pointer-events: auto;
 }
 
+/* Réduction de 5% par rapport à 137px = 130px */
 .ecriture-buttons img {
-    width: 137px !important;  
+    width: 130px !important;  
     height: auto;
-    max-height: 90px;         
+    max-height: 85px;         
     cursor: pointer;
     transition: transform 0.3s ease;
 }
