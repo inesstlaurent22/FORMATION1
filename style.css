@@ -25,41 +25,60 @@ html, body {
 }
 
 /* Image de fond réduite, qui ne dépasse pas le milieu */
+#barrenav1 {
+    position: fixed;
+    top: 20px; /* 🔽 ajoute un peu d'espace en haut */
+    right: 0; 
+    width: 250px; /* 🔽 réduit encore la largeur */
+    height: auto;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+/* Image de fond de la barre */
 .barrenav1-bg {
     position: relative;
-    width: 100%;  /* prend la largeur du conteneur */
+    width: 100%;
     height: auto;
     object-fit: contain;
     z-index: 1;
     display: block;
 }
 
-/* Conteneur des boutons, centré dans l'image */
+/* Conteneur des boutons */
 .ecriture-buttons {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* ✅ centre exactement */
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     width: 100%;
     z-index: 2;
     pointer-events: auto;
 }
 
-/* Style des boutons (écriture) */
+/* Boutons image */
 .ecriture-buttons img {
-    width: 30px;
+    width: 22px; /* 🔽 réduit encore l’image */
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
+/* Texte à côté ou dans les boutons (optionnel si tu ajoutes du texte) */
+.ecriture-buttons span {
+    font-size: 18px; /* 🔼 texte plus grand */
+    font-weight: bold;
+    color: #000; /* ou une autre couleur si ton fond est sombre */
+    margin-left: 5px;
+}
+
 .ecriture-buttons img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
