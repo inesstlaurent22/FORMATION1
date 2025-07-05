@@ -49,11 +49,10 @@ html, body {
 
 /* --- STYLE DES BOUTONS --- */
 .ecriture-buttons img {
-    width: 60px; /* taille ajustée */
+    border: 2px solid red; /* pour tester visuellement */
+    width: 20px !important;
     height: auto;
-    max-height: 40px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+    max-height: 50px;
 }
 
 .ecriture-buttons img:hover {
