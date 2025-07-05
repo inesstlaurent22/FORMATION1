@@ -24,7 +24,6 @@ html, body {
     pointer-events: none;
 }
 
-/* --- IMAGE DE FOND (réduite à 80%) --- */
 .barrenav1-bg {
     position: absolute;
     width: 80%; /* ✅ réduite à 80% */
@@ -33,7 +32,6 @@ html, body {
     z-index: 1;
 }
 
-/* --- CONTENEUR DES BOUTONS (plus haut et à gauche) --- */
 .ecriture-buttons {
     position: absolute;
     top: 5%;   /* ✅ plus haut */
@@ -47,7 +45,6 @@ html, body {
     pointer-events: auto;
 }
 
-/* --- STYLE DES BOUTONS (plus grands) --- */
 .ecriture-buttons img {
     width: 40px !important;  /* ✅ augmentée */
     height: auto;
@@ -56,10 +53,12 @@ html, body {
     transition: transform 0.3s ease;
 }
 
-/* --- EFFET AU SURVOL --- */
 .ecriture-buttons img:hover {
     transform: scale(1.1);
 }
+
+
+
 
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
 #barrenav2 {
