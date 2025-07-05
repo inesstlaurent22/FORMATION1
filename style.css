@@ -58,9 +58,8 @@ html, body {
   transform: scale(1.05);
 }
 
-/* --- BARRE VERTICALE À GAUCHE --- */
 /* --- BARRE VERTICALE COLLÉE À GAUCHE --- */
-#navbar {
+#barreform {
   position: fixed;
   top: 0;
   left: 0;
@@ -72,7 +71,7 @@ html, body {
 }
 
 /* Image de fond de la barre (ex : Component12.png) */
-.navbar-bg {
+.barreform-bg {
   position: absolute;
   width: 100%;
   height: 100%;
