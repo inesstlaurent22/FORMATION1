@@ -58,18 +58,17 @@ html, body {
   transform: scale(1.05);
 }
 
-/* BARRE DE FORMATION VERTICALE À GAUCHE */
+/* --- BARRE VERTICALE À GAUCHE --- */
 #barreform {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100px;       /* largeur réduite pour barre verticale */
-  height: 100vh;       /* toute la hauteur de l’écran */
+  width: 100px;            /* Largeur de la barre */
+  height: 100vh;           /* Hauteur complète de l'écran */
   z-index: 10;
   background: transparent;
   pointer-events: auto;
 }
-
 .barreform-bg {
   position: absolute;
   width: 100%;
@@ -82,43 +81,17 @@ html, body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);   /* Centre vertical et horizontal */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;             /* Aligne les boutons en colonne */
   align-items: center;
-  gap: 12px;
+  gap: 20px;                           /* Espacement entre les boutons */
   z-index: 2;
   pointer-events: auto;
 }
 
 .barreform-buttons img {
-  width: 70px;
-  height: auto;
-  object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.barreform-buttons img:hover {
-  transform: scale(1.05);
-}
-
-/* Affichage vertical des boutons */
-.barreform-buttons {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column; /* vertical au lieu de row */
-  align-items: center;
-  gap: 20px;
-  z-index: 2;
-  pointer-events: auto;
-}
-
-.barreform-buttons img {
-  width: 40px; /* légèrement plus petit si nécessaire */
+  width: 60px;        /* Anciennement 70px, réduit de ~15% */
   height: auto;
   object-fit: contain;
   cursor: pointer;
