@@ -76,7 +76,7 @@ html, body {
   height: 100%;
   object-fit: contain;
   z-index: 1;
-  transform: rotate(90deg); /* à adapter selon ton image */
+  transform: rotate(180deg); /* à adapter selon ton image */
 }
 
 .formation-buttons {
