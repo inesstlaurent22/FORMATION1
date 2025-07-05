@@ -349,6 +349,23 @@ html, body {
   margin-bottom: 10px;    /* espace entre les images */
 }
 
+.Boutonrouge-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.Boutonrouge-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
 /* LANCEMENT - Page 6 */
 .Lancementfond-content {
   position: relative;
@@ -380,6 +397,23 @@ html, body {
   image-rendering: auto; /* pour garder la netteté */
   border-radius: 8px; /* optionnel */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel */
+}
+
+.Boutonrouge-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.Boutonrouge-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
 }
 
 /* MARKETING - Page 7 */
