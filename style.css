@@ -18,8 +18,8 @@ html, body {
     position: fixed;
     top: 0;
     left: 0; /* ✅ passe de right à left */
-    width: 20vw; /* ✅ 20% de la largeur de l'écran */
-    height: 40vh; /* ✅ 40% de la hauteur de l'écran */
+    width: 10vw; /* ✅ 20% de la largeur de l'écran */
+    height: 20vh; /* ✅ 40% de la hauteur de l'écran */
     z-index: 1000;
     pointer-events: none;
 }
