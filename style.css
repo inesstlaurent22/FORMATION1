@@ -48,8 +48,8 @@ html, body {
 }
 
 .ecriture-buttons img {
-    width: 90px !important;       
-    height: auto;
+    width: 73px !important;       
+    height: 39px;
     max-height: 85px;
     cursor: pointer;
     transition: transform 0.3s ease;
