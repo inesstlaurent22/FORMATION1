@@ -18,7 +18,7 @@ html, body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 929px;    /* ✅ largeur exacte de l’image */
+    width: 729px;    /* ✅ largeur exacte de l’image */
     height: 173px;   /* ✅ hauteur exacte de l’image */
     z-index: 10;
     pointer-events: none;
