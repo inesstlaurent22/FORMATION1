@@ -49,7 +49,7 @@ html, body {
 
 .ecriture-buttons img {
     width: 73px !important;       
-    height: 39px;
+    height: auto;
     max-height: 85px;
     cursor: pointer;
     transition: transform 0.3s ease;
