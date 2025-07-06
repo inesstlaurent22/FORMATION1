@@ -34,8 +34,8 @@ html, body {
 
 .ecriture-buttons {
     position: absolute;
-    top: 40%;                      /* centre verticalement */
-    left: 40%;                     /* centre horizontalement */
+    top: 45%;                      /* centre verticalement */
+    left: 45%;                     /* centre horizontalement */
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: row;           /* ✅ alignement horizontal */
@@ -48,7 +48,7 @@ html, body {
 }
 
 .ecriture-buttons img {
-    width: 73px !important;       
+    width: 90px !important;       
     height: auto;
     max-height: 85px;
     cursor: pointer;
