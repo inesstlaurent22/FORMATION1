@@ -146,9 +146,9 @@ html, body {
 
 .carteimage-button {
   position: absolute;
-  bottom: 25%;
-  left: 75%;                      
-  width: 149px;                    
+  bottom: 10%;
+  right: 20%;                      
+  width: 119px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -177,9 +177,9 @@ html, body {
 
 .creation2-button {
   position: absolute;
-  top: 25%;
-  left: 75%;                   
-  width: 115px;                   
+  top: 22%;
+  left: 80%;                   
+  width: 125px;                   
   height: auto;
   display: block;
   z-index: 5;
@@ -193,9 +193,9 @@ html, body {
 
 .lancement2-button {
   position: absolute;
-  bottom: 25%;
-  left: 75%;                      
-  width: 115px;                    
+  bottom: 15%;
+  left: 80%;                      
+  width: 125px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -224,8 +224,8 @@ html, body {
 
 .parchemin-button {
   position: absolute;               /* Pour positionner précisément */
-  top: 50%;                         /* Distance depuis le haut */
-  left: 50%;   
+  bottom: 5%;                         /* Distance depuis le haut */
+  right: 50%;   
   transform: translate(-50%, 50%);
   width: 140px;                       /* Taille responsive (ou fixe en px si préféré) */
   height: auto;
@@ -242,17 +242,17 @@ html, body {
 .form-buttons {
   position: absolute;               /* Pour placement précis sur la scène */
   bottom: 20%;                      /* Distance depuis le bas */
-  left: 48%;                        /* Position horizontale */
+  left: 10%;                        /* Position horizontale */
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
   z-index: 2;
   pointer-events: auto;
 }
 
 .form-buttons img {
-  width: 128px;                      /* Taille des boutons */
+  width: 180px;                      /* Taille des boutons */
   height: auto;
   object-fit: contain;
   cursor: pointer;
@@ -265,18 +265,18 @@ html, body {
 
 .doc-buttons {
   position: absolute;               /* Positionnement précis sur l’image de fond */
-  top: 19%;                         /* Position verticale depuis le haut */
-  left: 45%;                        /* Position horizontale */
+  top: 20%;                         /* Position verticale depuis le haut */
+  left: 20%;                        /* Position horizontale */
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;                        /* Espacement entre les icônes */
+  gap: 4px;                        /* Espacement entre les icônes */
   z-index: 2;
   pointer-events: auto;
 }
 
 .doc-buttons img {
-  width: 203px;                      /* Taille des documents */
+  width: 163px;                      /* Taille des documents */
   height: auto;
   object-fit: contain;
   cursor: pointer;
