@@ -117,8 +117,8 @@ html, body {
 .treasure-button {
   position: absolute;
   bottom: 25%;
-  left: 25%;                      
-  width: 549px;                    
+  left: 45%;                      
+  width: 849px;                    
   height: auto;
   display: block;
   z-index: 5;
