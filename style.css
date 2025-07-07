@@ -179,7 +179,7 @@ html, body {
   position: absolute;
   top: 25%;
   left: 75%;                   
-  width: 155px;                   
+  width: 115px;                   
   height: auto;
   display: block;
   z-index: 5;
@@ -195,7 +195,7 @@ html, body {
   position: absolute;
   bottom: 25%;
   left: 75%;                      
-  width: 149px;                    
+  width: 115px;                    
   height: auto;
   display: block;
   z-index: 5;
