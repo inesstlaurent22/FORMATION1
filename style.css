@@ -409,7 +409,7 @@ html, body {
 
 .formmarketing-button {
   position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
+  top: 50%;                    /* Distance par rapport au bas */
   left: 50%;                       /* Position horizontale centrée */
   transform: translateX(-50%);     /* Correction pour centrer parfaitement */
   z-index: 10;
@@ -426,8 +426,8 @@ html, body {
 
 .formcommunication-button {
   position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
+  top: 50%;                    /* Distance par rapport au bas */
+  left: 60%;                       /* Position horizontale centrée */
   transform: translateX(-50%);     /* Correction pour centrer parfaitement */
   z-index: 10;
   cursor: pointer;
@@ -443,8 +443,8 @@ html, body {
 
 .formcommerce-button {
   position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
+  top: 50%;                    /* Distance par rapport au bas */
+  left: 70%;                       /* Position horizontale centrée */
   transform: translateX(-50%);     /* Correction pour centrer parfaitement */
   z-index: 10;
   cursor: pointer;
@@ -460,7 +460,7 @@ html, body {
 
 .formfinance-button {
   position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
+  bottom: 60%;                    /* Distance par rapport au bas */
   left: 50%;                       /* Position horizontale centrée */
   transform: translateX(-50%);     /* Correction pour centrer parfaitement */
   z-index: 10;
@@ -477,8 +477,8 @@ html, body {
 
 .formlegal-button {
   position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
+  bottom: 60%;                    /* Distance par rapport au bas */
+  left: 70%;                       /* Position horizontale centrée */
   transform: translateX(-50%);     /* Correction pour centrer parfaitement */
   z-index: 10;
   cursor: pointer;
