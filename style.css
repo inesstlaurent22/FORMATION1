@@ -89,14 +89,13 @@ html, body {
     object-fit: contain; /* ou 'cover' si tu veux forcer le remplissage complet */
     z-index: 1;
 }
-
 .formation-buttons {
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;   /* ✅ empile les boutons verticalement */
     justify-content: center;
     align-items: center;
     gap: 1cm;
@@ -107,8 +106,8 @@ html, body {
 
 .formation-buttons img {
     width: 90px !important;
-    height: 85px !important;              /* ✅ fixe aussi la hauteur */
-    object-fit: contain;                 /* ✅ ajuste sans déformation */
+    height: 85px !important;
+    object-fit: contain;
     cursor: pointer;
     transition: transform 0.3s ease;
     display: block;
