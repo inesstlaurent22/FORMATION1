@@ -362,6 +362,22 @@ html, body {
   max-width: none;  /* Désactive la contrainte de débordement */
 }
 
+.Businessplan-button {
+  position: absolute;
+  top: 20px;        /* Distance depuis le haut */
+  right: 20px;      /* Distance depuis la droite */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+  transform: none;  /* Plus besoin de translate */
+}
+
+.Businessplan-button img {
+  display: block;
+  width: auto;      /* Taille d'origine */
+  height: auto;     /* Taille d'origine */
+  max-width: none;  /* Désactive la contrainte de débordement */
+}
 
 
 
