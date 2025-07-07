@@ -81,8 +81,8 @@ html, body {
 
 .formation-buttons {
     position: absolute;
-    top: 40%;      
-    left: 40%;       /* ajuste horizontalement */
+    top: 20%;      
+    left: 20%;       /* ajuste horizontalement */
     display: flex;
     flex-direction: column;
     justify-content: center;
