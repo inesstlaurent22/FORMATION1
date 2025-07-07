@@ -118,7 +118,7 @@ html, body {
   position: absolute;
   bottom: 25%;
   left: 75%;                      
-  width: 649px;                    
+  width: 549px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -139,7 +139,7 @@ html, body {
   height: auto;
 }
 
-.background {
+.Start-background {
   width: 100%;
   display: block;
 }
