@@ -413,6 +413,91 @@ html, body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel */
 }
 
+.formmarketing-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.formmarketing-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
+.formcommunication-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.formcommunication-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
+.formcommerce-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.formcommerce-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
+.formfinance-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.formfinance-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
+.formlegal-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.formlegal-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
 .Boutonrouge1-button {
   position: absolute;
   bottom: 20px;                    /* Distance par rapport au bas */
