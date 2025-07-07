@@ -581,6 +581,23 @@ html, body {
   max-width: 100%;                /* Empêche le débordement sur petit écran */
 }
 
+.Retour-button {
+  position: absolute;
+  bottom: 20px;                    /* Distance par rapport au bas */
+  left: 50%;                       /* Position horizontale centrée */
+  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
+  z-index: 10;
+  cursor: pointer;
+  display: block;
+}
+
+.Retour-button img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;                /* Empêche le débordement sur petit écran */
+}
+
 
 
 
