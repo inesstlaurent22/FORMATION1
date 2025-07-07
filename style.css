@@ -65,8 +65,8 @@ html, body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 794px;    /* ✅ largeur exacte de l’image */
-    height: 215px;   /* ✅ hauteur exacte de l’image */
+    width: 687px;    /* ✅ largeur exacte de l’image */
+    height: 130px;   /* ✅ hauteur exacte de l’image */
     z-index: 10;
     pointer-events: none;
 }
@@ -79,28 +79,9 @@ html, body {
     z-index: 1;
 }
 
-.barrenav2-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* ou 'cover' si tu veux forcer le remplissage complet */
-    z-index: 1;
-}
-#barrenav2 {
-    position: relative; /* ✅ sert de référence aux éléments internes */
-    width: 929px;       /* ✅ dimensions de l’image */
-    height: 173px;
-}
-
-.barrenav2-bg {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
 .formation-buttons {
     position: absolute;
-    top: 10%;       /* ajuste verticalement */
+    top: 30%;       /* ajuste verticalement */
     left: 5%;       /* ajuste horizontalement */
     display: flex;
     flex-direction: column;
