@@ -86,13 +86,13 @@ html, body {
     object-fit: contain; /* ou 'cover' si tu veux forcer le remplissage complet */
     z-index: 1;
 }
-#bannnav2 {
+#barrenav2 {
     position: relative; /* ✅ sert de référence aux éléments internes */
     width: 929px;       /* ✅ dimensions de l’image */
     height: 173px;
 }
 
-.navbar-bg {
+.barrenav2-bg {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -138,19 +138,20 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  up: 50%;
-  right: 30%;
-  transform: translate(-50%, 50%);
-  width: 678px;
+  bottom: 25%;
+  left: 75%;                      
+  width: 149px;                    
   height: auto;
-  cursor: pointer;
+  display: block;
   z-index: 5;
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.treasure-buttons img:hover {
-    transform: scale(1.05);
+.treasure-button:hover {
+  transform: scale(1.05);
 }
+
 
 
 /* START - Page 2 */
@@ -167,10 +168,10 @@ html, body {
 }
 
 .carteimage-button {
-  position: absolute;               /* Pour positionner précisément sur la scène */
-  bottom: 50px;                     /* Distance depuis le bas */
-  left: 50%; 
-  width: 401px;                     /* Taille du bouton */
+  position: absolute;
+  bottom: 25%;
+  left: 75%;                      
+  width: 149px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -178,8 +179,8 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.carteimage-buttons img:hover {
-    transform: scale(1.05);
+.carteimage-button:hover {
+  transform: scale(1.05);
 }
 
 
