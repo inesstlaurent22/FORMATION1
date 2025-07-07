@@ -86,17 +86,27 @@ html, body {
     object-fit: contain; /* ou 'cover' si tu veux forcer le remplissage complet */
     z-index: 1;
 }
+#bannnav2 {
+    position: relative; /* ✅ sert de référence aux éléments internes */
+    width: 929px;       /* ✅ dimensions de l’image */
+    height: 173px;
+}
+
+.navbar-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
 .formation-buttons {
     position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 10%;       /* ajuste verticalement */
+    left: 5%;       /* ajuste horizontalement */
     display: flex;
-    flex-direction: column;   /* ✅ empile les boutons verticalement */
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 1cm;
-    width: 100%;
     z-index: 2;
     pointer-events: auto;
 }
