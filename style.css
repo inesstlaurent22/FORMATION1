@@ -408,7 +408,7 @@ html, body {
 
 .formmarketing-button {
   position: absolute;
-  top: 50%;                    /* Distance par rapport au bas */
+  bottom:80%;                    /* Distance par rapport au bas */
   left: 50%;                       /* Position horizontale centrée */
   transform: translateX(-50%);     /* Correction pour centrer parfaitement */
   z-index: 10;
@@ -425,7 +425,7 @@ html, body {
 
 .formcommunication-button {
   position: absolute;
-  top: 50%;                    /* Distance par rapport au bas */
+  bottom: 90%;                    /* Distance par rapport au bas */
   left: 60%;                       /* Position horizontale centrée */
   transform: translateX(-50%);     /* Correction pour centrer parfaitement */
   z-index: 10;
@@ -442,7 +442,7 @@ html, body {
 
 .formcommerce-button {
   position: absolute;
-  top: 50%;                    /* Distance par rapport au bas */
+  bottom: 110%;                    /* Distance par rapport au bas */
   left: 70%;                       /* Position horizontale centrée */
   transform: translateX(-50%);     /* Correction pour centrer parfaitement */
   z-index: 10;
