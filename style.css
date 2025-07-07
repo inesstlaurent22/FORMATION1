@@ -546,6 +546,7 @@ html, body {
   border-radius: 8px; /* optionnel : arrondir les coins */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
 }
+
 .Boutonrouge2-button {
   position: absolute;
   bottom: 20px;                    /* Distance par rapport au bas */
@@ -562,6 +563,7 @@ html, body {
   height: auto;
   max-width: 100%;                /* Empêche le débordement sur petit écran */
 }
+
 .Flyers-button {
   position: absolute;
   bottom: 20px;                    /* Distance par rapport au bas */
