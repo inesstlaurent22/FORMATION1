@@ -65,9 +65,9 @@ html, body {
     position: fixed;
     top: 0;
     right: 0;
-    width: 650px; /* moitié de 1300px */
-    height: 100px; /* moitié de 200px */
-    z-index: 1000;
+    width: 350px; 
+    height: 100px; 
+    z-index: 10;
     pointer-events: none;
 }
 
