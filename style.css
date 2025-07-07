@@ -177,6 +177,7 @@ html, body {
   width: 100%;
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
+
 .creation2-button {
   position: absolute;
   top: 25%;
@@ -223,12 +224,7 @@ html, body {
   width: 100%;
   height: auto; /* permet de scroller selon la hauteur de l'image */
 }
-.sacados-container {
-  position: relative;
-  width: 100%;
-  max-width: 1200px; /* ou une largeur fixe adaptée à ton image */
-  margin: 0 auto;
-}
+
 .parchemin-button {
   position: absolute;               /* Pour positionner précisément */
   top: 50%;                         /* Distance depuis le haut */
