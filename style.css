@@ -116,9 +116,9 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  top: 20%;
+  top: 10%;
   right: 15%;                      
-  width: 1049px;                    
+  width: 889px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -178,7 +178,7 @@ html, body {
   position: absolute;
   top: 22%;
   left: 80%;                   
-  width: 105px;                   
+  width: 95px;                   
   height: auto;
   display: block;
   z-index: 5;
@@ -194,7 +194,7 @@ html, body {
   position: absolute;
   bottom: 32%;
   left: 79%;                      
-  width: 105px;                    
+  width: 75px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -240,12 +240,12 @@ html, body {
 
 .form-buttons {
   position: absolute;               /* Pour placement précis sur la scène */
-  bottom: 15%;                      /* Distance depuis le bas */
+  bottom: 85%;                      /* Distance depuis le bas */
   left: 23%;                        /* Position horizontale */
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 6px;
+  gap: 9px;
   z-index: 2;
   pointer-events: auto;
 }
