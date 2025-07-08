@@ -118,7 +118,7 @@ html, body {
   position: absolute;
   top: 20%;
   right: 15%;                      
-  width: 1449px;                    
+  width: 1049px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -148,7 +148,7 @@ html, body {
   position: absolute;
   bottom: 10%;
   right: 10%;
-  width: 340px;
+  width: 240px;
   height: auto;
   z-index: 2;
   cursor: pointer;
@@ -223,8 +223,8 @@ html, body {
 
 .parchemin-button {
   position: absolute;               /* Pour positionner précisément */
-  top: 100%;                         /* Distance depuis le haut */
-  left: 30%;   
+  bottom: 10%;                         /* Distance depuis le haut */
+  left: 60%;   
   transform: translate(-50%, 50%);
   width: 240px;                       /* Taille responsive (ou fixe en px si préféré) */
   height: auto;
@@ -241,7 +241,7 @@ html, body {
 .form-buttons {
   position: absolute;               /* Pour placement précis sur la scène */
   bottom: 15%;                      /* Distance depuis le bas */
-  left: 29%;                        /* Position horizontale */
+  left: 23%;                        /* Position horizontale */
   display: flex;
   flex-direction: row;
   align-items: center;
