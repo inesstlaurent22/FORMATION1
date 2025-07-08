@@ -320,7 +320,7 @@ html, body {
 /* Bouton rouge */
 .Boutonrouge-button {
   position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
+  bottom: 100px;                    /* Distance par rapport au bas */
   left: 50%;                       /* Position horizontale centrée */
   transform: translateX(-50%);     /* Correction pour centrer parfaitement */
   z-index: 10;
@@ -338,7 +338,7 @@ html, body {
 /* Bouton retour - taille d'origine et position en haut à droite */
 .retour-button {
   position: absolute;
-  top: 20px;        /* Distance depuis le haut */
+  top: 60px;        /* Distance depuis le haut */
   right: 20px;      /* Distance depuis la droite */
   z-index: 10;
   cursor: pointer;
