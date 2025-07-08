@@ -238,7 +238,29 @@ html, body {
 .parchemin-button img:hover {
   transform: scale(1.05);           /* Animation au survol */
 }
+.form-buttons {
+  position: absolute;               /* Positionnement précis sur l’image de fond */
+  top: 70%;                         /* Position verticale depuis le haut */
+  left: 15%;                        /* Position horizontale */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;                        /* Espacement entre les icônes */
+  z-index: 2;
+  pointer-events: auto;
+}
 
+.form-buttons img {
+  width: 113px;                      /* Taille des documents */
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.form-buttons img:hover {
+  transform: scale(1.05);           /* Animation au survol */
+}
 .doc-buttons {
   position: absolute;               /* Positionnement précis sur l’image de fond */
   top: 10%;                         /* Position verticale depuis le haut */
