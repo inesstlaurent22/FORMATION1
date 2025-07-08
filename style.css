@@ -136,7 +136,7 @@ html, body {
 .fond-start-content {
   position: relative;
   z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
+  padding-top: 100px; /* espace pour la barre de navigation */
 }
 
 .fond-start-image {
