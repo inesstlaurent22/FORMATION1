@@ -137,12 +137,17 @@ html, body {
   position: relative;
   z-index: 1;
   padding-top: 120px; /* espace pour la barre de navigation */
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .fond-start-image {
   display: block;
   width: 100%;
-  height: auto; /* permet de scroller selon la hauteur de l'image */
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* empêche la coupe */
 }
 
 /* Bouton Carte positionné correctement */
