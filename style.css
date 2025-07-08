@@ -118,7 +118,7 @@ html, body {
   position: absolute;
   top: 10%;
   right: 20%;                      
-  width: 1889px;                    
+  width: 1729px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -179,7 +179,7 @@ html, body {
   position: absolute;
   top: 20%;
   left: 80%;                   
-  width: 75px;                   
+  width: 60px;                  
   height: auto;
   display: block;
   z-index: 5;
@@ -195,7 +195,7 @@ html, body {
   position: absolute;
   bottom: 28%;
   left: 79%;                      
-  width: 75px;                    
+  width: 60px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -227,7 +227,7 @@ html, body {
   top: 80%;                         /* Distance depuis le haut */
   left: 60%;   
   transform: translate(-50%, 50%);
-  width: 440px;                       /* Taille responsive (ou fixe en px si préféré) */
+  width: 580px;                     
   height: auto;
   display: block;
   z-index: 5;
@@ -251,7 +251,7 @@ html, body {
 }
 
 .form-buttons img {
-  width: 213px;                      /* Taille des documents */
+  width: 103px;                      /* Taille des documents */
   height: auto;
   object-fit: contain;
   cursor: pointer;
@@ -274,7 +274,7 @@ html, body {
 }
 
 .doc-buttons img {
-  width: 283px;                      /* Taille des documents */
+  width: 243px;                      /* Taille des documents */
   height: auto;
   object-fit: contain;
   cursor: pointer;
