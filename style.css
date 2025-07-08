@@ -116,9 +116,9 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  top: 15%;
-  right: 45%;                      
-  width: 1649px;                    
+  top: 20%;
+  right: 15%;                      
+  width: 1449px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -133,29 +133,22 @@ html, body {
 
 
 /* START - Page 2 */
-.fond-start-content {
+.fond-start {
   position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
   width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-.fond-start-image {
-  display: block;
-  width: 100%;
-  max-width: 100%;
   height: auto;
-  object-fit: contain; /* empêche la coupe */
 }
 
-/* Bouton Carte positionné correctement */
+.fond-start-background {
+  width: 100%;
+  display: block;
+}
+
 .carteimage-button {
   position: absolute;
   bottom: 10%;
   right: 10%;
-  width: 69px;
+  width: 340px;
   height: auto;
   z-index: 2;
   cursor: pointer;
@@ -185,7 +178,7 @@ html, body {
   position: absolute;
   top: 22%;
   left: 80%;                   
-  width: 125px;                   
+  width: 105px;                   
   height: auto;
   display: block;
   z-index: 5;
@@ -201,7 +194,7 @@ html, body {
   position: absolute;
   bottom: 32%;
   left: 79%;                      
-  width: 125px;                    
+  width: 105px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -233,7 +226,7 @@ html, body {
   top: 100%;                         /* Distance depuis le haut */
   left: 30%;   
   transform: translate(-50%, 50%);
-  width: 840px;                       /* Taille responsive (ou fixe en px si préféré) */
+  width: 240px;                       /* Taille responsive (ou fixe en px si préféré) */
   height: auto;
   display: block;
   z-index: 5;
@@ -258,7 +251,7 @@ html, body {
 }
 
 .form-buttons img {
-  width: 180px;                      /* Taille des boutons */
+  width: 120px;                      /* Taille des boutons */
   height: auto;
   object-fit: contain;
   cursor: pointer;
@@ -282,7 +275,7 @@ html, body {
 }
 
 .doc-buttons img {
-  width: 163px;                      /* Taille des documents */
+  width: 123px;                      /* Taille des documents */
   height: auto;
   object-fit: contain;
   cursor: pointer;
