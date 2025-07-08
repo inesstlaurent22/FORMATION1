@@ -225,10 +225,10 @@ html, body {
 
 .parchemin-button {
   position: absolute;               /* Pour positionner précisément */
-  top: 5%;                         /* Distance depuis le haut */
-  left: 50%;   
+  top: 90%;                         /* Distance depuis le haut */
+  left: 80%;   
   transform: translate(-50%, 50%);
-  width: 140px;                       /* Taille responsive (ou fixe en px si préféré) */
+  width: 440px;                       /* Taille responsive (ou fixe en px si préféré) */
   height: auto;
   display: block;
   z-index: 5;
