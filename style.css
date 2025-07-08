@@ -118,7 +118,7 @@ html, body {
   position: absolute;
   top: 15%;
   right: 45%;                      
-  width: 1149px;                    
+  width: 1649px;                    
   height: auto;
   display: block;
   z-index: 5;
@@ -199,7 +199,7 @@ html, body {
 
 .lancement2-button {
   position: absolute;
-  bottom: 28%;
+  bottom: 32%;
   left: 79%;                      
   width: 125px;                    
   height: auto;
@@ -248,7 +248,7 @@ html, body {
 .form-buttons {
   position: absolute;               /* Pour placement précis sur la scène */
   bottom: 15%;                      /* Distance depuis le bas */
-  left: 25%;                        /* Position horizontale */
+  left: 29%;                        /* Position horizontale */
   display: flex;
   flex-direction: row;
   align-items: center;
