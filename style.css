@@ -232,11 +232,11 @@ html, body {
 
 .parchemin-button {
   position: absolute;               /* Pour positionner précisément */
-  top: 80%;                         /* Distance depuis le haut */
-  left: 60%;   
+  top: 893px;                         /* Distance depuis le haut */
+  left: 702px;   
   transform: translate(-50%, 50%);
-  width: 1180px;                     
-  height: auto;
+  width: 254px;                     
+  height: 115px;
   display: block;
   z-index: 5;
   cursor: pointer;
@@ -246,18 +246,18 @@ html, body {
 .parchemin-button img:hover {
   transform: scale(1.05);           /* Animation au survol */
 }
-.form-buttons {
-  position: absolute;               /* Positionnement précis sur l’image de fond */
-  top: 70%;                         /* Position verticale depuis le haut */
-  left: 15%;                        /* Position horizontale */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 9px;                        /* Espacement entre les icônes */
-  z-index: 2;
-  pointer-events: auto;
-}
 
+.form-button {
+  position: absolute;
+  top: 18822px;
+  left: 3675px;
+  width: 1027px;
+  height: 208px;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
 .form-buttons img {
   width: 253px;                      /* Taille des documents */
   height: auto;
@@ -269,10 +269,11 @@ html, body {
 .form-buttons img:hover {
   transform: scale(1.05);           /* Animation au survol */
 }
-.doc-buttons {
+
+.charte-buttons {
   position: absolute;               /* Positionnement précis sur l’image de fond */
-  top: 10%;                         /* Position verticale depuis le haut */
-  left: 22%;                        /* Position horizontale */
+  top: 117px;                         /* Position verticale depuis le haut */
+  left: 323px;                        /* Position horizontale */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -281,15 +282,61 @@ html, body {
   pointer-events: auto;
 }
 
-.doc-buttons img {
-  width: 113px;                      /* Taille des documents */
-  height: auto;
+.charte-buttons img {
+  width: 183px;                      /* Taille des documents */
+  height: 219px;
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.doc-buttons img:hover {
+.charte-buttons img:hover {
+  transform: scale(1.05);           /* Animation au survol */
+}
+.businessplan-buttons {
+  position: absolute;               /* Positionnement précis sur l’image de fond */
+  top: 112px;                         /* Position verticale depuis le haut */
+  left: 480px;                        /* Position horizontale */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;                        /* Espacement entre les icônes */
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.businessplan-buttons img {
+  width: 179px;                      /* Taille des documents */
+  height: 213px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.businessplan-buttons img:hover {
+  transform: scale(1.05);           /* Animation au survol */
+}
+.flyers-buttons {
+  position: absolute;               /* Positionnement précis sur l’image de fond */
+  top: 117px;                         /* Position verticale depuis le haut */
+  left: 646px;                        /* Position horizontale */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;                        /* Espacement entre les icônes */
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.flyers-buttons img {
+  width: 162px;                      /* Taille des documents */
+  height: 208px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.flyers-buttons img:hover {
   transform: scale(1.05);           /* Animation au survol */
 }
 
