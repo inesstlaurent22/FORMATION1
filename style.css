@@ -116,13 +116,10 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  top: 14%;
-  right: 40%;                      
-  width: 1579px;                    
-  height: auto;
-  display: block;
-  z-index: 5;
-  cursor: pointer;
+  top: 43vh;       /* Ajuste selon ton écran */
+  left: 52vw;      /* Place le bouton sur le coffre du fond */
+  width: 100px;
+  z-index: 2;
   transition: transform 0.3s ease;
 }
 
