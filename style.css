@@ -130,7 +130,7 @@ html, body {
 
 
 /* START - Page 2 */
-.fondstart {
+.fond-start {
   position: absolute;
   top: 0;
   left: 0;
@@ -179,10 +179,10 @@ html, body {
 
 .creation2-button {
   position: absolute;
-  top: 20%;
-  left: 83%;                   
-  width: 50px;                  
-  height: auto;
+  top: 241px;
+  left: 1152px;
+  width: 135px;
+  height: 148px;
   display: block;
   z-index: 5;
   cursor: pointer;
@@ -195,10 +195,10 @@ html, body {
 
 .lancement2-button {
   position: absolute;
-  bottom: 24%;
-  left: 79%;                      
-  width: 50px;                    
-  height: auto;
+  top: 470px;
+  left: 1152px;
+  width: 135px;
+  height: 148px;
   display: block;
   z-index: 5;
   cursor: pointer;
