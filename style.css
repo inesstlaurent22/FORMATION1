@@ -118,7 +118,7 @@ html, body {
 .treasure-button {
   position: absolute;
   top: 177px;
-  left: 579px;
+  left: 379px;
   width: 1033px;
   height: 1097px;
   display: block;
@@ -129,6 +129,7 @@ html, body {
 
 .treasure-button:hover {
   transform: scale(1.05);
+  filter: brightness(1.4); /* rend l’image 40% plus lumineuse */
 }
 
 /* PAGE START */
