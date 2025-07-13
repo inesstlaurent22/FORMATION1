@@ -53,7 +53,7 @@ html, body {
   font-size: 40px; /* très grand texte */
   color: black !important;
   background-color: transparent; /* pas de fond */
-  width: 152px;
+  width: 202px;
   height: 27px;
   text-decoration: none; /* supprime la barre en dessous */
   display: flex;
