@@ -261,7 +261,7 @@ html, body {
   width: 319px;
   height: 334px;
   display: block;
-  z-index: 5;
+  z-index: 2;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -277,7 +277,7 @@ html, body {
   width: 214px;
   height: 223px;
   display: block;
-  z-index: 5;
+  z-index: 3;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -286,3 +286,110 @@ html, body {
   transform: scale(1.05);
 }
 
+
+/* LANCEMENT - Page 5 */
+.lancement-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px;
+}
+
+.lancement-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.marketing-button {
+  position: absolute;
+  top: 2704px;
+  left: 329px;
+  width: 224px;
+  height: 285px;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.marketing-button:hover {
+  transform: scale(1.05);
+}
+
+.communication-button {
+  position: absolute;
+  top: 2704px;
+  left: 683px;
+  width: 223px;
+  height: 285px;
+  display: block;
+  z-index: 6;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.communication-button:hover {
+  transform: scale(1.05);
+}
+.commerce-button {
+  position: absolute;
+  top: 2704px;
+  left: 1025px;
+  width: 224px;
+  height: 285px;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.commerce-button:hover {
+  transform: scale(1.05);
+}
+
+.finance-button {
+  position: absolute;
+  top: 3284px;
+  left: 329px;
+  width: 226px;
+  height: 297px;
+  display: block;
+  z-index: 6;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.finance-button:hover {
+  transform: scale(1.05);
+}
+.legal-button {
+  position: absolute;
+  top: 2704px;
+  left: 329px;
+  width: 224px;
+  height: 285px;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.legal-button:hover {
+  transform: scale(1.05);
+}
+
+.boutourouge1-button {
+  position: absolute;
+  top: 4152px;
+  left: 659px;
+  width: 146px;
+  height: 152px;
+  display: block;
+  z-index: 6;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.communication-button:hover {
+  transform: scale(1.05);
+}
