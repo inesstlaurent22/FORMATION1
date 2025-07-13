@@ -18,7 +18,7 @@ html, body {
 #barrenav1 {
   position: fixed;
   top: 0;
-  left: 44px;
+  left: 44;
   width: 687px;    /* ✅ largeur exacte de l’image */
   height: 111px;   /* ✅ hauteur exacte de l’image */
   z-index: 10;
@@ -62,10 +62,10 @@ html, body {
 /* Attention : si verticale, largeur et hauteur doivent être adaptées */
 #barrenav2 {
   position: fixed;
-  top: 0;
-  left: 14;
-  width: 681,07px;    /* Largeur typique pour barre verticale */
-  height: 147px;   /* Hauteur pleine */
+  top: 100;
+  left: -19;
+  width: 129px;    /* Largeur typique pour barre verticale */
+  height: 479px;   /* Hauteur pleine */
   z-index: 10;
   pointer-events: none;
 }
@@ -80,8 +80,8 @@ html, body {
 
 .formation-buttons {
   position: absolute;
-  top: 20%;      
-  left: 20%;       /* ajuste horizontalement */
+  top: 104;      
+  left: 36;       /* ajuste horizontalement */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,8 +92,8 @@ html, body {
 }
 
 .formation-buttons img {
-  width: 90px !important;
-  height: 85px !important;
+  width: 63px !important;
+  height: 79px !important;
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -118,8 +118,8 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  top: 177px;
-  left: 779px;
+  top: 177;
+  left: 779;
   width: 633px;
   height: 597px;
   display: block;
@@ -152,8 +152,8 @@ html, body {
 
 .carteimage-button {
   position: absolute;
-  top: 1087px;
-  left: 908px;
+  top: 1087;
+  left: 908;
   width: 400.8px;
   height: 334px;
   display: block;
@@ -181,8 +181,8 @@ html, body {
 
 .creation2-button {
   position: absolute;
-  top: 241px;
-  left: 1152px;
+  top: 241;
+  left: 1152;
   width: 135px;
   height: 148px;
   display: block;
@@ -197,8 +197,8 @@ html, body {
 
 .lancement2-button {
   position: absolute;
-  top: 470px;
-  left: 1152px;
+  top: 466;
+  left: 1152;
   width: 135px;
   height: 148px;
   display: block;
@@ -223,13 +223,57 @@ html, body {
   width: 100%;
   height: auto;
 }
+.charte-button {
+  position: absolute;
+  top: 117;
+  left: 315;
+  width: 183px;
+  height: 219px;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
 
+.charte-button:hover {
+  transform: scale(1.05);
+}
+.businessplan2-button {
+  position: absolute;
+  top: 112;
+  left: 480;
+  width: 179px;
+  height: 213px;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.businessplan2-button:hover {
+  transform: scale(1.05);
+}
+.flyers-button {
+  position: absolute;
+  top: 117;
+  left: 646;
+  width: 162px;
+  height: 208px;
+  display: block;
+  z-index: 5;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.flyers-button:hover {
+  transform: scale(1.05);
+}
 .parchemin-button {
   position: absolute;
-  top: 470px;
-  left: 1152px;
-  width: 135px;
-  height: 148px;
+  top: 893;
+  left: 702;
+  width: 254px;
+  height: 115px;
   display: block;
   z-index: 5;
   cursor: pointer;
@@ -256,8 +300,8 @@ html, body {
 
 .businessplan-button {
   position: absolute;
-  top: 8940px;
-  left: 877px;
+  top: 8940;
+  left: 877;
   width: 319px;
   height: 334px;
   display: block;
@@ -272,8 +316,8 @@ html, body {
 
 .boutonrouge-button {
   position: absolute;
-  top: 13540px;
-  left: 616px;
+  top: 13540;
+  left: 616;
   width: 214px;
   height: 223px;
   display: block;
@@ -302,8 +346,8 @@ html, body {
 
 .marketing-button {
   position: absolute;
-  top: 2704px;
-  left: 329px;
+  top: 2704;
+  left: 329;
   width: 224px;
   height: 285px;
   display: block;
@@ -318,8 +362,8 @@ html, body {
 
 .communication-button {
   position: absolute;
-  top: 2704px;
-  left: 683px;
+  top: 2704;
+  left: 683;
   width: 223px;
   height: 285px;
   display: block;
@@ -333,8 +377,8 @@ html, body {
 }
 .commerce-button {
   position: absolute;
-  top: 2704px;
-  left: 1025px;
+  top: 2704;
+  left: 1025;
   width: 224px;
   height: 285px;
   display: block;
@@ -349,8 +393,8 @@ html, body {
 
 .finance-button {
   position: absolute;
-  top: 3284px;
-  left: 329px;
+  top: 3284;
+  left: 329;
   width: 226px;
   height: 297px;
   display: block;
@@ -364,8 +408,8 @@ html, body {
 }
 .legal-button {
   position: absolute;
-  top: 2704px;
-  left: 329px;
+  top: 2704;
+  left: 329;
   width: 224px;
   height: 285px;
   display: block;
@@ -380,8 +424,8 @@ html, body {
 
 .boutourouge1-button {
   position: absolute;
-  top: 4152px;
-  left: 659px;
+  top: 4152;
+  left: 659;
   width: 146px;
   height: 152px;
   display: block;
