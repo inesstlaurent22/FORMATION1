@@ -246,7 +246,7 @@ html, body {
   transform: scale(1.05);
 }
 
-.businessplan2-button {
+.businessplan1-button {
   position: absolute;
   top: 112px;
   left: 480px;
@@ -258,7 +258,7 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.businessplan2-button:hover {
+.businessplan1-button:hover {
   transform: scale(1.05);
 }
 
