@@ -131,21 +131,20 @@ html, body {
   transform: scale(1.05);
 }
 
-/* START - Page 2 */
+/* PAGE START */
 .fond-start {
-  position: fixed;  /* fixe le fond sur toute la page */
+  position: absolute;  /* ou relative */
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
   z-index: 1;
 }
 
 .fond-start-image {
   width: 100%;
   height: auto;
-  object-fit: cover; /* couvre toute la zone sans déformer */
+  object-fit: cover;
   object-position: top center;
   display: block;
 }
