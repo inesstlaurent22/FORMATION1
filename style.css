@@ -218,78 +218,66 @@ html, body {
 }
 
 /* SAC A DOS - Page 4 */
-.sacados-content {
+.menu2-container {
   position: relative;
-  z-index: 1;
-  padding-top: 120px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/Fond/menu2.png");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
-.sacados-image {
-  display: block;
-  width: 100%;
-  height: auto;
+.form-buttons {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  z-index: 5;
+}
+
+.charte-button,
+.businessplan1-button,
+.flyers-button,
+.parchemin-button {
+  position: absolute;
+  z-index: 6;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .charte-button {
-  position: absolute;
-  top: 117px;
-  left: 315px;
+  top: 20%;
+  left: 25%;
   width: 183px;
   height: 219px;
-  display: block;
-  z-index: 5;
-  cursor: pointer;
-  transition: transform 0.3s ease;
 }
-
-.charte-button:hover {
-  transform: scale(1.05);
-}
-
 .businessplan1-button {
-  position: absolute;
-  top: 112px;
-  left: 480px;
+  top: 20%;
+  left: 43%;
   width: 179px;
   height: 213px;
-  display: block;
-  z-index: 5;
-  cursor: pointer;
-  transition: transform 0.3s ease;
 }
-
-.businessplan1-button:hover {
-  transform: scale(1.05);
-}
-
 .flyers-button {
-  position: absolute;
-  top: 117px;
-  left: 646px;
+  top: 20%;
+  left: 61%;
   width: 162px;
   height: 208px;
-  display: block;
-  z-index: 5;
-  cursor: pointer;
-  transition: transform 0.3s ease;
 }
-
-.flyers-button:hover {
-  transform: scale(1.05);
-}
-
 .parchemin-button {
-  position: absolute;
-  top: 893px;
-  left: 702px;
+  top: 80%;
+  left: 70%;
   width: 254px;
   height: 115px;
-  display: block;
-  z-index: 5;
-  cursor: pointer;
-  transition: transform 0.3s ease;
 }
 
+.charte-button:hover,
+.businessplan1-button:hover,
+.flyers-button:hover,
 .parchemin-button:hover {
   transform: scale(1.05);
 }
