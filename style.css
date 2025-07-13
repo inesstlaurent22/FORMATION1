@@ -50,7 +50,7 @@ html, body {
 .ecriture-buttons a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 60px; /* très grand texte */
+  font-size: 40px; /* très grand texte */
   color: black !important;
   background-color: transparent; /* pas de fond */
   width: 152px;
