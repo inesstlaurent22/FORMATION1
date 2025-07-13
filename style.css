@@ -50,11 +50,11 @@ html, body {
 .ecriture-buttons a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 100px; /* très grand texte */
+  font-size: 60px; /* très grand texte */
   color: black;
   background-color: transparent; /* pas de fond */
-  width: 1520px;
-  height: 270px;
+  width: 152px;
+  height: 27px;
   text-decoration: none; /* supprime la barre en dessous */
   display: flex;
   align-items: center;
