@@ -32,6 +32,8 @@ html, body {
   z-index: 1;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 .ecriture-buttons {
   position: absolute;
   top: 50%;
@@ -45,16 +47,25 @@ html, body {
   pointer-events: auto;
 }
 
-.ecriture-buttons img {
-  width: 110px;
-  height: auto;
-  object-fit: contain;
+.ecriture-buttons a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white; /* ou une autre couleur adaptée à ton fond */
+  text-decoration: none;
+  width: 152px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  background: transparent;
   cursor: pointer;
-  transition: transform 0.3s ease;
 }
 
-.ecriture-buttons img:hover {
+.ecriture-buttons a:hover {
   transform: scale(1.05);
+  filter: brightness(1.5); /* effet de surbrillance */
 }
 
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
