@@ -1,4 +1,5 @@
-{
+/* Correction : sélecteur universel */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,21 +16,21 @@ html, body {
 
 /* BARRE DE NAVIGATION 1 — HORIZONTALE EN HAUT (barrenav1) */
 #barrenav1 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 687px;    /* ✅ largeur exacte de l’image */
-    height: 130px;   /* ✅ hauteur exacte de l’image */
-    z-index: 10;
-    pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 687px;    /* ✅ largeur exacte de l’image */
+  height: 130px;   /* ✅ hauteur exacte de l’image */
+  z-index: 10;
+  pointer-events: none;
 }
 
 .barrenav1-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* ou 'cover' si tu veux forcer le remplissage complet */
-    z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
 }
 
 .ecriture-buttons {
@@ -58,48 +59,49 @@ html, body {
 }
 
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
+/* Attention : si verticale, largeur et hauteur doivent être adaptées */
 #barrenav2 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 687px;    /* ✅ largeur exacte de l’image */
-    height: 130px;   /* ✅ hauteur exacte de l’image */
-    z-index: 10;
-    pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 130px;    /* Largeur typique pour barre verticale */
+  height: 100vh;   /* Hauteur pleine */
+  z-index: 10;
+  pointer-events: none;
 }
 
 .barrenav2-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* ou 'cover' si tu veux forcer le remplissage complet */
-    z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
 }
 
 .formation-buttons {
-    position: absolute;
-    top: 20%;      
-    left: 20%;       /* ajuste horizontalement */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 24px;
-    z-index: 2;
-    pointer-events: auto;
+  position: absolute;
+  top: 20%;      
+  left: 20%;       /* ajuste horizontalement */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  z-index: 2;
+  pointer-events: auto;
 }
 
 .formation-buttons img {
-    width: 90px !important;
-    height: 85px !important;
-    object-fit: contain;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    display: block;
+  width: 90px !important;
+  height: 85px !important;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: block;
 }
 
 .formation-buttons img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* PAGE ACCUEIL */
@@ -126,12 +128,9 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-
 .treasure-button:hover {
   transform: scale(1.05);
 }
-
-
 
 /* START - Page 2 */
 .fond-start {
@@ -140,7 +139,7 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain; /* au lieu de cover */
+  object-fit: contain;
   object-position: top center;
   z-index: -1;
 }
@@ -148,7 +147,7 @@ html, body {
 .fond-start-image {
   display: block;
   width: 100%;
-  height: auto; /* permet de scroller selon la hauteur de l'image */
+  height: auto;
 }
 
 .carteimage-button {
@@ -163,24 +162,21 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-
 .carteimage-button:hover {
   transform: scale(1.05);
 }
-
-
 
 /* CARTE - Page 3 */
 .menu-content {
   position: relative;
   z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
+  padding-top: 120px;
 }
 
 .menu-image {
   display: block;
   width: 100%;
-  height: auto; /* permet de scroller selon la hauteur de l'image */
+  height: auto;
 }
 
 .creation2-button {
@@ -215,731 +211,21 @@ html, body {
   transform: scale(1.05);
 }
 
-
-
 /* SAC A DOS - Page 4 */
 .sacados-content {
   position: relative;
   z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
+  padding-top: 120px;
 }
 
 .sacados-image {
   display: block;
   width: 100%;
-  height: auto; /* permet de scroller selon la hauteur de l'image */
+  height: auto;
 }
 
 .parchemin-button {
-  position: absolute;               /* Pour positionner précisément */
-  top: 893px;                         /* Distance depuis le haut */
-  left: 702px;   
-  transform: translate(-50%, 50%);
-  width: 254px;                     
-  height: 115px;
-  display: block;
-  z-index: 5;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.parchemin-button img:hover {
-  transform: scale(1.05);           /* Animation au survol */
-}
-
-.form-button {
   position: absolute;
-  top: 18822px;
-  left: 3675px;
-  width: 1027px;
-  height: 208px;
-  display: block;
-  z-index: 5;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.form-buttons img {
-  width: 253px;                      /* Taille des documents */
-  height: auto;
-  object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.form-buttons img:hover {
-  transform: scale(1.05);           /* Animation au survol */
-}
-
-.charte-buttons {
-  position: absolute;               /* Positionnement précis sur l’image de fond */
-  top: 117px;                         /* Position verticale depuis le haut */
-  left: 323px;                        /* Position horizontale */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;                        /* Espacement entre les icônes */
-  z-index: 2;
-  pointer-events: auto;
-}
-
-.charte-buttons img {
-  width: 183px;                      /* Taille des documents */
-  height: 219px;
-  object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.charte-buttons img:hover {
-  transform: scale(1.05);           /* Animation au survol */
-}
-.businessplan-buttons {
-  position: absolute;               /* Positionnement précis sur l’image de fond */
-  top: 112px;                         /* Position verticale depuis le haut */
-  left: 480px;                        /* Position horizontale */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;                        /* Espacement entre les icônes */
-  z-index: 2;
-  pointer-events: auto;
-}
-
-.businessplan-buttons img {
-  width: 179px;                      /* Taille des documents */
-  height: 213px;
-  object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.businessplan-buttons img:hover {
-  transform: scale(1.05);           /* Animation au survol */
-}
-.flyers-buttons {
-  position: absolute;               /* Positionnement précis sur l’image de fond */
-  top: 117px;                         /* Position verticale depuis le haut */
-  left: 646px;                        /* Position horizontale */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;                        /* Espacement entre les icônes */
-  z-index: 2;
-  pointer-events: auto;
-}
-
-.flyers-buttons img {
-  width: 162px;                      /* Taille des documents */
-  height: 208px;
-  object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.flyers-buttons img:hover {
-  transform: scale(1.05);           /* Animation au survol */
-}
-
-
-
-
-/* CREATION - Page 5 */
-.creation-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; /* nouveau : pour l'empilement vertical */
-  background-color: #fff;
-}
-
-.creation-container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.creation-container img {
-  width: 100%;            /* prend toute la largeur de l'écran */
-  height: auto;           /* garde les proportions */
-  object-fit: contain;
-  display: block;
-  image-rendering: auto;
-  margin-bottom: 10px;    /* espace entre les images */
-}
-/* Bouton rouge */
-.Boutonrouge-button {
-  position: absolute;
-  bottom: 100px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Boutonrouge-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-/* Bouton retour - taille d'origine et position en haut à droite */
-.retour-button {
-  position: absolute;
-  top: 60px;        /* Distance depuis le haut */
-  right: 20px;      /* Distance depuis la droite */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-  transform: none;  /* Plus besoin de translate */
-}
-
-.retour-button img {
-  display: block;
-  width: auto;      /* Taille d'origine */
-  height: auto;     /* Taille d'origine */
-  max-width: none;  /* Désactive la contrainte de débordement */
-}
-
-.Businessplan-button {
-  position: absolute;
-  top: 20px;        /* Distance depuis le haut */
-  right: 20px;      /* Distance depuis la droite */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-  transform: none;  /* Plus besoin de translate */
-}
-
-.Businessplan-button img {
-  display: block;
-  width: auto;      /* Taille d'origine */
-  height: auto;     /* Taille d'origine */
-  max-width: none;  /* Désactive la contrainte de débordement */
-}
-
-
-
-/* LANCEMENT - Page 6 */
-.Lancementfond-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 120px); /* hauteur visible de la page */
-  overflow: hidden;
-  background-color: #fff; /* optionnel : couleur de fond */
-}
-
-.Lancementfond-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-.Lancementfond-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  max-width: 100%;
-  object-fit: contain; /* garde les proportions sans déformation */
-  image-rendering: auto; /* pour garder la netteté */
-  border-radius: 8px; /* optionnel */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel */
-}
-
-.formmarketing-button {
-  position: absolute;
-  bottom:80%;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.formmarketing-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-.formcommunication-button {
-  position: absolute;
-  bottom: 90%;                    /* Distance par rapport au bas */
-  left: 60%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.formcommunication-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-.formcommerce-button {
-  position: absolute;
-  bottom: 110%;                    /* Distance par rapport au bas */
-  left: 70%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.formcommerce-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-.formfinance-button {
-  position: absolute;
-  bottom: 60%;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.formfinance-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-.formlegal-button {
-  position: absolute;
-  bottom: 60%;                    /* Distance par rapport au bas */
-  left: 70%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.formlegal-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-.Boutonrouge1-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Boutonrouge1-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-
-/* MARKETING - Page 7 */
-.marketing-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 120px); /* hauteur visible de la page */
-  overflow: hidden;
-  background-color: #fff; /* optionnel : couleur de fond */
-}
-
-.marketing-container {
-  position: relative;
-  width: 100%;
-  max-width: 900px; /* limite la largeur à 900px */
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.marketing-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  border-radius: 8px; /* optionnel : arrondir les coins */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
-}
-
-.Boutonrouge2-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Boutonrouge2-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-.Flyers-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Flyers-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-.Retour-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Retour-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-
-
-
-
-
-
-/* COMMERCE - Page 8 */
-.commerce-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 120px); /* hauteur visible de la page */
-  overflow: hidden;
-  background-color: #fff; /* optionnel : couleur de fond */
-}
-
-.commerce-container {
-  position: relative;
-  width: 100%;
-  max-width: 900px; /* limite la largeur à 900px */
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.commerce-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  border-radius: 8px; /* optionnel : arrondir les coins */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
-}
-.Boutonrouge3-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Boutonrouge3-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-
-
-
-/* COMMUNICATION - Page 8 */
-.communication-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 120px); /* hauteur visible de la page */
-  overflow: hidden;
-  background-color: #fff; /* optionnel : couleur de fond */
-}
-
-.communication-container {
-  position: relative;
-  width: 100%;
-  max-width: 900px; /* limite la largeur à 900px */
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.communication-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  border-radius: 8px; /* optionnel : arrondir les coins */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
-}
-.Boutonrouge4-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Boutonrouge4-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-.Charte-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Charte-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-
-
-
-
-/* COMMERCE - Page 9 */
-.commerce-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 120px); /* hauteur visible de la page */
-  overflow: hidden;
-  background-color: #fff; /* optionnel : couleur de fond */
-}
-
-.commerce-container {
-  position: relative;
-  width: 100%;
-  max-width: 900px; /* limite la largeur à 900px */
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.commerce-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  border-radius: 8px; /* optionnel : arrondir les coins */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
-}
-.Boutonrouge5-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Boutonrouge5-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-/* FINANCE - Page 10 */
-.finance-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 120px); /* hauteur visible de la page */
-  overflow: hidden;
-  background-color: #fff; /* optionnel : couleur de fond */
-}
-
-.finance-container {
-  position: relative;
-  width: 100%;
-  max-width: 900px; /* limite la largeur à 900px */
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.finance-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  border-radius: 8px; /* optionnel : arrondir les coins */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
-}
-.Boutonrouge6-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Boutonrouge6-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-
-/* LEGAL - Page 8 */
-.legal-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px; /* espace pour la barre de navigation */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 120px); /* hauteur visible de la page */
-  overflow: hidden;
-  background-color: #fff; /* optionnel : couleur de fond */
-}
-
-.legal-container {
-  position: relative;
-  width: 100%;
-  max-width: 900px; /* limite la largeur à 900px */
-  margin: 0 auto;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.legal-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-  border-radius: 8px; /* optionnel : arrondir les coins */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* optionnel : légère ombre */
-}
-
-.Boutonrouge6-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Boutonrouge6-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-.crm-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.crm-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
-
-.Ursaff-button {
-  position: absolute;
-  bottom: 20px;                    /* Distance par rapport au bas */
-  left: 50%;                       /* Position horizontale centrée */
-  transform: translateX(-50%);     /* Correction pour centrer parfaitement */
-  z-index: 10;
-  cursor: pointer;
-  display: block;
-}
-
-.Ursaff-button img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;                /* Empêche le débordement sur petit écran */
-}
+  top: 893px;
+  left: 702px;
+  transform: translate(-
