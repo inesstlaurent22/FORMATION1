@@ -70,7 +70,6 @@ html, body {
 }
 
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
-/* Attention : si verticale, largeur et hauteur doivent être adaptées */
 #barrenav2 {
   position: fixed;
   top: 100px;
