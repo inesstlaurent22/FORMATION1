@@ -32,8 +32,6 @@ html, body {
   z-index: 1;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-
 .ecriture-buttons {
   position: absolute;
   top: 50%;
@@ -129,7 +127,7 @@ html, body {
 
 .treasure-image {
   width: 933px !important;
-  height: 597px !important;
+  height: auto !important;
   display: block;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
