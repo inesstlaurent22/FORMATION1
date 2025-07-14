@@ -127,20 +127,20 @@ html, body {
 
 .treasure-image {
   position: absolute;
-  top: 177px;   /* Y */
-  left: 779px;  /* X */
-  width: 933px;
-  height: 597px;
-  display: block;
-  z-index: 3;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  top: 177px;        /* Y */
+  left: 779px;       /* X */
+  width: 633px;      /* largeur */
+  height: 597px;     /* hauteur */
   object-fit: contain;
+  display: block;
+  z-index: 5;
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Appliquer l'effet au survol */
 .treasure-image:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 30px 10px rgba(255, 215, 0, 0.6); /* effet doré au survol */
 }
 
 /* PAGE START */
