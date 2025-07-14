@@ -260,7 +260,7 @@ html, body {
 .form-buttons {
   position: absolute;
   top: 60%;
-  left: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;      /* assure un alignement horizontal */
@@ -273,7 +273,7 @@ html, body {
 }
 
 .form-buttons img {
-  width: 200px; /* ajuste selon ton besoin */
+  width: 160px; /* ajuste selon ton besoin */
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -283,48 +283,35 @@ html, body {
   transform: scale(1.05);
 }
 
-.charte-button,
-.businessplan1-button,
-.flyers-button,
-.parchemin-button {
-  position: absolute;
+.boutons-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;         /* alignement horizontal */
+  justify-content: center;     /* centré horizontalement */
+  align-items: flex-start;     /* aligné en haut */
+  gap: 30px;                   /* espace entre les boutons */
+  padding: 40px;
+  flex-wrap: wrap;             /* retour à la ligne si écran petit */
   z-index: 6;
+}
+
+.boutons-container > div {
+  width: 180px;                /* tu peux ajuster individuellement si besoin */
+  height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.charte-button {
-  top: 315px;
-  left: 117px;
-  width: 183px;
-  height: 219px;
-}
-.businessplan1-button {
-  top: 480px;
-  left: 112px;
-  width: 179px;
-  height: 213px;
-}
-.flyers-button {
-  top: 646px;
-  left: 117px;
-  width: 162px;
-  height: 208px;
-}
-.parchemin-button {
-  top: 893px;
-  left: 702px;
-  width: 254px;
-  height: 115px;
-}
-
-.charte-button:hover,
-.businessplan1-button:hover,
-.flyers-button:hover,
-.parchemin-button:hover {
+.boutons-container > div:hover {
   transform: scale(1.05);
 }
 
+.boutons-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
 /* CREATION - Page 5 */
 .creation-content {
   position: relative;
