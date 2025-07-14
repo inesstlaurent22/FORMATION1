@@ -133,8 +133,8 @@ html, body {
   position: absolute;
   top: 177px;
   left: 379px;
-  width: 633px;
-  height: 597px;
+  width: 393px;
+  height: auto;
   display: block;
   z-index: 2;
   cursor: pointer;
