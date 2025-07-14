@@ -267,8 +267,19 @@ html, body {
   justify-content: center;
   align-items: center;
   gap: 18px;
-  max-width: 80%;           /* limite la longueur de la ligne */
+  max-width: 80%;
   z-index: 5;
+}
+
+.form-buttons img {
+  width: 100px; /* ajuste selon ton besoin */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.form-buttons img:hover {
+  transform: scale(1.05);
 }
 
 .charte-button,
@@ -306,11 +317,11 @@ html, body {
   height: auto;
 }
 
+
 .charte-button:hover,
 .businessplan1-button:hover,
 .flyers-button:hover,
-.parchemin-button:hover,
-.form-buttons:hover {
+.parchemin-button:hover {
   transform: scale(1.05);
 }
 
