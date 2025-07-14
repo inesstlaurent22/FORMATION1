@@ -141,7 +141,6 @@ html, body {
 /* Appliquer l'effet au survol */
 .treasure-image:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px 10px rgba(255, 215, 0, 0.5); /* lumière dorée */
 }
 
 /* PAGE START */
@@ -275,8 +274,6 @@ html, body {
 }
 .charte-button:hover {
   transform: scale(1.1);
-  filter: brightness(1.3);
-  box-shadow: 0 0 10px 4px rgba(0, 150, 255, 0.4);
 }
 
 /* ---- BUSINESS PLAN ---- */
@@ -288,8 +285,6 @@ html, body {
 }
 .businessplan1-button:hover {
   transform: scale(1.08) rotate(-2deg);
-  filter: sepia(0.3) brightness(1.1);
-  box-shadow: 0 0 12px 4px rgba(255, 200, 0, 0.4);
 }
 
 /* ---- FLYERS ---- */
@@ -301,12 +296,9 @@ html, body {
 }
 .flyers-button:hover {
   transform: scale(1.12);
-  filter: contrast(1.2) saturate(1.1);
-  box-shadow: 0 0 15px 6px rgba(255, 100, 100, 0.4);
 }
 
 /* ---- PARCHEMIN ---- */
-/* Bouton parchemin (isolé) */
 .parchemin-button {
   position: absolute;
   top: 893px;
