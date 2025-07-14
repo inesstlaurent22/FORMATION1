@@ -208,18 +208,18 @@ html, body {
 
 /* Bouton création : plus petit, déplacé légèrement en haut à droite */
 .creation2-button {
-  width: 99px;
-  height: 110px;
+  width: 90px;
+  height: 100px;
   top: 191px;
-  left: 1104px;
+  left: 1184px;
 }
 
 /* Bouton lancement : plus grand, déplacé légèrement en haut à droite */
 .lancement2-button {
   width: 121px;
   height: 134px;
-  top: 418px;
-  left: 1104px;
+  top: 410px;
+  left: 1110px;
 }
 
 /* Effet hover lumineux */
