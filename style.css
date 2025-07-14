@@ -144,12 +144,17 @@ html, body {
   position: absolute;
   top: 779px;
   left: 177px;
-  width: 633px;
-  height: 597px;
+  width: 633px !important;
+  height: 597px !important;
+  max-width: none !important;
+  max-height: none !important;
+  min-width: unset !important;
+  min-height: unset !important;
   display: block;
   z-index: 2;
   cursor: pointer;
   transition: transform 0.3s ease;
+  object-fit: contain;
 }
 
 .treasure-button:hover {
