@@ -49,8 +49,8 @@ html, body {
 
 .ecriture-buttons a {
   font-family: 'Inter', sans-serif;
-  weight: 200px;
-  size: 80px; /* très grand texte */
+  weight: 300px;
+  size: 160px; /* très grand texte */
   color: black !important;
   background-color: transparent; /* pas de fond */
   text-decoration: none; /* supprime la barre en dessous */
