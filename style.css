@@ -134,11 +134,14 @@ html, body {
   display: block;
   z-index: 3;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: contain;
+  cursor: pointer;
 }
 
+/* Appliquer l'effet au survol */
 .treasure-image:hover {
-  transform: scale(1.05); /* agrandissement simple */
-  transition: transform 0.3s ease;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px 10px rgba(255, 215, 0, 0.5); /* lumière dorée */
 }
 
 /* PAGE START */
