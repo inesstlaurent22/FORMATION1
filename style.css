@@ -219,9 +219,7 @@ html, body {
 /* Effet hover lumineux */
 .creation2-button:hover,
 .lancement2-button:hover {
-  transform: scale(1.05) translateY(-50%);
-  filter: brightness(1.3); /* augmente la luminosité */
-  box-shadow: 0 0 20px 10px rgba(255, 215, 0, 0.5); /* halo doré */
+  transform: scale(1.05) 
 }
 
 /* SAC A DOS - Page 4 */
