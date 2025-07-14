@@ -196,7 +196,6 @@ html, body {
 .creation2-button,
 .lancement2-button {
   position: absolute;
-  top: 50%;
   width: 135px;
   height: 148px;
   display: block;
@@ -205,21 +204,21 @@ html, body {
   transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Positionnement horizontal précis */
+/* Positionnement précis en pixels */
 .creation2-button {
-  left: 55%;
-  transform: translate(-120%, -50%);
+  top: 241px;
+  left: 1152px;
 }
 
 .lancement2-button {
-  left: 55%;
-  transform: translate(20%, -50%);
+  top: 466px;
+  left: 1152px;
 }
 
 /* Effet hover lumineux */
 .creation2-button:hover,
 .lancement2-button:hover {
-  transform: scale(1.05) 
+  transform: scale(1.05);
 }
 
 /* SAC A DOS - Page 4 */
