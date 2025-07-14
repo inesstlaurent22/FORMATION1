@@ -389,48 +389,19 @@ html, body {
   padding-top: 120px;
 }
 
+/* Image de fond (vérifie que l'image existe dans ton HTML aussi) */
 .lancement-image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.marketing-button {
-  position: absolute;
-  top: 2704px;
-  left: 329px;
-  width: 224px;
-  height: 285px;
-  display: block;
-  z-index: 5;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.marketing-button:hover {
-  transform: scale(1.05);
-}
-
-.communication-button {
-  position: absolute;
-  top: 2704px;
-  left: 683px;
-  width: 223px;
-  height: 285px;
-  display: block;
-  z-index: 6;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.communication-button:hover {
-  transform: scale(1.05);
-}
-
+/* Boutons de la première ligne */
+.marketing-button,
+.communication-button,
 .commerce-button {
   position: absolute;
   top: 2704px;
-  left: 1025px;
   width: 224px;
   height: 285px;
   display: block;
@@ -439,10 +410,20 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.commerce-button:hover {
-  transform: scale(1.05);
+.marketing-button {
+  left: 329px;
 }
 
+.communication-button {
+  left: 683px;
+  z-index: 6;
+}
+
+.commerce-button {
+  left: 1025px;
+}
+
+/* Deuxième ligne */
 .finance-button {
   position: absolute;
   top: 3284px;
@@ -455,26 +436,32 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.finance-button:hover {
-  transform: scale(1.05);
-}
-
 .legal-button {
   position: absolute;
-  top: 2704px;
-  left: 329px;
+  top: 3284px;
+  left: 683px;
   width: 224px;
   height: 285px;
   display: block;
-  z-index: 5;
+  z-index: 6;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.legal-button:hover {
-  transform: scale(1.05);
+/* Bouton Parchemin (retour) */
+.parchemin-button {
+  position: absolute;
+  top: 100px; /* à ajuster si besoin */
+  left: 50px;
+  width: 120px;
+  height: auto;
+  display: block;
+  z-index: 10;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
+/* Bouton rouge */
 .boutourouge1-button {
   position: absolute;
   top: 4152px;
@@ -487,6 +474,31 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.boutourouge1-button:hover {
+/* Boutons "charte", "businessplan", "flyers" alignés horizontalement */
+.doc-buttons {
+  position: absolute;
+  top: 3800px; /* à ajuster selon ton design */
+  left: 329px;
+  display: flex;
+  gap: 40px;
+  z-index: 6;
+}
+
+.doc-buttons img {
+  width: 220px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Effet hover global */
+.marketing-button:hover,
+.communication-button:hover,
+.commerce-button:hover,
+.finance-button:hover,
+.legal-button:hover,
+.parchemin-button:hover,
+.boutourouge1-button:hover,
+.doc-buttons img:hover {
   transform: scale(1.05);
 }
