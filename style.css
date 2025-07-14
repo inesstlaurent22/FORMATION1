@@ -189,18 +189,10 @@ html, body {
 
 .carteimage-button:hover {
   transform: rotate(-2deg) scale(1.05);
-  filter: brightness(1.3) sepia(0.4); /* donne un effet "ancien" */
-  box-shadow: 0 0 15px 5px gold; /* brillance dorée */
+  filter: brightness(1.3) sepia(0.4); /* effet ancien */
+  /* box-shadow: 0 0 15px 5px gold; */ /* supprimé */
   animation: shake 0.3s ease-in-out;
 }
-
-/* Animation secousse rapide */
-@keyframes shake {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-3px); }
-  50% { transform: translateX(3px); }
-  75% { transform: translateX(-2px); }
-  100% { transform: translateX(0); }
 
 /* CARTE - Page 3 */
 .menu-content {
