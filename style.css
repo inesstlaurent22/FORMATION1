@@ -283,35 +283,52 @@ html, body {
   transform: scale(1.05);
 }
 
-.boutons-container {
-  position: relative;
+.doc-buttons {
   display: flex;
-  flex-direction: row;         /* alignement horizontal */
-  justify-content: center;     /* centré horizontalement */
-  align-items: flex-start;     /* aligné en haut */
-  gap: 30px;                   /* espace entre les boutons */
-  padding: 40px;
-  flex-wrap: wrap;             /* retour à la ligne si écran petit */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; /* espace horizontal entre les boutons */
+  margin-top: 100px;
+  flex-wrap: wrap; /* permet de passer à la ligne sur petit écran */
   z-index: 6;
 }
 
-.boutons-container > div {
-  width: 180px;                /* tu peux ajuster individuellement si besoin */
-  height: auto;
+.doc-buttons > div {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.boutons-container > div:hover {
+.charte-button {
+  width: 183px;
+  height: 219px;
+}
+
+.businessplan1-button {
+  width: 179px;
+  height: 213px;
+}
+
+.flyers-button {
+  width: 162px;
+  height: 208px;
+}
+
+.parchemin-button {
+  width: 254px;
+  height: 115px;
+}
+
+.doc-buttons img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.doc-buttons > div:hover {
   transform: scale(1.05);
 }
 
-.boutons-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-}
 /* CREATION - Page 5 */
 .creation-content {
   position: relative;
