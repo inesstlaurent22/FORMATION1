@@ -179,8 +179,8 @@ html, body {
 /* Bouton Carte (image cliquable) */
 .carteimage-button {
   position: fixed;
-  top: 85%;         /* position verticale */
-  left: 75%;        /* position horizontale */
+  top: 1087px;         /* position verticale */
+  left: 908px;        /* position horizontale */
   width: 400.8px;
   height: 334px;
   z-index: 10;     /* très haut pour ne pas être caché */
