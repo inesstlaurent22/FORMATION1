@@ -49,11 +49,11 @@ html, body {
 
 .ecriture-buttons a {
   font-family: 'Inter', sans-serif;
-  weight: 300px;
-  size: 160px; /* très grand texte */
+  font-weight: 300; /* poids de la police */
+  font-size: 160px; /* taille du texte */
   color: black !important;
-  background-color: transparent; /* pas de fond */
-  text-decoration: none; /* supprime la barre en dessous */
+  background-color: transparent;
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
