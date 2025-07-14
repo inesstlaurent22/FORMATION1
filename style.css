@@ -42,7 +42,7 @@ html, body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
   z-index: 2;
   pointer-events: auto;
 }
@@ -53,8 +53,8 @@ html, body {
   font-size: 40px; /* très grand texte */
   color: black !important;
   background-color: transparent; /* pas de fond */
-  width: 202px;
-  height: 27px;
+  width: 160px;
+  height: 22px;
   text-decoration: none; /* supprime la barre en dessous */
   display: flex;
   align-items: center;
