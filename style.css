@@ -290,30 +290,29 @@ html, body {
 }
 
 .charte-button {
-  top: 20%;
-  left: 25%;
-  width: 123px;
-  height: auto;
+  top: 315px;
+  left: 117px;
+  width: 183px;
+  height: 219px;
 }
 .businessplan1-button {
-  top: 20%;
-  left: 43%;
-  width: 159px;
-  height: auto;
+  top: 480px;
+  left: 112px;
+  width: 179px;
+  height: 213px;
 }
 .flyers-button {
-  top: 20%;
-  left: 61%;
-  width: 132px;
-  height: auto;
+  top: 646px;
+  left: 117px;
+  width: 162px;
+  height: 208px;
 }
 .parchemin-button {
-  top: 80%;
-  left: 70%;
-  width: 314px;
-  height: auto;
+  top: 893px;
+  left: 702px;
+  width: 254px;
+  height: 115px;
 }
-
 
 .charte-button:hover,
 .businessplan1-button:hover,
