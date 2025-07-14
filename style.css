@@ -197,6 +197,10 @@ html, body {
   display: block;
 }
 
+.carteimage-button img:hover {
+  transform: scale(1.05);
+}
+
 /* CARTE - Page 3 */
 .menu-content {
   position: relative;
