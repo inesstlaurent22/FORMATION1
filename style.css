@@ -219,10 +219,10 @@ html, body {
 
 .creation2-button {
   position: absolute;
-  top: 241px;
-  left: 1152px;
-  width: 135px;
-  height: 148px;
+  top: 241px !important; 
+  left: 1152px !important;
+  width: 135px !important;
+  height: 148px !important;
   display: block;
   z-index: 5;
   cursor: pointer;
@@ -235,10 +235,10 @@ html, body {
 
 .lancement2-button {
   position: absolute;
-  top: 466px;
-  left: 1152px;
-  width: 135px;
-  height: 148px;
+  top: 466px !important;
+  left: 1152px !important;
+  width: 135px !important;
+  height: 148px !important;
   display: block;
   z-index: 5;
   cursor: pointer;
