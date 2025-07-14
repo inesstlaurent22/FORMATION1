@@ -273,7 +273,7 @@ html, body {
 }
 
 .form-buttons img {
-  width: 100px; /* ajuste selon ton besoin */
+  width: 200px; /* ajuste selon ton besoin */
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
