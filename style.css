@@ -126,9 +126,13 @@ html, body {
 }
 
 .treasure-image {
-  width: 933px !important;
-  height: auto !important;
+  position: absolute;
+  top: 177px;   /* Y */
+  left: 779px;  /* X */
+  width: 933px;
+  height: 597px;
   display: block;
+  z-index: 2;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
