@@ -142,10 +142,10 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  top: 177px;
-  left: 379px;
-  width: 603px;
-  height: auto;
+  top: 779px;
+  left: 177px;
+  width: 633px;
+  height: 597px;
   display: block;
   z-index: 2;
   cursor: pointer;
