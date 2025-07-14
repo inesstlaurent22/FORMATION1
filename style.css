@@ -132,13 +132,12 @@ html, body {
   width: 933px;
   height: 597px;
   display: block;
-  z-index: 2;
+  z-index: 3;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .treasure-image:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px 10px rgba(255, 215, 0, 0.7); /* lumière dorée */
 }
 
 /* PAGE START */
