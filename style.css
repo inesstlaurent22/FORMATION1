@@ -263,24 +263,21 @@ html, body {
   transform: scale(1.05);
 }
 
-/* Boutons de documents alignés horizontalement */
+/* Conteneur des boutons de documents, vertical */
 .doc-buttons {
   position: absolute;
-  top: 75%; /* ajuste selon ta maquette */
-  left: 50%;
-  transform: translateX(-50%);
+  top: 117px; /* Y du premier bouton */
+  left: 315px; /* X du premier bouton (charte) */
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+  flex-direction: column; /* alignement vertical */
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px; /* espace entre les boutons */
   z-index: 6;
 }
 
-/* Chaque bouton est contenu dans une div pour appliquer la taille */
+/* Conteneur individuel pour chaque bouton */
 .doc-buttons > div {
-  width: auto;
-  height: auto;
   transition: transform 0.3s ease;
 }
 
@@ -288,21 +285,29 @@ html, body {
   transform: scale(1.05);
 }
 
+/* Bouton charte */
 .charte-button {
-  width: 183px;
-  height: 219px;
+  width: 135px;
+  height: 165px;
 }
 
+/* Bouton business plan */
 .businessplan1-button {
-  width: 179px;
-  height: 213px;
+  width: 130px;
+  height: 155px;
+  margin-left: 165px; /* X: 480 - 315 = 165 */
+  margin-top: -165px; /* pour remonter au niveau du charte */
 }
 
+/* Bouton flyers */
 .flyers-button {
-  width: 162px;
-  height: 208px;
+  width: 120px;
+  height: 150px;
+  margin-left: 331px; /* X: 646 - 315 = 331 */
+  margin-top: -155px; /* même logique */
 }
 
+/* Image responsive dans chaque bouton */
 .doc-buttons img {
   width: 100%;
   height: 100%;
