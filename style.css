@@ -181,13 +181,11 @@ html, body {
   display: block;
 }
 
-/* Bouton Carte (image cliquable) */
-/* Change carteimage-button : fixed ➝ absolute */
+/* Bouton Carte */
 .carteimage-button {
   position: absolute;
-  /* Adapte la position au conteneur, pas à la fenêtre */
-  top: 70%;    /* ajuste pour remonter le bouton à l'intérieur */
-  left: 60%;   /* recentre sur la scène */
+  top: 70%;    
+  left: 60%;   
   width: 400px;
   height: 334px;
   z-index: 5;
@@ -196,8 +194,8 @@ html, body {
 }
 
 .carteimage-button img {
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: contain;
   display: block;
 }
