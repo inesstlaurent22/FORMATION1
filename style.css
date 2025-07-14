@@ -199,23 +199,26 @@ html, body {
 .creation2-button,
 .lancement2-button {
   position: absolute;
-  width: 110px;
-  height: 122px;
   display: block;
   z-index: 5;
   cursor: pointer;
   transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Positionnement précis en pixels */
+/* Bouton création : plus petit, déplacé légèrement en haut à droite */
 .creation2-button {
-  top: 201px;
-  left: 1052px;
+  width: 99px;
+  height: 110px;
+  top: 191px;
+  left: 1104px;
 }
 
+/* Bouton lancement : plus grand, déplacé légèrement en haut à droite */
 .lancement2-button {
-  top: 440px;
-  left: 1052px;
+  width: 121px;
+  height: 134px;
+  top: 418px;
+  left: 1104px;
 }
 
 /* Effet hover lumineux */
