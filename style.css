@@ -263,16 +263,6 @@ html, body {
   transform: scale(1.05);
 }
 
-
-/* -------- BOUTONS DE DOCUMENTS -------- */
-.doc-buttons {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 6;
-}
-
-/* Styles communs aux boutons documents */
 /* ---- CHARTE ---- */
 .charte-button {
   width: 135px;
