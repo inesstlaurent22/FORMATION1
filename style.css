@@ -48,18 +48,16 @@ html, body {
 }
 
 .ecriture-buttons a {
-  font-family: 'Inter', sans-serif;
-  font-weight: 100px;
-  font-size: 40px; /* très grand texte */
-  color: black !important;
-  background-color: transparent; /* pas de fond */
-  text-decoration: none; /* supprime la barre en dessous */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  display: block;
   cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.ecriture-buttons a img {
+  width: 120px; /* ajuste ici la taille que tu veux */
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .ecriture-buttons a:hover {
