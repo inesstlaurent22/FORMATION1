@@ -213,15 +213,15 @@ html, body {
   width: 90px;
   height: 100px;
   top: 191px;
-  left: 1184px;
+  left: 1004px;
 }
 
 /* Bouton lancement : plus grand, déplacé légèrement en haut à droite */
 .lancement2-button {
   width: 121px;
   height: 134px;
-  top: 410px;
-  left: 1110px;
+  top: 440px;
+  left: 1090px;
 }
 
 /* Effet hover lumineux */
