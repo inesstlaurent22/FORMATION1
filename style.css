@@ -164,8 +164,8 @@ html, body {
 /* Bouton Carte */
 .carteimage-button {
   position: absolute;
-  top: 1000px;    
-  left: 900px;   
+  top: 1180px;    
+  left: 870px;   
   width: 400px;
   height: 334px;
   z-index: 5;
@@ -209,10 +209,10 @@ html, body {
 
 /* Bouton création : plus petit, déplacé légèrement en haut à droite */
 .creation2-button {
-  width: 90px;
-  height: 100px;
+  width: 60px;
+  height: 80px;
   top: 191px;
-  left: 1004px;
+  left: 1144px;
 }
 
 /* Bouton lancement : plus grand, déplacé légèrement en haut à droite */
