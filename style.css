@@ -71,7 +71,7 @@ html, body {
 }
 
 .ecriture-buttons a img {
-  width: 160px; /* adapte selon la taille souhaitée */
+  width: 120px; /* adapte selon la taille souhaitée */
   height: auto;
   object-fit: contain;
   transition: transform 0.3s ease, filter 0.3s ease;
