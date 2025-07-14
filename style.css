@@ -259,9 +259,12 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;      /* assure un alignement horizontal */
+  flex-wrap: nowrap;        /* empêche le retour à la ligne */
   justify-content: center;
-  gap: 12px;
+  align-items: center;
+  gap: 18px;
+  max-width: 80%;           /* limite la longueur de la ligne */
   z-index: 5;
 }
 
@@ -278,32 +281,33 @@ html, body {
 .charte-button {
   top: 20%;
   left: 25%;
-  width: 183px;
-  height: 219px;
+  width: 123px;
+  height: auto;
 }
 .businessplan1-button {
   top: 20%;
   left: 43%;
-  width: 179px;
-  height: 213px;
+  width: 159px;
+  height: auto;
 }
 .flyers-button {
   top: 20%;
   left: 61%;
-  width: 162px;
-  height: 208px;
+  width: 132px;
+  height: auto;
 }
 .parchemin-button {
   top: 80%;
   left: 70%;
-  width: 254px;
-  height: 115px;
+  width: 314px;
+  height: auto;
 }
 
 .charte-button:hover,
 .businessplan1-button:hover,
 .flyers-button:hover,
-.parchemin-button:hover {
+.parchemin-button:hover,
+.form-buttons:hover {
   transform: scale(1.05);
 }
 
