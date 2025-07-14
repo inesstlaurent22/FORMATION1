@@ -163,8 +163,8 @@ html, body {
 /* Bouton Carte */
 .carteimage-button {
   position: absolute;
-  top: 1030px;    
-  left: 900px;   
+  top: 1080px;    
+  left: 860px;   
   width: 400px;
   height: 334px;
   z-index: 5;
