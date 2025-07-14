@@ -200,8 +200,8 @@ html, body {
 .creation2-button,
 .lancement2-button {
   position: absolute;
-  width: 135px;
-  height: 148px;
+  width: 115px;
+  height: 128px;
   display: block;
   z-index: 5;
   cursor: pointer;
@@ -210,13 +210,13 @@ html, body {
 
 /* Positionnement précis en pixels */
 .creation2-button {
-  top: 241px;
-  left: 1152px;
+  top: 211px;
+  left: 1052px;
 }
 
 .lancement2-button {
-  top: 466px;
-  left: 1152px;
+  top: 446px;
+  left: 1052px;
 }
 
 /* Effet hover lumineux */
