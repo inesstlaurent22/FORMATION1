@@ -140,7 +140,6 @@ html, body {
 
 .treasure-image:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px 10px rgba(255, 215, 0, 0.6); /* effet doré au survol */
 }
 
 /* PAGE START */
