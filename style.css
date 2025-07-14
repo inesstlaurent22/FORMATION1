@@ -265,37 +265,55 @@ html, body {
   transform: scale(1.05);
 }
 
-/* ---- CHARTE ---- */
+/* Conteneur vertical pour les 3 boutons */
+.doc-buttons {
+  position: absolute;
+  top: 100px; /* Ajuste la position verticale du groupe de boutons */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /* Espace entre les boutons */
+  z-index: 5;
+}
+
+/* Bouton CHARTE - réduit de 15% */
 .charte-button {
-  width: 135px;
-  height: 165px;
-  top: 117px;
-  left: 315px;
+  width: 114.75px; /* 135 * 0.85 */
+  height: 140.25px; /* 165 * 0.85 */
+  transition: transform 0.3s ease;
 }
 .charte-button:hover {
   transform: scale(1.1);
 }
 
-/* ---- BUSINESS PLAN ---- */
+/* Bouton BUSINESS PLAN - réduit de 15% */
 .businessplan1-button {
-  width: 130px;
-  height: 155px;
-  top: 112px;
-  left: 480px;
+  width: 110.5px; /* 130 * 0.85 */
+  height: 131.75px; /* 155 * 0.85 */
+  transition: transform 0.3s ease;
 }
 .businessplan1-button:hover {
   transform: scale(1.08) rotate(-2deg);
 }
 
-/* ---- FLYERS ---- */
+/* Bouton FLYERS - réduit de 15% */
 .flyers-button {
-  width: 120px;
-  height: 150px;
-  top: 117px;
-  left: 646px;
+  width: 102px; /* 120 * 0.85 */
+  height: 127.5px; /* 150 * 0.85 */
+  transition: transform 0.3s ease;
 }
 .flyers-button:hover {
   transform: scale(1.12);
+}
+
+/* Assure que les images dans les boutons prennent toute la place */
+.doc-buttons img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 /* ---- PARCHEMIN ---- */
