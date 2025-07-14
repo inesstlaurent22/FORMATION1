@@ -159,7 +159,7 @@ html, body {
 
 /* PAGE START */
 .fond-start {
-  position: absolute;  /* ou relative */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -167,7 +167,8 @@ html, body {
   z-index: 1;
 }
 
-.fond-start-image {
+/* Image de fond */
+.startbackground {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -175,14 +176,15 @@ html, body {
   display: block;
 }
 
+/* Bouton Carte (image cliquable) */
 .carteimage-button {
-  position: fixed; /* fixe aussi pour être bien visible */
-  top: 85%;         /* position relative à la hauteur de la fenêtre */
-  left: 75%;        /* position relative à la largeur de la fenêtre */
+  position: fixed;
+  top: 85%;         /* position verticale */
+  left: 75%;        /* position horizontale */
   width: 400.8px;
   height: 334px;
+  z-index: 10;     /* très haut pour ne pas être caché */
   cursor: pointer;
-  z-index: 5;
   transition: transform 0.3s ease;
 }
 
@@ -191,6 +193,7 @@ html, body {
   height: 100%;
   object-fit: contain;
   display: block;
+  pointer-events: auto;
 }
 
 .carteimage-button:hover {
