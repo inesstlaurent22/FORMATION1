@@ -47,19 +47,6 @@ html, body {
   pointer-events: auto;
 }
 
-.ecriture-buttons {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-  z-index: 2;
-  pointer-events: auto;
-}
-
 .ecriture-buttons a {
   background-color: transparent;
   border: none;
@@ -71,7 +58,7 @@ html, body {
 }
 
 .ecriture-buttons a img {
-  width: 120px; /* adapte selon la taille souhaitée */
+  width: 100px; /* adapte selon la taille souhaitée */
   height: auto;
   object-fit: contain;
   transition: transform 0.3s ease, filter 0.3s ease;
