@@ -177,13 +177,15 @@ html, body {
 }
 
 /* Bouton Carte (image cliquable) */
+/* Change carteimage-button : fixed ➝ absolute */
 .carteimage-button {
-  position: fixed;
-  top: 1087px;         /* position verticale */
-  left: 908px;        /* position horizontale */
-  width: 400.8px;
+  position: absolute;
+  /* Adapte la position au conteneur, pas à la fenêtre */
+  top: 70%;    /* ajuste pour remonter le bouton à l'intérieur */
+  left: 60%;   /* recentre sur la scène */
+  width: 400px;
   height: 334px;
-  z-index: 10;     /* très haut pour ne pas être caché */
+  z-index: 5;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -193,11 +195,6 @@ html, body {
   height: 100%;
   object-fit: contain;
   display: block;
-  pointer-events: auto;
-}
-
-.carteimage-button:hover {
-  transform: scale(1.05);
 }
 
 /* CARTE - Page 3 */
