@@ -127,26 +127,14 @@ html, body {
   display: block;
 }
 
-.treasure-button {
-  position: absolute;
-  top: 379px;
-  left: 177px;
+.treasure-image {
   width: 933px !important;
   height: 597px !important;
-  max-width: none !important;
-  max-height: none !important;
-  min-width: unset !important;
-  min-height: unset !important;
   display: block;
-  z-index: 2;
-  cursor: pointer;
   transition: transform 0.3s ease;
-  object-fit: contain;
 }
-
-.treasure-button:hover {
+.treasure-image:hover {
   transform: scale(1.05);
-  filter: brightness(1.4); /* rend l’image 40% plus lumineuse */
 }
 
 /* PAGE START */
