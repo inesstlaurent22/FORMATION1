@@ -50,7 +50,7 @@ html, body {
 .ecriture-buttons a {
   font-family: 'Inter', sans-serif;
   font-weight: 300; /* poids de la police */
-  font-size: 300px; /* taille du texte */
+  font-size: 120px; /* taille du texte */
   color: black !important;
   background-color: transparent;
   text-decoration: none;
