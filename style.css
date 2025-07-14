@@ -68,7 +68,7 @@ html, body {
 .ecriture-buttons a img:hover {
   transform: scale(1.05);
   filter: brightness(1.3);
-}}
+}
 
 /* BARRE DE NAVIGATION 2 — VERTICALE À GAUCHE (barrenav2) */
 #barrenav2 {
@@ -131,10 +131,12 @@ html, body {
   width: 933px !important;
   height: 597px !important;
   display: block;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .treasure-image:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 30px 10px rgba(255, 215, 0, 0.7); /* lumière dorée */
 }
 
 /* PAGE START */
