@@ -128,7 +128,7 @@ html, body {
 .treasure-button {
   position: absolute;
   top: 177px;        /* Y */
-  right: 379px;       /* X */
+  right: 289px;       /* X */
   width: 673px;      /* largeur */
   height: 673px;     /* hauteur */
   object-fit: contain;
