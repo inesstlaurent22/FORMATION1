@@ -207,10 +207,10 @@ html, body {
 
 /* Bouton création : plus petit, déplacé légèrement en haut à droite */
 .creation2-button {
-  width: 50px;
+  width: 30px;
   height: 80px;
   top: 191px;
-  left: 1044px;
+  left: 1094px;
 }
 
 /* Bouton lancement : plus grand, déplacé légèrement en haut à droite */
