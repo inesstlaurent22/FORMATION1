@@ -129,8 +129,8 @@ html, body {
   position: absolute;
   top: 177px;        /* Y */
   left: 379px;       /* X */
-  width: 333px;      /* largeur */
-  height: 197px;     /* hauteur */
+  width: 673px;      /* largeur */
+  height: 673px;     /* hauteur */
   object-fit: contain;
   display: block;
   z-index: 5;
