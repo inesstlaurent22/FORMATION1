@@ -127,13 +127,13 @@ html, body {
 
 .treasure-button {
   position: absolute;
-  top: 177px;        /* Y */
-  right: 289px;       /* X */
+  top: 60px;        /* Y */
+  right: 189px;       /* X */
   width: 673px;      /* largeur */
   height: 673px;     /* hauteur */
   object-fit: contain;
   display: block;
-  z-index: 5;
+  z-index: 10;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
