@@ -125,7 +125,7 @@ html, body {
   display: block;
 }
 
-.treasure-image {
+.treasure-button {
   position: absolute;
   top: 177px;        /* Y */
   left: 779px;       /* X */
@@ -138,7 +138,7 @@ html, body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.treasure-image:hover {
+.treasure-button:hover {
   transform: scale(1.05);
 }
 
