@@ -489,23 +489,6 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-/* Boutons "charte", "businessplan", "flyers" alignés horizontalement */
-.doc-buttons {
-  position: absolute;
-  top: 3800px; /* à ajuster selon ton design */
-  left: 329px;
-  display: flex;
-  gap: 40px;
-  z-index: 5;
-}
-
-.doc-buttons img {
-  width: 220px;
-  height: auto;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
 /* Effet hover global */
 .marketing-button:hover,
 .communication-button:hover,
