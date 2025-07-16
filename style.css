@@ -331,28 +331,33 @@ html, body {
 }
 
 /* CREATION - Page 5 */
-/* CONTENEUR GLOBAL DE LA PAGE CREATION */
 .creationfond {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-/* FOND SABLE — affiché deux fois */
-.creationsables-image {
+/* SABLES x2 */
+.creationsables-image,
+.creationsables1-image {
   width: 100%;
   height: auto;
   display: block;
+  position: relative;
+  z-index: 1;
 }
 
-/* FOND MER — affiché deux fois */
-.creationmer-image {
+/* MER x2 */
+.creationmer-image,
+.creationmer1-image {
   width: 100%;
   height: auto;
   display: block;
+  position: relative;
+  z-index: 2;
 }
 
-/* IMAGE "CREATION" au-dessus des autres */
+/* CREATION.PNG — PAR DESSUS TOUT */
 .creation-container {
   position: absolute;
   top: 0;
@@ -360,8 +365,7 @@ html, body {
   width: 100%;
   height: auto;
   z-index: 5;
-  pointer-events: none; /* permet de cliquer à travers si nécessaire */
-}
+  pointer-events: none; /* pour ne pas bloquer les clics si nécessaire */
 
 .businessplan-button {
   position: absolute;
