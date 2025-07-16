@@ -3,33 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu</title>
+  <title>KIT IN - Menu</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="menu-container">
+  <!-- Conteneur principal -->
+  <div class="menu-container">
+    <!-- Image de fond -->
     <img src="images/Fond/Menu.png" alt="Image de fond du menu" class="background">
 
-  <div id="barrenav1">
-    <img src="images/Barrebouton/Barrenav1.png" alt="Barre de navigation" class="navbar-bg">
-    <div class="ecriture-buttons">
-      <a href="index.html"><img src="images/Bouton/Boutonacc.png" alt="Bouton Accueil"></a>
-      <a href="start.html"><img src="images/Bouton/Boutonhistoire.png" alt="Bouton Histoire"></a>
-      <a href="menu.html"><img src="images/Bouton/Boutoncarte.png" alt="Bouton Carte"></a>
-      <a href="sacados.html"><img src="images/Bouton/Boutonsacados.png" alt="Bouton Sac à dos"></a>
+    <!-- Barre de navigation -->
+    <nav id="barrenav1" class="navbar">
+      <img src="images/Barrebouton/Barrenav1.png" alt="Barre de navigation" class="navbar-bg">
+      <div class="ecriture-buttons">
+        <a href="index.html" aria-label="Accueil">
+          <img src="images/Bouton/Boutonacc.png" alt="Accueil">
+        </a>
+        <a href="start.html" aria-label="Histoire">
+          <img src="images/Bouton/Boutonhistoire.png" alt="Histoire">
+        </a>
+        <a href="menu.html" aria-label="Carte">
+          <img src="images/Bouton/Boutoncarte.png" alt="Carte">
+        </a>
+        <a href="sacados.html" aria-label="Sac à dos">
+          <img src="images/Bouton/Boutonsacados.png" alt="Sac à dos">
+        </a>
+      </div>
+    </nav>
+
+    <!-- Boutons de navigation vers Création et Lancement -->
+    <div class="actions-buttons">
+      <a href="creation.html" class="creation2-button" aria-label="Création">
+        <img src="images/Bouton/Création.png" alt="Bouton Création">
+      </a>
+      <a href="lancement.html" class="lancement2-button" aria-label="Lancement">
+        <img src="images/Bouton/Lancementemoji.png" alt="Bouton Lancement">
+      </a>
     </div>
   </div>
-
-  <div class="creation2-button,lancement2-button">
-    <a href="creation.html" class="creation2-button">
-      <img src="images/Bouton/Création.png" alt="Bouton Création">
-    </a>
-    <a href="lancement.html" class="lancement2-button">
-      <img src="images/Bouton/Lancementemoji.png" alt="Bouton Lancement">
-    </a>
-  </div>
-</div>
 
 </body>
 </html>
