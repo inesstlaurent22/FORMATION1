@@ -341,17 +341,6 @@ html, body {
   width: 100%;
   height: auto;
 }
-.creationsables-content {
-  position: relative;
-  z-index: 1;
-  padding-top: 120px;
-}
-
-.creationsables-image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 .businessplan-button {
   position: absolute;
@@ -394,6 +383,17 @@ html, body {
 
 /* Image de fond (vérifie que l'image existe dans ton HTML aussi) */
 .lancement-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.lancementsables-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px;
+}
+
+.lancementsables-image {
   display: block;
   width: 100%;
   height: auto;
