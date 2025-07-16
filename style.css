@@ -491,7 +491,6 @@ html, body {
 .commerce-button:hover,
 .finance-button:hover,
 .legal-button:hover,
-.boutourouge1-button:hover,
-.doc-buttons img:hover {
+.boutourouge1-button:hover{
   transform: scale(1.05);
 }
