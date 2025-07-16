@@ -342,6 +342,30 @@ html, body {
   height: auto;
 }
 
+.creationsables1-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px;
+}
+
+.creationsables1-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.creationmer1-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px;
+}
+
+.creationmer1-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .businessplan-button {
   position: absolute;
   top: 8940px;
