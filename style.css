@@ -339,21 +339,21 @@ html, body {
 }
 
 /* FOND SABLE — affiché deux fois */
-.creationsables1-image {
+.creationsables-image {
   width: 100%;
   height: auto;
   display: block;
 }
 
 /* FOND MER — affiché deux fois */
-.creationmer1-image {
+.creationmer-image {
   width: 100%;
   height: auto;
   display: block;
 }
 
 /* IMAGE "CREATION" au-dessus des autres */
-.creation-image {
+.creation-container {
   position: absolute;
   top: 0;
   left: 0;
