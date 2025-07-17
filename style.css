@@ -331,41 +331,40 @@ html, body {
 }
 
 /* CREATION - Page 5 */
-.creationfond {
+/* Conteneur principal qui empile les fonds */
+.lancementfond {
   position: relative;
   width: 100%;
+  height: auto;
   overflow: hidden;
 }
 
-/* SABLES x2 */
-.creationsables-image,
-.creationsables1-image {
-  width: 100%;
-  height: auto;
-  display: block;
+/* Fond Sables — dessous */
+.lancementsables-container {
   position: relative;
   z-index: 1;
 }
 
-/* MER x2 */
-.creationmer-image,
-.creationmer1-image {
+.lancementsables-image {
   width: 100%;
   height: auto;
   display: block;
-  position: relative;
-  z-index: 2;
 }
 
-/* CREATION.PNG — PAR DESSUS TOUT */
-.creation-container {
+/* Fond Lancement — dessus */
+.lancement-content {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.lancement-image {
   width: 100%;
   height: auto;
-  z-index: 5;
-  pointer-events: none; /* pour ne pas bloquer les clics si nécessaire */
+  display: block;
+}
 
 .businessplan-button {
   position: absolute;
