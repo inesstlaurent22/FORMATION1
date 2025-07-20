@@ -537,7 +537,7 @@ html, body {
   z-index: 0;
 }
 
-.communication-container img.mark {
+.communication-container img.comm {
   position: absolute;
   top: 0;
   left: 0;
@@ -547,14 +547,14 @@ html, body {
   z-index: 0;
 }
 
-.Charte-buttons {
+.charte-buttons {
   position: fixed;
   top: 21850px;
   right: 15160px;
   z-index: 100;
 }
 
-.clickhere-buttons {
+.boutonrouge-buttons {
   position: fixed;
   top: 5083px;
   right: 662px;
@@ -570,7 +570,7 @@ html, body {
   z-index: 0;
 }
 
-.commerce-container img.mark {
+.commerce-container img.commerce {
   position: absolute;
   top: 0;
   left: 0;
@@ -580,14 +580,14 @@ html, body {
   z-index: 0;
 }
 
-.clickhereco-buttons {
+.boutonrougeco-buttons {
   position: fixed;
   top: 4483px;
   right: 987px;
   z-index: 100;
 }
 
-.clickhereco1-buttons {
+.boutonrougeco1-buttons {
   position: fixed;
   top: 7632px;
   right: 650px;
@@ -603,7 +603,7 @@ html, body {
   z-index: 0;
 }
 
-.finance-container img.mark {
+.finance-container img.bn {
   position: absolute;
   top: 0;
   left: 0;
@@ -613,7 +613,7 @@ html, body {
   z-index: 0;
 }
 
-.clickherefi-buttons {
+.boutonrougefi-buttons {
   position: fixed;
   top: 7505px;
   right: 617px;
@@ -629,7 +629,7 @@ html, body {
   z-index: 0;
 }
 
-.legal-container img.mark {
+.legal-container img.legal {
   position: absolute;
   top: 0;
   left: 0;
