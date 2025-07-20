@@ -89,7 +89,7 @@ html, body {
 
 .formation-buttons {
   position: absolute;
-  top: 144px;
+  top: 159px;
   left: 46px;       /* ajuste horizontalement */
   display: flex;
   flex-direction: column;
