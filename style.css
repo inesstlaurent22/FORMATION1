@@ -89,19 +89,19 @@ html, body {
 
 .formation-buttons {
   position: absolute;
-  top: 104px;
+  top: 124px;
   left: 46px;       /* ajuste horizontalement */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 12px;
+  gap: 14px;
   z-index: 5;
   pointer-events: auto;
 }
 
 .formation-buttons img {
-  width: 60px !important;
+  width: 65px !important;
   height: auto;
   object-fit: contain;
   cursor: pointer;
