@@ -165,7 +165,7 @@ html, body {
 /* Bouton Carte */
 .carteimage-button {
   position: absolute;
-  top: 1100px;    
+  top: 9000px;    
   left: 875px;  
   z-index: 5;
   cursor: pointer;
@@ -373,7 +373,7 @@ html, body {
 
 .boutonrouge-button {
   position: absolute;
-  top: 14040px;
+  top: 16040px;
   left: 616px;
   width: 214px;
   height: 223px;
@@ -440,7 +440,7 @@ html, body {
 /* Deuxième ligne */
 .finance-button {
   position: absolute;
-  top: 2994px;
+  top: 3594px;
   left: 300px;
   width: 226px;
   height: 297px;
@@ -452,7 +452,7 @@ html, body {
 
 .legal-button {
   position: absolute;
-  top: 2994px;
+  top: 3594px;
   left: 655px;
   width: 224px;
   height: 285px;
