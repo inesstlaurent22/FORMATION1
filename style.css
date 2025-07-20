@@ -242,8 +242,8 @@ html, body {
 /* -------- BOUTONS FORMULAIRES -------- */
 .form-buttons {
   position: absolute;
-  top: 567px;
-  left: 336px;
+  top: 607px;
+  left: 426px;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
@@ -299,8 +299,8 @@ html, body {
 /* Conteneur du bouton BUSINESS PLAN */
 .businessplan1-button-container {
   position: absolute;
-  top: 117px;
-  left: 480px;
+  top: 114px;
+  left: 478px;
   z-index: 5;
 }
 .businessplan1-button {
