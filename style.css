@@ -95,13 +95,13 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 25px;
   z-index: 5;
   pointer-events: auto;
 }
 
 .formation-buttons img {
-  width: 65px;
+  width: 68px;
   height: auto;
   object-fit: contain;
   cursor: pointer;
@@ -485,6 +485,9 @@ html, body {
   transform: scale(1.05);
 }
 
+
+
+
 /* MARKETING - Page 7 */
 .marketing-container {
   position: relative;
@@ -520,7 +523,7 @@ html, body {
 
 .suitecomm-buttons {
   top: 7785px;
-  left: 1020px;
+  left: 1040px;
 }
 
 .flyers-buttons {
