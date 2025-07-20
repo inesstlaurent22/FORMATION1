@@ -429,18 +429,18 @@ html, body {
 }
 
 .communication-button {
-  left: 668px;
+  left: 660px;
   z-index: 6;
 }
 
 .commerce-button {
-  left: 895px;
+  left: 935px;
 }
 
 /* Deuxième ligne */
 .finance-button {
   position: absolute;
-  top: 3084px;
+  top: 3284px;
   left: 300px;
   width: 226px;
   height: 297px;
@@ -452,8 +452,8 @@ html, body {
 
 .legal-button {
   position: absolute;
-  top: 3284px;
-  left: 668px;
+  top: 2884px;
+  left: 660px;
   width: 224px;
   height: 285px;
   display: block;
