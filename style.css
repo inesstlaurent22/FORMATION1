@@ -504,17 +504,18 @@ html, body {
   z-index: 0;
 }
 
+.retour-buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
 /* Boutons au-dessus de l’image */
-.retour-buttons,
 .suitecomm-buttons,
 .flyers-buttons {
   position: absolute;
   z-index: 10;
-}
-
-.retour-buttons {
-  top: 20px;
-  left: 20px;
 }
 
 .suitecomm-buttons {
