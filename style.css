@@ -89,13 +89,13 @@ html, body {
 
 .formation-buttons {
   position: absolute;
-  top: 159px;
+  top: 170px;
   left: 46px;       /* ajuste horizontalement */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 17px;
+  gap: 20px;
   z-index: 5;
   pointer-events: auto;
 }
