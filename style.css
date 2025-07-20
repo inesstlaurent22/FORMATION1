@@ -330,29 +330,18 @@ html, body {
   transform: scale(1.05);
 }
 
+
+
 /* CREATION - Page 5 */
-/* Conteneur principal qui empile les fonds */
-.lancementfond {
+
+.creationfond {
   position: relative;
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-/* Fond Sables — dessous */
-.lancementsables-container {
-  position: relative;
-  z-index: 1;
-}
-
-.lancementsables-image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Fond Lancement — dessus */
-.lancement-content {
+.creation-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -360,7 +349,7 @@ html, body {
   width: 100%;
 }
 
-.lancement-image {
+.creation-image {
   width: 100%;
   height: auto;
   display: block;
@@ -384,7 +373,7 @@ html, body {
 
 .boutonrouge-button {
   position: absolute;
-  top: 13540px;
+  top: 14040px;
   left: 616px;
   width: 214px;
   height: 223px;
@@ -399,25 +388,12 @@ html, body {
 }
 
 /* LANCEMENT - Page 5 */
+
 .lancement-content {
   position: relative;
   z-index: 1;
   padding-top: 120px;
 }
-
-/* Image de fond (vérifie que l'image existe dans ton HTML aussi) */
-.lancementsables-container {
-  position: relative;
-  z-index: 0;
-}
-
-.lancementsables-image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-/* Lancement doit être positionné au-dessus */
 .lancement-content {
   position: absolute; /* position absolue pour qu’il flotte au-dessus */
   top: 0;
@@ -432,6 +408,7 @@ html, body {
   width: 100%;
   height: auto;
 }
+
 
 /* Boutons de la première ligne */
 .marketing-button,
