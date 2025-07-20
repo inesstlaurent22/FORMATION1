@@ -101,7 +101,7 @@ html, body {
 }
 
 .formation-buttons img {
-  width: 70px;
+  width: 60px !important;
   height: auto;
   object-fit: contain;
   cursor: pointer;
