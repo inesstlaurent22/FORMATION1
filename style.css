@@ -415,7 +415,7 @@ html, body {
 .communication-button,
 .commerce-button {
   position: absolute;
-  top: 2704px;
+  top: 2644px;
   width: 224px;
   height: 285px;
   display: block;
@@ -425,23 +425,23 @@ html, body {
 }
 
 .marketing-button {
-  left: 329px;
+  left: 300px;
 }
 
 .communication-button {
-  left: 683px;
+  left: 668px;
   z-index: 6;
 }
 
 .commerce-button {
-  left: 1025px;
+  left: 895px;
 }
 
 /* Deuxième ligne */
 .finance-button {
   position: absolute;
-  top: 3284px;
-  left: 329px;
+  top: 3084px;
+  left: 300px;
   width: 226px;
   height: 297px;
   display: block;
@@ -453,7 +453,7 @@ html, body {
 .legal-button {
   position: absolute;
   top: 3284px;
-  left: 683px;
+  left: 668px;
   width: 224px;
   height: 285px;
   display: block;
