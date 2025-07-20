@@ -231,19 +231,19 @@ html, body {
 /* SAC A DOS - Page 4 */
 .menu2-container {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   background-image: url("images/Fond/menu2.png");
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
+  background-size: contain;       /* ✅ Affiche toute l’image sans la couper */
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 /* -------- BOUTONS FORMULAIRES -------- */
 .form-buttons {
   position: absolute;
-  top: 60%;
-  left: 55%;
+  top: 567px;
+  left: 336px;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
@@ -263,51 +263,59 @@ html, body {
   transform: scale(1.05);
 }
 
-/* Conteneur vertical pour les 3 boutons */
-.doc-buttons {
+/* Conteneur du bouton FLYERS */
+.flyers-button-container {
   position: absolute;
-  top: 100px; /* Ajuste la position verticale du groupe de boutons */
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px; /* Espace entre les boutons */
+  top: 117px;
+  left: 646px;
   z-index: 5;
 }
-
-/* Bouton CHARTE - réduit de 15% */
-.charte-button {
-  width: 114.75px; /* 135 * 0.85 */
-  height: 140.25px; /* 165 * 0.85 */
-  transition: transform 0.3s ease;
-}
-.charte-button:hover {
-  transform: scale(1.1);
-}
-
-/* Bouton BUSINESS PLAN - réduit de 15% */
-.businessplan1-button {
-  width: 110.5px; /* 130 * 0.85 */
-  height: 131.75px; /* 155 * 0.85 */
-  transition: transform 0.3s ease;
-}
-.businessplan1-button:hover {
-  transform: scale(1.08) rotate(-2deg);
-}
-
-/* Bouton FLYERS - réduit de 15% */
 .flyers-button {
-  width: 102px; /* 120 * 0.85 */
-  height: 127.5px; /* 150 * 0.85 */
+  width: 102px;
+  height: 127.5px;
   transition: transform 0.3s ease;
 }
 .flyers-button:hover {
   transform: scale(1.12);
 }
 
-/* Assure que les images dans les boutons prennent toute la place */
-.doc-buttons img {
+/* Conteneur du bouton CHARTE */
+.charte-button-container {
+  position: absolute;
+  top: 117px;
+  left: 315px;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+.charte-button {
+  width: 114.75px;
+  height: 140.25px;
+  transition: transform 0.3s ease;
+}
+.charte-button:hover {
+  transform: scale(1.1);
+}
+
+/* Conteneur du bouton BUSINESS PLAN */
+.businessplan1-button-container {
+  position: absolute;
+  top: 117px;
+  left: 480px;
+  z-index: 5;
+}
+.businessplan1-button {
+  width: 110.5px;
+  height: 131.75px;
+  transition: transform 0.3s ease;
+}
+.businessplan1-button:hover {
+  transform: scale(1.08) rotate(-2deg);
+}
+
+/* Appliquer les dimensions à l’image dans chaque bouton */
+.flyers-button img,
+.charte-button img,
+.businessplan1-button img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -357,8 +365,8 @@ html, body {
 
 .businessplan-button {
   position: absolute;
-  top: 9990px;
-  left: 900px;
+  top: 9985px;
+  left: 890px;
   width: 319px;
   height: 334px;
   display: block;
@@ -373,7 +381,7 @@ html, body {
 
 .boutonrouge-button {
   position: absolute;
-  top: 13040px;
+  top: 13940px;
   left: 616px;
   width: 214px;
   height: 223px;
