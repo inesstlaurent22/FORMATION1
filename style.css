@@ -263,70 +263,37 @@ html, body {
   transform: scale(1.05);
 }
 
-/* Conteneur du bouton FLYERS */
-.flyers-buttons {
-  position: absolute;
-  top: 117px;
-  left: 646px;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
-  z-index: 5;
-}
-
-.flyers-buttons img {
-  width: 162px;
-  height: 208px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.flyers-buttons img:hover {
-  transform: scale(1.05);
-}
-
-/* Conteneur du bouton CHARTE */
-.charte-buttons {
-  position: absolute;
-  top: 117px;
-  left: 315px;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
-  z-index: 5;
-}
-
-.charte-buttons img {
-  width: 183px;
-  height: 219px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.charte-buttons img:hover {
-  transform: scale(1.05);
-}
-
-/* Conteneur du bouton BUSINESS PLAN */
+/* Boutons de la première ligne */
+.flyers-buttons,
+.charte-buttons,
 .businessplan1-buttons {
   position: absolute;
   top: 117px;
-  left: 480px;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
+  width: 183px;
+  height: 219px;
+  display: block;
   z-index: 5;
-}
-
-.businessplan1-buttons img {
-  width: 179px;
-  height: 213px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.businessplan1-buttons img:hover {
-  transform: scale(1.05);
+.flyers-buttons {
+  left: 646px;
+}
+
+.charte-buttons {
+  left: 315px;
+  z-index: 6;
+}
+
+.businessplan1-buttons {
+  left: 480px;
+}
+
+/* Effet hover global */
+.flyers-buttons:hover,
+.charte-buttons:hover,
+.businessplan1-buttons:hover,
 }
 
 .parchemin-button {
@@ -407,7 +374,6 @@ html, body {
 }
 
 /* LANCEMENT - Page 5 */
-
 .lancement-content {
   position: relative;
   z-index: 1;
@@ -481,6 +447,16 @@ html, body {
   transition: transform 0.3s ease;
 }
 
+/* Effet hover global */
+.marketing-button:hover,
+.communication-button:hover,
+.commerce-button:hover,
+.finance-button:hover,
+.legal-button:hover,
+.boutourouge1-button:hover{
+  transform: scale(1.05);
+}
+
 /* Bouton rouge */
 .boutourouge1-button {
   position: absolute;
@@ -493,18 +469,6 @@ html, body {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
-
-/* Effet hover global */
-.marketing-button:hover,
-.communication-button:hover,
-.commerce-button:hover,
-.finance-button:hover,
-.legal-button:hover,
-.boutourouge1-button:hover{
-  transform: scale(1.05);
-}
-
-
 
 
 /* MARKETING - Page 7 */
