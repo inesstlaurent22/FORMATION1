@@ -253,7 +253,7 @@ html, body {
 }
 
 .form-buttons img {
-  width: 160px;
+  width: 9.11%;;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -276,20 +276,20 @@ html, body {
 
 /* Bouton CHARTE */
 .doc-buttons .charte-buttons img {
-  width: 8%;
-  height: auto;
+  width: 9.53%;
+  height: 20.28%;;
 }
 
 /* Bouton BUSINESS PLAN */
 .doc-buttons .businessplan1-buttons img {
-  width: 8%;
-  height: auto;
+  width: 9,53%;
+  height: 20.28%;
 }
 
 /* Bouton FLYERS */
 .doc-buttons .flyers-buttons img {
-  width: 8%;
-  height: auto;
+  width: 9,53%;
+  height: 20.28%;
 }
 
 /* Effets communs */
@@ -312,8 +312,8 @@ html, body {
 }
 
 .parchemin-button img {
-  width: 13.23%;
-  height: 10.65%;
+  width: 33.23%;
+  height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
