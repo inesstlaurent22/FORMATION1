@@ -165,16 +165,16 @@ html, body {
 /* Bouton Carte */
 .carteimage-button {
   position: absolute;
-  top: 101.85%;
-  left: 45.57%;
+  top: 102.35%;
+  left: 42%;
   z-index: 5;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .carteimage-button img {
-  width: 20.83%;
-  height: 30.93%;
+  width: 22%;
+  height: 32%;
   object-fit: contain;
   display: block;
 }
@@ -206,12 +206,12 @@ html, body {
   transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Bouton création : plus petit, déplacé légèrement en haut à droite */
+/* Bouton création  */
 .creation2-button {
-  width: 3% !important;
+  width: 1.70% !important;
   height: auto;
   top: 17.69%;
-  left: 56.98%;
+  left: 56.28%;
 }
 
 /* Bouton lancement : plus grand, déplacé légèrement en haut à droite */
@@ -243,8 +243,8 @@ html, body {
 /* -------- BOUTONS FORMULAIRES -------- */
 .form-buttons {
   position: absolute;
-  top: 55%; /* Pourcentage plutôt que pixels */
-  left: 50%;
+  top: 65%; /* Pourcentage plutôt que pixels */
+  left: 60%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
@@ -266,30 +266,30 @@ html, body {
 /* -------- DOC BUTTONS -------- */
 .doc-buttons {
   position: absolute;
-  top: 28%;
-  left: 50%;
+  top: 18%;
+  left: 35%;
   transform: translateX(-50%);
   display: flex;
-  gap: 30px;
+  gap: 15px;
   z-index: 6;
 }
 
 /* Bouton CHARTE */
 .doc-buttons .charte-buttons img {
-  width: 7%;
-  height: 12%;
+  width: 8%;
+  height: auto;
 }
 
 /* Bouton BUSINESS PLAN */
 .doc-buttons .businessplan1-buttons img {
   width: 8%;
-  height: 12%;
+  height: auto;
 }
 
 /* Bouton FLYERS */
 .doc-buttons .flyers-buttons img {
-  width: 9%;
-  height: 12%;
+  width: 8%;
+  height: auto;
 }
 
 /* Effets communs */
