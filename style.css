@@ -208,7 +208,7 @@ html, body {
 
 /* Bouton création : plus petit, déplacé légèrement en haut à droite */
 .creation2-button {
-  width: 40px !important;
+  width: 3% !important;
   height: auto;
   top: 191px;
   left: 1094px;
