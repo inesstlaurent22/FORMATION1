@@ -165,7 +165,7 @@ html, body {
 /* Bouton Carte */
 .carteimage-button {
   position: absolute;
-  top: 950px;    
+  top: 1100px;    
   left: 875px;  
   z-index: 5;
   cursor: pointer;
@@ -209,7 +209,7 @@ html, body {
 /* Bouton création : plus petit, déplacé légèrement en haut à droite */
 .creation2-button {
   width: 40px !important;
-  height: 60px;
+  height: auto;
   top: 191px;
   left: 1094px;
 }
@@ -243,7 +243,7 @@ html, body {
 .form-buttons {
   position: absolute;
   top: 607px;
-  left: 426px;
+  left: 626px;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
@@ -264,80 +264,91 @@ html, body {
 }
 
 /* Conteneur du bouton FLYERS */
-.flyers-button-container {
+.flyers-buttons {
   position: absolute;
   top: 117px;
   left: 646px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
   z-index: 5;
 }
-.flyers-button {
+
+.flyers-buttons img {
   width: 102px;
-  height: 127.5px;
+  height: 127,5px;
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
-.flyers-button:hover {
-  transform: scale(1.12);
+
+.flyers-buttons img:hover {
+  transform: scale(1.05);
 }
 
 /* Conteneur du bouton CHARTE */
-.charte-button-container {
+.charte-buttons {
   position: absolute;
   top: 117px;
   left: 315px;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
   z-index: 5;
 }
-.charte-button {
-  width: 114.75px;
-  height: 140.25px;
+
+.charte-buttons img {
+  width: 114,75px;
+  height: 140,25px;
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
-.charte-button:hover {
-  transform: scale(1.1);
+
+.charte-buttons img:hover {
+  transform: scale(1.05);
 }
 
 /* Conteneur du bouton BUSINESS PLAN */
-.businessplan1-button-container {
+.businessplan1-buttons {
   position: absolute;
   top: 114px;
   left: 478px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
   z-index: 5;
 }
-.businessplan1-button {
+
+.businessplan1-buttons img {
   width: 110.5px;
   height: 131.75px;
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
-.businessplan1-button:hover {
-  transform: scale(1.08) rotate(-2deg);
+
+.businessplan1-buttons img:hover {
+  transform: scale(1.05);
 }
 
-/* Appliquer les dimensions à l’image dans chaque bouton */
-.flyers-button img,
-.charte-button img,
-.businessplan1-button img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-
-/* ---- PARCHEMIN ---- */
 .parchemin-button {
   position: absolute;
   top: 900px;
   left: 822px;
-  width: 444px;
-  height: auto;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
   z-index: 5;
 }
 
-.parchemin-button:hover {
-  transform: scale(1.05);
+.parchemin-button img {
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
+.parchemin-button img:hover {
+  transform: scale(1.05);
+}
 
 
 /* CREATION - Page 5 */
