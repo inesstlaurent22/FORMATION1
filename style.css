@@ -234,21 +234,21 @@ html, body {
   width: 100%;
   min-height: 100vh;
   background-image: url("images/Fond/menu2.png");
-  background-size: contain;       /* ✅ Affiche toute l’image sans la couper */
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
+  overflow: hidden;
 }
 
 /* -------- BOUTONS FORMULAIRES -------- */
 .form-buttons {
   position: absolute;
-  top: 607px;
-  left: 626px;
+  top: 55%; /* Pourcentage plutôt que pixels */
+  left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
   gap: 18px;
-  max-width: 80%;
   z-index: 5;
 }
 
@@ -263,46 +263,34 @@ html, body {
   transform: scale(1.05);
 }
 
-/* Boutons de la première ligne */
-.flyers-buttons,
-.charte-buttons,
-.businessplan1-buttons {
+/* -------- DOC BUTTONS -------- */
+.doc-buttons {
   position: absolute;
-  top: 117px;
-  width: 183px;
-  height: 219px;
-  display: block;
-  z-index: 10;
-  cursor: pointer;
-}
-
-.flyers-buttons {
-  left: 646px;
-}
-
-.charte-buttons {
-  left: 315px;
+  top: 28%; /* Mieux que 117px */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 30px;
   z-index: 6;
 }
 
-.businessplan1-buttons {
-  left: 480px;
+.doc-buttons a img {
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-/* Effet hover global */
-.flyers-buttons:hover,
-.charte-buttons:hover,
-.businessplan1-buttons:hover {
+.doc-buttons a img:hover {
   transform: scale(1.05);
 }
 
+/* -------- PARCHEMIN -------- */
 .parchemin-button {
   position: absolute;
-  top: 893;
-  left: 702;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 5;
 }
 
@@ -316,6 +304,7 @@ html, body {
 .parchemin-button img:hover {
   transform: scale(1.05);
 }
+
 
 
 /* CREATION - Page 5 */
