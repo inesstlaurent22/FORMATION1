@@ -276,20 +276,20 @@ html, body {
 
 /* Bouton CHARTE */
 .doc-buttons .charte-buttons img {
-  width: 183px;
-  height: 219px;
+  width: 10%;
+  height: 20%;
 }
 
 /* Bouton BUSINESS PLAN */
 .doc-buttons .businessplan1-buttons img {
-  width: 179px;
-  height: 213px;
+  width: 9%;
+  height: 20%;
 }
 
 /* Bouton FLYERS */
 .doc-buttons .flyers-buttons img {
-  width: 162px;
-  height: 208px;
+  width: 9%;
+  height: 19%;
 }
 
 /* Effets communs */
