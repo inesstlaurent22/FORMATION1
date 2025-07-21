@@ -266,7 +266,7 @@ html, body {
 /* -------- DOC BUTTONS -------- */
 .doc-buttons {
   position: absolute;
-  top: 28%; /* Mieux que 117px */
+  top: 28%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -274,9 +274,26 @@ html, body {
   z-index: 6;
 }
 
+/* Bouton CHARTE */
+.doc-buttons .charte-buttons img {
+  width: 183px;
+  height: 219px;
+}
+
+/* Bouton BUSINESS PLAN */
+.doc-buttons .businessplan1-buttons img {
+  width: 179px;
+  height: 213px;
+}
+
+/* Bouton FLYERS */
+.doc-buttons .flyers-buttons img {
+  width: 162px;
+  height: 208px;
+}
+
+/* Effets communs */
 .doc-buttons a img {
-  width: 160px;
-  height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
