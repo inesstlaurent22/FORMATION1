@@ -272,9 +272,8 @@ html, body {
   width: 183px;
   height: 219px;
   display: block;
-  z-index: 5;
+  z-index: 10;
   cursor: pointer;
-  transition: transform 0.3s ease;
 }
 
 .flyers-buttons {
@@ -293,7 +292,8 @@ html, body {
 /* Effet hover global */
 .flyers-buttons:hover,
 .charte-buttons:hover,
-.businessplan1-buttons:hover,
+.businessplan1-buttons:hover {
+  transform: scale(1.05);
 }
 
 .parchemin-button {
