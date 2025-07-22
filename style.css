@@ -210,16 +210,16 @@ html, body {
 .creation2-button {
   width: 10% !important;
   height: auto;
-  top: 40%;
-  left: 70%;
+  top: 20%;
+  left: 73%;
 }
 
 /* Bouton lancement : plus grand, déplacé légèrement en haut à droite */
 .lancement2-button {
   width: 10%;
   height: auto;
-  top: 50.74%;
-  left: 70%;
+  top: 50%;
+  left: 73%;
 }
 
 /* Effet hover lumineux */
@@ -267,10 +267,10 @@ html, body {
 .doc-buttons {
   position: absolute;
   top: 12%;
-  left: 42%;
+  left: 41%;
   transform: translateX(-50%);
   display: flex;
-  gap: 15px;
+  gap: 3px;
   z-index: 6;
 }
 
@@ -282,13 +282,13 @@ html, body {
 
 /* Bouton BUSINESS PLAN */
 .doc-buttons .businessplan1-buttons img {
-  width: 175px;
+  width: 275px;
   height: auto;
 }
 
 /* Bouton FLYERS */
 .doc-buttons .flyers-buttons img {
-  width: 175px;
+  width: 202px;
   height: auto;
 }
 
