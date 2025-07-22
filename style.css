@@ -507,6 +507,11 @@ html, body {
 .suitecomm-buttons,
 .flyers2-buttons {
   position: absolute;
+  width: 224px;
+  height: 285px;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
   z-index: 10;
 }
 
