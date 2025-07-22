@@ -266,8 +266,8 @@ html, body {
 /* -------- DOC BUTTONS -------- */
 .doc-buttons {
   position: absolute;
-  top: 18%;
-  left: 35%;
+  top: 12%;
+  left: 42%;
   transform: translateX(-50%);
   display: flex;
   gap: 15px;
@@ -306,7 +306,7 @@ html, body {
 .parchemin-button {
   position: absolute;
   top: 893px;
-  left: 702px;
+  left: 762px;
   transform: translateX(-50%);
   z-index: 5;
 }
