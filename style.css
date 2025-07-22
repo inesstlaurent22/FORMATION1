@@ -165,16 +165,16 @@ html, body {
 /* Bouton Carte */
 .carteimage-button {
   position: absolute;
-  top: 102.35%;
-  left: 42%;
+  top: 141%;
+  left: 250%;
   z-index: 5;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .carteimage-button img {
-  width: 22%;
-  height: 32%;
+  width: 66%;
+  height: auto;
   object-fit: contain;
   display: block;
 }
