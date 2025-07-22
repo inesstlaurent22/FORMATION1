@@ -276,20 +276,20 @@ html, body {
 
 /* Bouton CHARTE */
 .doc-buttons .charte-buttons img {
-  width: 9.53%;
-  height: 20.28%;;
+  width: 183px;
+  height: 219px;;
 }
 
 /* Bouton BUSINESS PLAN */
 .doc-buttons .businessplan1-buttons img {
-  width: 9,53%;
-  height: 20.28%;
+  width: 179px;
+  height: 213px;
 }
 
 /* Bouton FLYERS */
 .doc-buttons .flyers-buttons img {
-  width: 9,53%;
-  height: 20.28%;
+  width: 162px;
+  height: 208px;
 }
 
 /* Effets communs */
@@ -305,15 +305,15 @@ html, body {
 /* -------- PARCHEMIN -------- */
 .parchemin-button {
   position: absolute;
-  top: 84%;
-  left: 46%;
+  top: 893px;
+  left: 702px;
   transform: translateX(-50%);
   z-index: 5;
 }
 
 .parchemin-button img {
-  width: 33.23%;
-  height: auto;
+  width: 254px;
+  height: 117px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
