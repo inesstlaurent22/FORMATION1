@@ -265,36 +265,41 @@ html, body {
 
 /* -------- DOC BUTTONS -------- */
 .doc-buttons {
-  position: absolute;
-  top: 12%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: flex-start; /* Important pour aligner en haut */
-  gap: 3px;
+  position: relative; /* On bascule sur relative pour que les boutons internes utilisent position absolute */
+  width: 100%;
+  height: auto;
   z-index: 6;
 }
 
-/* Conteneur de chaque bouton */
-.doc-buttons a {
-  display: flex;
-  align-items: flex-start;
-}
-
 /* Bouton CHARTE */
-.doc-buttons .charte-buttons img {
+.charte-buttons {
+  position: absolute;
+  top: 117px;
+  left: 315px;
+}
+.charte-buttons img {
   width: 175px;
   height: auto;
 }
 
 /* Bouton BUSINESS PLAN */
-.doc-buttons .businessplan1-buttons img {
+.businessplan1-buttons {
+  position: absolute;
+  top: 117px;
+  left: 480px;
+}
+.businessplan1-buttons img {
   width: 275px;
   height: auto;
 }
 
 /* Bouton FLYERS */
-.doc-buttons .flyers-buttons img {
+.flyers-buttons {
+  position: absolute;
+  top: 117px;
+  left: 646px;
+}
+.flyers-buttons img {
   width: 202px;
   height: auto;
 }
@@ -314,7 +319,7 @@ html, body {
 .parchemin-button {
   position: absolute;
   top: 843px;
-  left: 762px;
+  left: 770px;
   transform: translateX(-50%);
   z-index: 5;
 }
