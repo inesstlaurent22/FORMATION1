@@ -211,7 +211,7 @@ html, body {
   width: 10% !important;
   height: auto;
   top: 20%;
-  left: 73%;
+  left: 76%;
 }
 
 /* Bouton lancement : plus grand, déplacé légèrement en haut à droite */
@@ -219,7 +219,7 @@ html, body {
   width: 10%;
   height: auto;
   top: 50%;
-  left: 73%;
+  left: 76%;
 }
 
 /* Effet hover lumineux */
@@ -267,17 +267,24 @@ html, body {
 .doc-buttons {
   position: absolute;
   top: 12%;
-  left: 41%;
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
+  align-items: flex-start; /* Important pour aligner en haut */
   gap: 3px;
   z-index: 6;
+}
+
+/* Conteneur de chaque bouton */
+.doc-buttons a {
+  display: flex;
+  align-items: flex-start;
 }
 
 /* Bouton CHARTE */
 .doc-buttons .charte-buttons img {
   width: 175px;
-  height: auto;;
+  height: auto;
 }
 
 /* Bouton BUSINESS PLAN */
@@ -296,6 +303,7 @@ html, body {
 .doc-buttons a img {
   cursor: pointer;
   transition: transform 0.3s ease;
+  display: block;
 }
 
 .doc-buttons a img:hover {
@@ -305,7 +313,7 @@ html, body {
 /* -------- PARCHEMIN -------- */
 .parchemin-button {
   position: absolute;
-  top: 893px;
+  top: 843px;
   left: 762px;
   transform: translateX(-50%);
   z-index: 5;
