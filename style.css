@@ -520,6 +520,11 @@ html, body {
   left: 900px;
 }
 
+.suitecomm-buttons:hover,
+.flyers2-buttons:hover{
+  transform: scale(1.05);
+}
+
 /* COMMUNICATION - Page 8 */
 .communication-container {
   position: relative;
