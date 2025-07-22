@@ -392,6 +392,9 @@ html, body {
   transform: scale(1.05);
 }
 
+
+
+
 /* LANCEMENT - Page 5 */
 .lancement-content {
   position: relative;
@@ -412,7 +415,6 @@ html, body {
   width: 100%;
   height: auto;
 }
-
 
 /* Boutons de la première ligne */
 .marketing-button,
@@ -477,14 +479,14 @@ html, body {
 }
 
 /* Bouton rouge */
-.boutourouge1-button {
+.boutonrouge1-button {
   position: absolute;
-  top: 4152px;
-  left: 659px;
-  width: 146px;
-  height: 152px;
-  display: block;
-  z-index: 5;
+  top: 70%;         
+  left: 50%;        
+  transform: translate(-50%, -50%);
+  width: 12%;      
+  height: auto;   
+  z-index: 15;    
   cursor: pointer;
   transition: transform 0.3s ease;
 }
