@@ -253,7 +253,7 @@ html, body {
 }
 
 .form-buttons img {
-  width: 222px;;
+  width: 182px;;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -282,14 +282,14 @@ html, body {
 
 /* Bouton BUSINESS PLAN */
 .doc-buttons .businessplan1-buttons img {
-  width: 179px;
-  height: 213px;
+  width: 183px;
+  height: 219px;
 }
 
 /* Bouton FLYERS */
 .doc-buttons .flyers-buttons img {
-  width: 162px;
-  height: 208px;
+  width: 183px;
+  height: 219px;
 }
 
 /* Effets communs */
@@ -312,8 +312,8 @@ html, body {
 }
 
 .parchemin-button img {
-  width: 254px;
-  height: 117px;
+  width: 304px;
+  height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
