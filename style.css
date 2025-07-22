@@ -134,7 +134,7 @@ html, body {
   height: 28.06%;
   object-fit: contain;
   display: block;
-  z-index: 5;
+  z-index: 10;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -167,7 +167,7 @@ html, body {
   position: absolute;
   top: 141%;
   left: 250%;
-  z-index: 5;
+  z-index: 10;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -208,18 +208,18 @@ html, body {
 
 /* Bouton création  */
 .creation2-button {
-  width: 1.70% !important;
+  width: 10% !important;
   height: auto;
-  top: 50.69%;
-  left: 56.28%;
+  top: 40%;
+  left: 70%;
 }
 
 /* Bouton lancement : plus grand, déplacé légèrement en haut à droite */
 .lancement2-button {
-  width: 6.30%;
-  height: 12.41%;
+  width: 10%;
+  height: auto;
   top: 50.74%;
-  left: 56.77%;
+  left: 70%;
 }
 
 /* Effet hover lumineux */
@@ -276,20 +276,20 @@ html, body {
 
 /* Bouton CHARTE */
 .doc-buttons .charte-buttons img {
-  width: 183px;
-  height: 219px;;
+  width: 175px;
+  height: auto;;
 }
 
 /* Bouton BUSINESS PLAN */
 .doc-buttons .businessplan1-buttons img {
-  width: 183px;
-  height: 219px;
+  width: 175px;
+  height: auto;
 }
 
 /* Bouton FLYERS */
 .doc-buttons .flyers-buttons img {
-  width: 183px;
-  height: 219px;
+  width: 175px;
+  height: auto;
 }
 
 /* Effets communs */
