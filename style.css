@@ -273,7 +273,7 @@ html, body {
 
 /* Bouton CHARTE */
 .charte-buttons {
-  position: absolute;
+  position: relative;
   top: 117px;
   left: 315px;
 }
@@ -284,7 +284,7 @@ html, body {
 
 /* Bouton BUSINESS PLAN */
 .businessplan1-buttons {
-  position: absolute;
+  position: relative;
   top: 117px;
   left: 480px;
 }
@@ -295,7 +295,7 @@ html, body {
 
 /* Bouton FLYERS */
 .flyers-buttons {
-  position: absolute;
+  position: relative;
   top: 117px;
   left: 646px;
 }
