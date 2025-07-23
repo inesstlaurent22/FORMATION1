@@ -208,8 +208,8 @@ html, body {
 
 /* Bouton création  */
 .creation2-button {
-  width: 120px;
-  height: 131px;
+  width: 90px;
+  height: 111px;
   top: 20%;
   left: 78%;
 }
@@ -219,7 +219,7 @@ html, body {
   width: 9%;
   height: auto;
   top: 49%;
-  left: 80%;
+  left: 79%;
 }
 
 /* Effet hover lumineux */
