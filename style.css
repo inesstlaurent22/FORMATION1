@@ -481,7 +481,7 @@ html, body {
 /* Bouton rouge */
 .boutonrouge1-button {
   position: absolute;
-  top: 70%;         
+  botttom: 20%;         
   left: 50%;        
   transform: translate(-50%, -50%);
   width: 12%;      
