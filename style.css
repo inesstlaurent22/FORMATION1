@@ -127,7 +127,7 @@ html, body {
 }
 
 .treasure-button {
-  position: absolute;
+  position: relative;
   top: 5.56%;
   right: 9.84%;
   width: 15.78%;
@@ -164,7 +164,7 @@ html, body {
 
 /* Bouton Carte */
 .carteimage-button {
-  position: absolute;
+  position: relative;
   top: 141%;
   left: 250%;
   z-index: 10;
