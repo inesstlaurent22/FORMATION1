@@ -128,10 +128,10 @@ html, body {
 
 .treasure-button {
   position: relative;
-  top: 5.56%;
-  right: 9.84%;
-  width: 15.78%;
-  height: 28.06%;
+  top: 10%;
+  left: 60%%;
+  width: 15%;
+  height: 20%;
   object-fit: contain;
   display: block;
   z-index: 10;
