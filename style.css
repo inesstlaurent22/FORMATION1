@@ -265,46 +265,26 @@ html, body {
 
 /* -------- DOC BUTTONS -------- */
 .doc-buttons {
-  position: relative;
-  top: 11%; 
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
-  gap: 7px;
+  position: absolute;         /* Permet de les placer précisément */
+  top: 10vh;                  /* 10% de la hauteur de la fenêtre */
+  left: 50%;                  /* Point de référence horizontal au centre */
+  transform: translateX(-50%);/* Centre réellement le conteneur */
+  display: flex;              /* Mise en ligne des éléments enfants */
+  justify-content: center;    
+  align-items: center;
+  gap: 40px;                  /* Espacement entre les boutons */
   z-index: 6;
 }
 
-.charte-buttons {
-  position: relative;
-  left: 315px;
-}
-.charte-buttons img {
-  width: 175px;
+/* Boutons uniformes */
+.doc-buttons a img {
+  width: 200px;               /* Même taille pour tous */
   height: auto;
+  transition: transform 0.3s ease;
 }
 
-/* Bouton BUSINESS PLAN */
-.businessplan1-buttons {
-  position: relative;
-  left: 480px;
-}
-.businessplan1-buttons img {
-  width: 275px;
-  height: auto;
-}
-
-/* Bouton FLYERS */
-.flyers-buttons {
-  position: relative;
-  left: 646px;
-}
-.flyers-buttons img {
-  width: 202px;
-  height: auto;
-}
-
-.formdoc-buttons img:hover {
-  transform: scale(1.05);
+.doc-buttons a img:hover {
+  transform: scale(1.05);     /* Zoom au survol */
 }
 
 /* -------- PARCHEMIN -------- */
