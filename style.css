@@ -242,8 +242,8 @@ html, body {
 
 /* -------- BOUTONS FORMULAIRES -------- */
 .form-buttons {
-  position: absolute;
-  top: 65%; /* Pourcentage plutôt que pixels */
+  position: relative;
+  top: 45%; /* Pourcentage plutôt que pixels */
   left: 60%;
   transform: translate(-50%, -50%);
   display: flex;
