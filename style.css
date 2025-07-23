@@ -578,6 +578,11 @@ html, body {
   z-index: 100;
 }
 
+.charte2-buttons:hover,
+.boutonrouge-buttons:hover{
+  transform: scale(1.05);
+}
+
 /* COMMERCE - Page 9 */
 .commerce-container {
   position: relative;
@@ -611,6 +616,11 @@ html, body {
   z-index: 100;
 }
 
+.boutonrougeco-buttons:hover,
+.boutonrougeco1-buttons:hover{
+  transform: scale(1.05);
+}
+
 /* FINANCE - Page 10 */
 .finance-container {
   position: relative;
@@ -635,6 +645,10 @@ html, body {
   top: 7505px;
   right: 617px;
   z-index: 100;
+}
+
+.boutonrougefi-buttons:hover {
+  transform: scale(1.05);
 }
 
 /* LEGAL - Page 10 */
@@ -668,4 +682,9 @@ html, body {
   top: 7053px;
   right: 143px;
   z-index: 100;
+}
+
+.ursaff-buttons:hover,
+.kdo-buttons:hover{
+  transform: scale(1.05);
 }
