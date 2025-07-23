@@ -243,8 +243,8 @@ html, body {
 /* -------- BOUTONS FORMULAIRES -------- */
 .form-buttons {
   position: relative;
-  top: 45%; 
-  left: 60%;
+  bottom: 36%; 
+  right: 60%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
