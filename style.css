@@ -208,8 +208,8 @@ html, body {
 
 /* Bouton création  */
 .creation2-button {
-  width: 6% !important;
-  height: auto;
+  width: 120px;
+  height: 131px;
   top: 20%;
   left: 78%;
 }
@@ -218,8 +218,8 @@ html, body {
 .lancement2-button {
   width: 9%;
   height: auto;
-  top: 50%;
-  left: 78%;
+  top: 49%;
+  left: 80%;
 }
 
 /* Effet hover lumineux */
@@ -319,7 +319,7 @@ html, body {
 .parchemin-button {
   position: absolute;
   top: 843px;
-  left: 770px;
+  left: 785px;
   transform: translateX(-50%);
   z-index: 5;
 }
