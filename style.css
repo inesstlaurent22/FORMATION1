@@ -243,8 +243,8 @@ html, body {
 /* -------- BOUTONS FORMULAIRES -------- */
 .form-buttons {
   position: absolute;
-  bottom: 20%; 
-  left: 30%;
+  bottom: 16%; 
+  left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
@@ -266,8 +266,8 @@ html, body {
 /* -------- DOC BUTTONS -------- */
 .doc-buttons {
   position: absolute;         /* Permet de les placer précisément */
-  top: 10vh;                  /* 10% de la hauteur de la fenêtre */
-  left: 50%;                  /* Point de référence horizontal au centre */
+  top: 15vh;                  /* 10% de la hauteur de la fenêtre */
+  left: 40%;                  /* Point de référence horizontal au centre */
   transform: translateX(-50%);/* Centre réellement le conteneur */
   display: flex;              /* Mise en ligne des éléments enfants */
   justify-content: center;    
@@ -450,7 +450,7 @@ html, body {
   left: 637px;
   width: 146px;  /* Garde les dimensions prévues */
   height: 152px;
-  z-index: 15;
+  z-index: 5;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
