@@ -532,22 +532,24 @@ html, body {
   z-index: 0;
 }
 
+/* Boutons fixés à des positions visibles dans l'écran */
 .charte2-buttons {
   position: fixed;
-  top: 21850px;
-  right: 15160px;
+  top: 80%;
+  right: 5%;
   z-index: 100;
 }
 
 .boutonrouge-buttons {
   position: fixed;
-  top: 5083px;
-  right: 662px;
+  top: 70%;
+  right: 5%;
   z-index: 100;
 }
 
+/* Effets au survol */
 .charte2-buttons:hover,
-.boutonrouge-buttons:hover{
+.boutonrouge-buttons:hover {
   transform: scale(1.05);
 }
 
