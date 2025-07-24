@@ -118,7 +118,7 @@ html, body {
   position: relative;
   width: 100%;
   height: auto;
-  z-index: 1; /* important pour empiler les éléments correctement */
+  z-index: 1; 
 }
 
 .background {
@@ -141,7 +141,6 @@ html, body {
 
 .boutontresor-button:hover {
   transform: scale(1.05); /* agrandissement simple */
-  transition: transform 0.3s ease;
 
 
 
