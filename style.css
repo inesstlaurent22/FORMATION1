@@ -128,9 +128,9 @@ html, body {
 
 .boutontresor-button {
   position: absolute;
-  top: 17%;
+  top: 15%;
   left: 57%;
-  width: 55%;
+  width: 50%;
   height: auto;
   object-fit: contain;
   display: block;
@@ -165,15 +165,15 @@ html, body {
 /* Bouton Carte */
 .carteimage-button {
   position: relative;
-  top: 387px;
-  left: 808px;
+  top: 307px;
+  left: 848px;
   z-index: 10;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .carteimage-button img {
-  width: 26%;
+  width: 29%;
   height: auto;
   object-fit: contain;
   display: block;
@@ -243,7 +243,7 @@ html, body {
 /* -------- BOUTONS FORMULAIRES -------- */
 .form-buttons {
   position: absolute;
-  bottom: 12%; 
+  bottom: 15%; 
   left: 60%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -266,8 +266,8 @@ html, body {
 /* -------- DOC BUTTONS -------- */
 .doc-buttons {
   position: absolute;         /* Permet de les placer précisément */
-  top: 10vh;                  /* 10% de la hauteur de la fenêtre */
-  left: 44%;                  /* Point de référence horizontal au centre */
+  top: 45vh;                  /* 10% de la hauteur de la fenêtre */
+  left: 24%;                  /* Point de référence horizontal au centre */
   transform: translateX(-50%);/* Centre réellement le conteneur */
   display: flex;              /* Mise en ligne des éléments enfants */
   justify-content: center;    
@@ -290,14 +290,14 @@ html, body {
 /* -------- PARCHEMIN -------- */
 .parchemin-button {
   position: absolute;
-  top: 843px;
-  left: 850px;
+  top: 793px;
+  left: 830px;
   transform: translateX(-50%);
   z-index: 5;
 }
 
 .parchemin-button img {
-  width: 304px;
+  width: 280px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
