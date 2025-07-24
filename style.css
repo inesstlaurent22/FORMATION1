@@ -411,7 +411,7 @@ html, body {
 /* Deuxième ligne */
 .finance-button {
   position: absolute;
-  top: 3194px;
+  top: 3054px;
   left: 300px;
   width: 226px;
   height: 297px;
@@ -423,7 +423,7 @@ html, body {
 
 .legal-button {
   position: absolute;
-  top: 2994px;
+  top: 3054px;
   left: 655px;
   width: 224px;
   height: 285px;
@@ -446,9 +446,9 @@ html, body {
 /* Bouton rouge */
 .boutonrouge1-button {
   position: absolute;
-  top: 4002px;
+  top: 3932px;
   left: 607px;
-  width: 116px;  /* Garde les dimensions prévues */
+  width: 76px;  /* Garde les dimensions prévues */
   height: auto;
   z-index: 5;
   cursor: pointer;
