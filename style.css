@@ -386,7 +386,7 @@ html, body {
 .communication-button,
 .commerce-button {
   position: absolute;
-  top: 2554px;
+  top: 2550px;
   width: 224px;
   height: 285px;
   display: block;
@@ -411,7 +411,7 @@ html, body {
 /* Deuxième ligne */
 .finance-button {
   position: absolute;
-  top: 2994px;
+  top: 3194px;
   left: 300px;
   width: 226px;
   height: 297px;
@@ -448,8 +448,8 @@ html, body {
   position: absolute;
   top: 4002px;
   left: 607px;
-  width: 146px;  /* Garde les dimensions prévues */
-  height: 152px;
+  width: 116px;  /* Garde les dimensions prévues */
+  height: auto;
   z-index: 5;
   cursor: pointer;
   transition: transform 0.3s ease;
