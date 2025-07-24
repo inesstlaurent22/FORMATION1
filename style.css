@@ -242,7 +242,7 @@ html, body {
 
 /* -------- BOUTONS FORMULAIRES -------- */
 .form-buttons {
-  position: relative;
+  position: absolute;
   bottom: 36%; 
   right: 60%;
   transform: translate(-50%, -50%);
