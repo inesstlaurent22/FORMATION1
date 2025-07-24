@@ -370,22 +370,15 @@ html, body {
 /* LANCEMENT - Page 5 */
 .lancement-content {
   position: relative;
-  z-index: 1;
-  padding-top: 120px;
-}
-.lancement-content {
-  position: absolute; /* position absolue pour qu’il flotte au-dessus */
-  top: 0;
-  left: 0;
   width: 100%;
-  z-index: 1;
-  pointer-events: none; /* facultatif : permet de cliquer à travers */
+  overflow: hidden;
 }
 
 .lancement-image {
   display: block;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 /* Boutons de la première ligne */
@@ -452,15 +445,18 @@ html, body {
 
 /* Bouton rouge */
 .boutonrouge1-button {
-  position: relative;
-  top: 80%;         
-  left: 50%;        
-  transform: translate(-50%, -50%);
-  width: 12%;      
-  height: auto;   
-  z-index: 15;    
+  position: absolute;
+  top: 4862px;
+  left: 637px;
+  width: 146px;  /* Garde les dimensions prévues */
+  height: 152px;
+  z-index: 15;
   cursor: pointer;
   transition: transform 0.3s ease;
+}
+
+.boutonrouge1-button:hover {
+  transform: scale(1.05);
 }
 
 
