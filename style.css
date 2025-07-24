@@ -143,6 +143,9 @@ html, body {
   transform: scale(1.05); /* agrandissement simple */
   transition: transform 0.3s ease;
 
+
+
+  
 /* PAGE START */
 .fond-start {
   position: absolute;
