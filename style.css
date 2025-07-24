@@ -272,7 +272,7 @@ html, body {
   display: flex;              /* Mise en ligne des éléments enfants */
   justify-content: center;    
   align-items: center;
-  gap: 40px;                  /* Espacement entre les boutons */
+  gap: 6px;                  /* Espacement entre les boutons */
   z-index: 6;
 }
 
