@@ -278,7 +278,7 @@ html, body {
 
 /* Boutons uniformes */
 .doc-buttons a img {
-  width: 200px;               /* Même taille pour tous */
+  width: 140px;               /* Même taille pour tous */
   height: auto;
   transition: transform 0.3s ease;
 }
