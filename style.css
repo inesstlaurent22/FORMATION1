@@ -350,10 +350,10 @@ html, body {
 
 .boutonrouge-button {
   position: absolute;
-  top: 14900px;
+  top: 14500px;
   left: 616px;
-  width: 214px;
-  height: 223px;
+  width: 284px;
+  height: auto;
   display: block;
   z-index: 5;
   cursor: pointer;
