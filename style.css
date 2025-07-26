@@ -248,7 +248,7 @@ html, body {
   left: 767px;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /* alignement horizontal */
   gap: 11px;
   z-index: 6;
 }
