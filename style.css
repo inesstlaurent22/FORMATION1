@@ -303,29 +303,6 @@ html, body {
   overflow: hidden;
 }
 
-/* === NAVIGATION === */
-.navbar {
-  position: relative;
-  z-index: 2;
-}
-
-.ecriture-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 10px;
-}
-
-.ecriture-buttons img {
-  width: 60px;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.ecriture-buttons img:hover {
-  transform: scale(1.05);
-}
-
 /* === BOUTONS DOCUMENTS === */
 .doc-buttons {
   position: absolute;
@@ -334,7 +311,7 @@ html, body {
   transform: translate(-50%, -50%);
   display: flex;
   gap: 10px;
-  z-index: 3;
+  z-index: 6;
 }
 
 .doc-buttons img {
@@ -356,7 +333,7 @@ html, body {
   transform: translate(-50%, -50%);
   display: flex;
   gap: 18px;
-  z-index: 3;
+  z-index: 6;
 }
 
 .form-buttons img {
@@ -376,7 +353,7 @@ html, body {
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 3;
+  z-index: 6;
 }
 
 .parchemin-button img {
