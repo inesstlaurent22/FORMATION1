@@ -186,6 +186,8 @@ html, body {
   transition: transform 0.3s ease;
 }
 
+
+  
 /* === CARTE - Page 3 === */
 .menu-content {
   position: relative;
@@ -198,11 +200,31 @@ html, body {
   width: 100%;
   height: auto;
 }
+  
+.marketingpt-buttons {
+  position: absolute;
+  top: 723px; 
+  left: 767px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row; /* alignement horizontal */
+  gap: 11px;
+  z-index: 6;
+}
 
-/* === BOUTONS PRINCIPAUX === */
+.marketingpt-buttons img {
+  width: 57px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.marketingpt-buttons img:hover {
+  transform: scale(1.05);
+}
+  
 .creation2-button,
-.lancement2-button,
-.marketingpt-button {
+.lancement2-button {
   position: absolute;
   display: flex;
   flex-direction: row; /* alignement horizontal */
@@ -210,7 +232,6 @@ html, body {
   z-index: 6;
 }
 
-/* Bouton création */
 .creation2-button {
   width: 90px;
   height: 111px;
@@ -218,7 +239,6 @@ html, body {
   left: 78%;
 }
 
-/* Bouton lancement */
 .lancement2-button {
   width: 9%;
   height: auto;
@@ -226,22 +246,11 @@ html, body {
   left: 79%;
 }
 
-/* Bouton marketing */
-.marketingpt-button {
-  width: 57px;
-  height: auto;
-  top: 656px;
-  left: 1186px;
-}
-
-/* Effet hover lumineux */
 .creation2-button:hover,
-.lancement2-button:hover,
-.marketingpt-button:hover {
+.lancement2-button:hover {
   transform: scale(1.05);
 }
 
-/* === BOUTONS FORMATION === */
 .formation-buttons {
   position: absolute;
   top: 723px; 
@@ -264,6 +273,8 @@ html, body {
   transform: scale(1.05);
 }
 
+
+  
 /* SAC A DOS - Page 4 */
 .menu2-container {
   position: relative;
