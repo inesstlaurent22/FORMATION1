@@ -189,9 +189,11 @@ html, body {
 
   
 /* === CARTE - Page 3 === */
+/* === CARTE - Page 3 === */
+
 .menu-content {
   position: relative;
-  z-index: 0;
+  z-index: 1;
   padding-top: 120px;
 }
 
@@ -200,14 +202,15 @@ html, body {
   width: 100%;
   height: auto;
 }
-  
+
+/* === BOUTONS MARKETING === */
 .marketingpt-buttons {
   position: absolute;
-  top: 723px; 
+  top: 723px;
   left: 767px;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: row; /* alignement horizontal */
+  flex-direction: row;
   gap: 11px;
   z-index: 6;
 }
@@ -222,42 +225,15 @@ html, body {
 .marketingpt-buttons img:hover {
   transform: scale(1.05);
 }
-  
-.creation2-button,
-.lancement2-button {
-  position: absolute;
-  display: flex;
-  flex-direction: row; /* alignement horizontal */
-  gap: 11px;
-  z-index: 6;
-}
 
-.creation2-button {
-  width: 90px;
-  height: 111px;
-  top: 20%;
-  left: 78%;
-}
-
-.lancement2-button {
-  width: 9%;
-  height: auto;
-  top: 49%;
-  left: 79%;
-}
-
-.creation2-button:hover,
-.lancement2-button:hover {
-  transform: scale(1.05);
-}
-
+/* === BOUTONS FORMATION === */
 .formation-buttons {
   position: absolute;
-  top: 723px; 
+  top: 723px;
   left: 767px;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: row; /* alignement horizontal */
+  flex-direction: row;
   gap: 11px;
   z-index: 6;
 }
@@ -273,7 +249,34 @@ html, body {
   transform: scale(1.05);
 }
 
+/* === BOUTONS SPÉCIFIQUES === */
+.creation2-button,
+.lancement2-button {
+  position: absolute;
+  z-index: 6;
+  transition: transform 0.3s ease;
+}
 
+/* Bouton Création */
+.creation2-button {
+  width: 90px;
+  height: 111px;
+  top: 20%;
+  left: 78%;
+}
+
+/* Bouton Lancement */
+.lancement2-button {
+  width: 90px; /* Ajusté pour cohérence */
+  height: auto;
+  top: 49%;
+  left: 79%;
+}
+
+.creation2-button:hover,
+.lancement2-button:hover {
+  transform: scale(1.05);
+}
   
 /* SAC A DOS - Page 4 */
 .menu2-container {
