@@ -204,10 +204,8 @@ html, body {
 .lancement2-button,
 .marketingpt-button {
   position: absolute;
-  display: block;
+  display: flex;
   z-index: 5;
-  cursor: pointer;
-  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Bouton création */
