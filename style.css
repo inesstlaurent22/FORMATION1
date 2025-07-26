@@ -250,8 +250,7 @@ html, body {
 }
 
 /* === BOUTONS SPÉCIFIQUES === */
-.creation2-button,
-.lancement2-button {
+.actions-button {
   position: absolute;
   z-index: 6;
   transition: transform 0.3s ease;
@@ -273,8 +272,7 @@ html, body {
   left: 79%;
 }
 
-.creation2-button:hover,
-.lancement2-button:hover {
+.actions-button:hover {
   transform: scale(1.05);
 }
   
