@@ -205,7 +205,9 @@ html, body {
 .marketingpt-button {
   position: absolute;
   display: flex;
-  z-index: 5;
+  flex-direction: row; /* alignement horizontal */
+  gap: 11px;
+  z-index: 6;
 }
 
 /* Bouton création */
