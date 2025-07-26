@@ -286,31 +286,76 @@ html, body {
 }
   
 /* SAC A DOS - Page 4 */
+/* === SAC À DOS - Page 4 === */
 .menu2-container {
-  position: absolute;
+  position: relative;
   width: 100%;
-  min-height: 100vh;
-  background-image: url("images/Fond/menu2.png");
-  background-size: contain;
+  height: 100vh;
+  background-image: url("images/Fond/Fondtresor.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center center;
   overflow: hidden;
 }
 
-/* -------- BOUTONS FORMULAIRES -------- */
-.form-buttons {
+/* === NAVIGATION === */
+.navbar {
+  position: relative;
+  z-index: 2;
+}
+
+.ecriture-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.ecriture-buttons img {
+  width: 60px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.ecriture-buttons img:hover {
+  transform: scale(1.05);
+}
+
+/* === BOUTONS DOCUMENTS === */
+.doc-buttons {
   position: absolute;
-  bottom: 15%; 
-  left: 63%;
+  top: 30%;
+  left: 20%;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: row;
+  gap: 10px;
+  z-index: 3;
+}
+
+.doc-buttons img {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.doc-buttons img:hover {
+  transform: scale(1.05);
+}
+
+/* === BOUTONS FORMATIONS === */
+.form-buttons {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
   gap: 18px;
-  z-index: 6;
+  z-index: 3;
 }
 
 .form-buttons img {
-  width: 162px;;
+  width: 90px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -320,41 +365,17 @@ html, body {
   transform: scale(1.05);
 }
 
-/* -------- DOC BUTTONS -------- */
-.doc-buttons {
-  position: absolute;         /* Permet de les placer précisément */
-  top: 38vh;                  /* 10% de la hauteur de la fenêtre */
-  left: 24%;                  /* Point de référence horizontal au centre */
-  transform: translateX(-50%);/* Centre réellement le conteneur */
-  display: flex;              /* Mise en ligne des éléments enfants */
-  justify-content: center;    
-  align-items: center;
-  gap: 3px;                  /* Espacement entre les boutons */
-  z-index: 6;
-}
-
-/* Boutons uniformes */
-.doc-buttons a img {
-  width: 140px;               /* Même taille pour tous */
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.doc-buttons a img:hover {
-  transform: scale(1.05);     /* Zoom au survol */
-}
-
-/* -------- PARCHEMIN -------- */
+/* === BOUTON PARCHEMIN === */
 .parchemin-button {
   position: absolute;
-  top: 793px;
-  left: 800px;
+  bottom: 5%;
+  left: 50%;
   transform: translateX(-50%);
-  z-index: 5;
+  z-index: 3;
 }
 
 .parchemin-button img {
-  width: 280px;
+  width: 220px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -363,8 +384,6 @@ html, body {
 .parchemin-button img:hover {
   transform: scale(1.05);
 }
-
-
 
 /* CREATION - Page 5 */
 
