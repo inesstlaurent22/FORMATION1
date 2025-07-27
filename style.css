@@ -241,6 +241,10 @@ html, body {
   transform: translate(-50%, -50%);
   z-index: 6;
 }
+  
+.marketingpt-buttons a {
+  display: inline-block;
+}
 
 .marketingpt-buttons img {
   width: 60px;
@@ -262,6 +266,10 @@ html, body {
   transition: transform 0.3s ease;
 }
 
+.creation2-button a {
+  display: inline-block;
+}
+
 .creation2-button img {
   width: 90px;
   height: auto;
@@ -278,6 +286,10 @@ html, body {
   left: 35%;
   z-index: 6;
   transition: transform 0.3s ease;
+}
+  
+.lancement2-button a {
+  display: inline-block;
 }
 
 .lancement2-button img {
