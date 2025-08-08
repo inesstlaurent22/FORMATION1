@@ -184,7 +184,7 @@ html, body {
   
 
 
-/* === CARTE - Page 3 === */
+/* === MENU - Page 3 === */
 .menu-content {
   position: relative;
   width: 100%;
@@ -204,7 +204,7 @@ html, body {
 }
 
 /* === BOUTONS FORMATION === */
-.formations-buttons {
+.formation-button {
   position: absolute;
   top: 65%;
   left: 50%;
@@ -219,7 +219,7 @@ html, body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.formations-buttons:hover {
+.formation-button:hover {
   transform: scale(1.05); /* agrandissement simple */
   
 
@@ -320,7 +320,7 @@ html, body {
 }
 
 /* === BOUTONS FORMATIONS === */
-.form-buttons {
+.formations-buttons {
   position: absolute;
   top: 60%;
   left: 50%;
@@ -330,14 +330,14 @@ html, body {
   z-index: 6;
 }
 
-.form-buttons img {
+.formations-buttons img {
   width: 90px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.form-buttons img:hover {
+.formations-buttons img:hover {
   transform: scale(1.05);
 }
 
