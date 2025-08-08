@@ -87,7 +87,7 @@ html, body {
   z-index: 10;
 }
 
-.formation-buttons {
+.formation-button {
   position: absolute;
   top: 170px;
   left: 46px;       /* ajuste horizontalement */
@@ -100,7 +100,7 @@ html, body {
   pointer-events: auto;
 }
 
-.formation-buttons img {
+.formation-button img {
   width: 68px;
   height: auto;
   object-fit: contain;
@@ -109,7 +109,7 @@ html, body {
   display: block;
 }
 
-.formation-buttons img:hover {
+.formation-button img:hover {
   transform: scale(1.1);
 }
 
@@ -204,7 +204,7 @@ html, body {
 }
 
 /* === BOUTONS FORMATION === */
-.formation-buttons {
+.formations-buttons {
   position: absolute;
   top: 65%;
   left: 50%;
