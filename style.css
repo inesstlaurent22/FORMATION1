@@ -167,8 +167,8 @@ html, body {
 /* Bouton Carte */
 .carteimage-button {
   position: absolute;
-  top: 23,8vh;
-  left: 46,9vw;
+  top: 23.8vh;
+  left: 46.9vw;
   width: 29%;
   height: auto;
   object-fit: contain;
@@ -404,7 +404,7 @@ html, body {
 
 .boutonrouge-button {
   position: absolute;
-  top: 145700px;
+  top: 14570px;
   left: 616px;
   width: 314px;
   height: auto;
