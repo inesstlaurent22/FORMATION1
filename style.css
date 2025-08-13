@@ -320,7 +320,7 @@ html, body {
 }
 
 /* === BOUTONS FORMATIONS === */
-.formations-buttons {
+.formsacados-button {
   position: absolute;
   top: 60%;
   left: 50%;
@@ -330,14 +330,14 @@ html, body {
   z-index: 6;
 }
 
-.formations-buttons img {
+.formsacados-button img {
   width: 90px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.formations-buttons img:hover {
+.formsacados-button img:hover {
   transform: scale(1.05);
 }
 
