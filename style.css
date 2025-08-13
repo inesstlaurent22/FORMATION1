@@ -165,8 +165,8 @@ html, body {
 
 .carteimage-button {
   position: absolute;
-  top: 42.8vh;
-  left: 51.9vw;
+  top: 67.8vh;
+  left: 60.9vw;
   width: 29%;
   height: auto;
   object-fit: contain;
@@ -205,19 +205,19 @@ html, body {
 /* === BOUTONS FORMATION DANS MENU === */
 .formation-button {
   position: absolute;
-  top: 65%;
-  left: 50%;
+  top: 70%;
+  left: 65%;
   transform: translate(-50%, -50%); /* ✅ AJOUTÉ : Centrage correct */
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 22px;
   z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .formation-button img {
-  width: 60px;
+  width: 70px;
   height: auto;
   object-fit: contain;
   cursor: pointer;
@@ -231,9 +231,9 @@ html, body {
 /* === BOUTON MARKETING === */
 .marketingpt-buttons {
   position: absolute;
-  top: 50%;
-  left: 62%;
-  width: 80px;
+  top: 60vh;
+  left: 60vw;
+  width: 15px;
   height: auto;
   object-fit: contain;
   display: block;
@@ -249,8 +249,8 @@ html, body {
 /* === BOUTON CRÉATION === */
 .creation2-button {
   position: absolute;
-  top: 25%;
-  left: 35%;
+  top: 20vh;
+  left: 60vw;
   width: 70px;
   height: auto;
   object-fit: contain;
@@ -267,8 +267,8 @@ html, body {
 /* === BOUTON LANCEMENT === */
 .lancement2-button {
   position: absolute;
-  top: 30%;
-  left: 35%;
+  top: 35vh;
+  left: 60vw;
   width: 90px;
   height: auto;
   object-fit: contain;
