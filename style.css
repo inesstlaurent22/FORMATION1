@@ -305,8 +305,8 @@ html, body {
 /* === BOUTONS DOCUMENTS === */
 .doc-buttons {
   position: absolute;
-  top: 30%;
-  left: 20%;
+  top: 25%;
+  left: 40%;
   transform: translate(-50%, -50%);
   display: flex;
   gap: 10px;
@@ -314,7 +314,7 @@ html, body {
 }
 
 .doc-buttons img {
-  width: 120px;
+  width: 140px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -327,8 +327,8 @@ html, body {
 /* === BOUTONS FORMATIONS SACADOS === */
 .formsacados-button {
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 65%;
+  left: 55%;
   transform: translate(-50%, -50%);
   display: flex;
   gap: 18px;
@@ -336,7 +336,7 @@ html, body {
 }
 
 .formsacados-button img {
-  width: 90px;
+  width: 120px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -349,8 +349,8 @@ html, body {
 /* === BOUTON PARCHEMIN === */
 .parchemin-button {
   position: absolute;
-  bottom: 5%;
-  left: 50%;
+  bottom: 2%;
+  left: 60%;
   transform: translateX(-50%);
   z-index: 30; /* ✅ CORRIGÉ : Bien au-dessus du fond */
 }
