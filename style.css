@@ -13,14 +13,6 @@ html, body {
   overflow-y: auto;
 }
 
-/* ===== HIÉRARCHIE Z-INDEX CORRIGÉE ===== */
-/* 
-  1-10: Fonds et conteneurs
-  11-50: Éléments de contenu et boutons
-  51-100: Navigation et éléments fixes
-  101+: Éléments prioritaires
-*/
-
 /* BARRE DE NAVIGATION 1 — HORIZONTALE EN HAUT (barrenav1) */
 #barrenav1 {
   position: fixed;
@@ -171,7 +163,6 @@ html, body {
   z-index: 1; /* ✅ CORRIGÉ : Image de fond */
 }
 
-/* Bouton Carte */
 .carteimage-button {
   position: absolute;
   top: 23.8vh;
@@ -188,6 +179,8 @@ html, body {
 .carteimage-button:hover {
   transform: scale(1.05);
 }
+
+
 
 /* === MENU - Page 3 === */
 .menu-content {
