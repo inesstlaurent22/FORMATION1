@@ -13,23 +13,31 @@ html, body {
   overflow-y: auto;
 }
 
+/* ===== HIÉRARCHIE Z-INDEX CORRIGÉE ===== */
+/* 
+  1-10: Fonds et conteneurs
+  11-50: Éléments de contenu et boutons
+  51-100: Navigation et éléments fixes
+  101+: Éléments prioritaires
+*/
+
 /* BARRE DE NAVIGATION 1 — HORIZONTALE EN HAUT (barrenav1) */
 #barrenav1 {
   position: fixed;
   top: 0;
   left: 44px;
-  width: 687px;    /* ✅ largeur exacte de l’image */
-  height: 111px;   /* ✅ hauteur exacte de l’image */
-  z-index: 10;
+  width: 687px;
+  height: 111px;
+  z-index: 60; /* ✅ CORRIGÉ : Navigation au-dessus de tout */
   pointer-events: none;
 }
 
-.barrenav1-bg {
+.navbar-bg {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: contain;
-  z-index: 10;
+  z-index: 61; /* ✅ CORRIGÉ : Fond de navigation */
 }
 
 .ecriture-buttons {
@@ -41,7 +49,7 @@ html, body {
   flex-direction: row;
   align-items: center;
   gap: 8px;
-  z-index: 5;
+  z-index: 65; /* ✅ CORRIGÉ : Boutons navigation au-dessus */
   pointer-events: auto;
 }
 
@@ -56,7 +64,7 @@ html, body {
 }
 
 .ecriture-buttons a img {
-  width: 100px; /* adapte selon la taille souhaitée */
+  width: 100px;
   height: auto;
   object-fit: contain;
   transition: transform 0.3s ease, filter 0.3s ease;
@@ -73,9 +81,9 @@ html, body {
   position: fixed;
   top: 100px;
   left: -19px;
-  width: 129px;    /* Largeur typique pour barre verticale */
-  height: 479px;   /* Hauteur pleine */
-  z-index: 10;
+  width: 129px;
+  height: 479px;
+  z-index: 55; /* ✅ CORRIGÉ : Navigation secondaire */
   pointer-events: none;
 }
 
@@ -84,19 +92,19 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  z-index: 10;
+  z-index: 56; /* ✅ CORRIGÉ : Fond navigation secondaire */
 }
 
 .formation-buttons {
   position: absolute;
   top: 170px;
-  left: 46px;       /* ajuste horizontalement */
+  left: 46px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 25px;
-  z-index: 5;
+  z-index: 57; /* ✅ CORRIGÉ : Boutons navigation secondaire */
   pointer-events: auto;
 }
 
@@ -118,12 +126,13 @@ html, body {
   position: relative;
   width: 100%;
   height: auto;
-  z-index: 1; 
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .background {
   width: 100%;
   display: block;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
 .boutontresor-button {
@@ -134,17 +143,15 @@ html, body {
   height: auto;
   object-fit: contain;
   display: block;
-  z-index: 6;
+  z-index: 20; /* ✅ CORRIGÉ : Bouton au-dessus du fond */
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .boutontresor-button:hover {
-  transform: scale(1.05); /* agrandissement simple */
+  transform: scale(1.05);
+}
 
-
-
-  
 /* PAGE START */
 .fond-start {
   position: absolute;
@@ -152,16 +159,16 @@ html, body {
   left: 0;
   width: 100%;
   min-height: 100vh;
-  z-index: 0;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
-/* Image de fond */
 .startbackground {
   width: 100%;
   height: auto;
   object-fit: contain;
   object-position: top center;
   display: block;
+  z-index: 1; /* ✅ CORRIGÉ : Image de fond */
 }
 
 /* Bouton Carte */
@@ -173,16 +180,14 @@ html, body {
   height: auto;
   object-fit: contain;
   display: block;
-  z-index: 6;
+  z-index: 20; /* ✅ CORRIGÉ : Bouton au-dessus du fond */
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .carteimage-button:hover {
-  transform: scale(1.05); /* agrandissement simple */
-
-  
-
+  transform: scale(1.05);
+}
 
 /* === MENU - Page 3 === */
 .menu-content {
@@ -190,6 +195,7 @@ html, body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .menu-image {
@@ -200,28 +206,34 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
-/* === BOUTONS FORMATION === */
+/* === BOUTONS FORMATION DANS MENU === */
 .formation-button {
   position: absolute;
   top: 65%;
   left: 50%;
+  transform: translate(-50%, -50%); /* ✅ AJOUTÉ : Centrage correct */
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.formation-button img {
   width: 60px;
   height: auto;
   object-fit: contain;
-  display: flex;
-  flex-direction: row; /* S'assurer que c’est bien horizontal */
-  gap: 12px;
-  z-index: 6;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .formation-button:hover {
-  transform: scale(1.05); /* agrandissement simple */
-  
+  transform: translate(-50%, -50%) scale(1.05); /* ✅ CORRIGÉ : Maintient le centrage */
+}
 
 /* === BOUTON MARKETING === */
 .marketingpt-buttons {
@@ -232,14 +244,14 @@ html, body {
   height: auto;
   object-fit: contain;
   display: block;
-  z-index: 6;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .marketingpt-buttons:hover {
-  transform: scale(1.05); /* agrandissement simple */
-  
+  transform: scale(1.05);
+}
 
 /* === BOUTON CRÉATION === */
 .creation2-button {
@@ -250,15 +262,15 @@ html, body {
   height: auto;
   object-fit: contain;
   display: block;
-  z-index: 6;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .creation2-button:hover {
-  transform: scale(1.05); /* agrandissement simple */
+  transform: scale(1.05);
+}
 
-  
 /* === BOUTON LANCEMENT === */
 .lancement2-button {
   position: absolute;
@@ -268,22 +280,22 @@ html, body {
   height: auto;
   object-fit: contain;
   display: block;
-  z-index: 6;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .lancement2-button:hover {
-  transform: scale(1.05); /* agrandissement simple */
-  
+  transform: scale(1.05);
+}
 
-  
 /* === SAC À DOS - Page 4 === */
-.menu2-content {
+.menu2-container {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .menu2-image {
@@ -294,7 +306,7 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
 /* === BOUTONS DOCUMENTS === */
@@ -305,7 +317,7 @@ html, body {
   transform: translate(-50%, -50%);
   display: flex;
   gap: 10px;
-  z-index: 6;
+  z-index: 30; /* ✅ CORRIGÉ : Bien au-dessus du fond */
 }
 
 .doc-buttons img {
@@ -319,7 +331,7 @@ html, body {
   transform: scale(1.05);
 }
 
-/* === BOUTONS FORMATIONS === */
+/* === BOUTONS FORMATIONS SACADOS === */
 .formsacados-button {
   position: absolute;
   top: 60%;
@@ -327,7 +339,7 @@ html, body {
   transform: translate(-50%, -50%);
   display: flex;
   gap: 18px;
-  z-index: 6;
+  z-index: 30; /* ✅ CORRIGÉ : Bien au-dessus du fond */
 }
 
 .formsacados-button img {
@@ -347,7 +359,7 @@ html, body {
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 6;
+  z-index: 30; /* ✅ CORRIGÉ : Bien au-dessus du fond */
 }
 
 .parchemin-button img {
@@ -361,22 +373,20 @@ html, body {
   transform: scale(1.05);
 }
 
-
-
-  
 /* CREATION - Page 5 */
 .creationfond {
   position: relative;
   width: 100%;
   height: auto;
   overflow: hidden;
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .creation-content {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 6; /* ✅ CORRIGÉ : Contenu au-dessus */
   width: 100%;
 }
 
@@ -384,16 +394,18 @@ html, body {
   width: 100%;
   height: auto;
   display: block;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
+/* ✅ CORRIGÉ : Positionnement réaliste pour businessplan-button */
 .businessplan-button {
   position: absolute;
-  top: 9978px;
-  left: 886px;
+  top: 20%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  left: 60%; /* ✅ CORRIGÉ : Valeur raisonnable */
   width: 319px;
   height: 334px;
   display: block;
-  z-index: 5;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -402,14 +414,15 @@ html, body {
   transform: scale(1.05);
 }
 
+/* ✅ CORRIGÉ : Positionnement réaliste pour boutonrouge-button */
 .boutonrouge-button {
   position: absolute;
-  top: 14570px;
-  left: 616px;
+  top: 80%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  left: 40%; /* ✅ CORRIGÉ : Valeur raisonnable */
   width: 314px;
   height: auto;
   display: block;
-  z-index: 5;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -418,14 +431,12 @@ html, body {
   transform: scale(1.05);
 }
 
-
-
-
-/* LANCEMENT - Page 5 */
+/* LANCEMENT - Page 6 */
 .lancement-content {
   position: relative;
   width: 100%;
   overflow: hidden;
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .lancement-image {
@@ -433,56 +444,56 @@ html, body {
   width: 100%;
   height: auto;
   object-fit: cover;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
-/* Boutons de la première ligne */
+/* Boutons de la première ligne - CORRIGÉ */
 .marketing-button,
 .communication-button,
 .commerce-button {
   position: absolute;
-  top: 2550px;
+  top: 40%; /* ✅ CORRIGÉ : Valeur en pourcentage */
   width: 224px;
   height: 285px;
   display: block;
-  z-index: 5;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .marketing-button {
-  left: 300px;
+  left: 20%; /* ✅ CORRIGÉ : Valeur en pourcentage */
 }
 
 .communication-button {
-  left: 645px;
-  z-index: 6;
+  left: 45%; /* ✅ CORRIGÉ : Valeur en pourcentage */
 }
 
 .commerce-button {
-  left: 965px;
+  left: 70%; /* ✅ CORRIGÉ : Valeur en pourcentage */
 }
 
-/* Deuxième ligne */
+/* Deuxième ligne - CORRIGÉ */
 .finance-button {
   position: absolute;
-  top: 3154px;
-  left: 300px;
+  top: 65%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  left: 20%; /* ✅ CORRIGÉ : Valeur en pourcentage */
   width: 226px;
   height: 297px;
   display: block;
-  z-index: 5;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .legal-button {
   position: absolute;
-  top: 3054px;
-  left: 655px;
+  top: 65%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  left: 45%; /* ✅ CORRIGÉ : Valeur en pourcentage */
   width: 224px;
   height: 285px;
   display: block;
-  z-index: 5;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -493,18 +504,18 @@ html, body {
 .commerce-button:hover,
 .finance-button:hover,
 .legal-button:hover,
-.boutourouge1-button:hover{
+.boutonrouge1-button:hover {
   transform: scale(1.05);
 }
 
-/* Bouton rouge */
+/* Bouton rouge - CORRIGÉ */
 .boutonrouge1-button {
   position: absolute;
-  top: 3872px;
-  left: 590px;
-  width: 60px;  /* Garde les dimensions prévues */
+  top: 85%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  left: 45%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  width: 60px;
   height: auto;
-  z-index: 5;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -513,14 +524,13 @@ html, body {
   transform: scale(1.05);
 }
 
-
 /* MARKETING - Page 7 */
 .marketing-container {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  z-index: 0;
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .marketing-container img.mark {
@@ -530,17 +540,17 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
 .retour-buttons {
   position: fixed;
   top: 20px;
   right: 20px;
-  z-index: 100;
+  z-index: 70; /* ✅ CORRIGÉ : Bouton retour prioritaire */
 }
 
-/* Boutons au-dessus de l’image */
+/* Boutons au-dessus de l'image - CORRIGÉ */
 .suitecomm-buttons,
 .flyers2-buttons {
   position: absolute;
@@ -549,21 +559,21 @@ html, body {
   display: block;
   cursor: pointer;
   transition: transform 0.3s ease;
-  z-index: 10;
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
 }
 
 .suitecomm-buttons {
-  top: 7785px;
-  left: 1030px;
+  top: 70%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  left: 70%; /* ✅ CORRIGÉ : Valeur en pourcentage */
 }
 
 .flyers2-buttons {
-  top: 7268px;
-  left: 900px;
+  top: 50%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  left: 60%; /* ✅ CORRIGÉ : Valeur en pourcentage */
 }
 
 .suitecomm-buttons:hover,
-.flyers2-buttons:hover{
+.flyers2-buttons:hover {
   transform: scale(1.05);
 }
 
@@ -573,7 +583,7 @@ html, body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  z-index: 0;
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .communication-container img.comm {
@@ -583,7 +593,7 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
 /* Boutons fixés à des positions visibles dans l'écran */
@@ -591,14 +601,14 @@ html, body {
   position: fixed;
   top: 80%;
   right: 5%;
-  z-index: 100;
+  z-index: 70; /* ✅ CORRIGÉ : Boutons fixes prioritaires */
 }
 
 .boutonrouge-buttons {
   position: fixed;
   top: 70%;
   right: 5%;
-  z-index: 100;
+  z-index: 70; /* ✅ CORRIGÉ : Boutons fixes prioritaires */
 }
 
 /* Effets au survol */
@@ -607,13 +617,13 @@ html, body {
   transform: scale(1.05);
 }
 
-/* COMMERCE - Page 9 */
+/* COMMERCE - Page 9 - CORRIGÉ */
 .commerce-container {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  z-index: 0;
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .commerce-container img.commerce {
@@ -623,35 +633,35 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
 .boutonrougeco-buttons {
-  position: fixed;
-  top: 4483px;
-  right: 987px;
-  z-index: 100;
+  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
+  top: 60%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  right: 20%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
 }
 
 .boutonrougeco1-buttons {
-  position: fixed;
-  top: 7632px;
-  right: 650px;
-  z-index: 100;
+  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
+  top: 80%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  right: 30%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
 }
 
 .boutonrougeco-buttons:hover,
-.boutonrougeco1-buttons:hover{
+.boutonrougeco1-buttons:hover {
   transform: scale(1.05);
 }
 
-/* FINANCE - Page 10 */
+/* FINANCE - Page 10 - CORRIGÉ */
 .finance-container {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  z-index: 0;
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .finance-container img.bn {
@@ -661,27 +671,27 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
 .boutonrougefi-buttons {
-  position: fixed;
-  top: 7505px;
-  right: 617px;
-  z-index: 100;
+  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
+  top: 80%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  right: 25%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
 }
 
 .boutonrougefi-buttons:hover {
   transform: scale(1.05);
 }
 
-/* LEGAL - Page 10 */
+/* LEGAL - Page 11 - CORRIGÉ */
 .legal-container {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  z-index: 0;
+  z-index: 5; /* ✅ CORRIGÉ : Conteneur de base */
 }
 
 .legal-container img.legal {
@@ -691,24 +701,24 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
 .ursaff-buttons {
-  position: fixed;
-  top: 2359px;
-  right: 618px;
-  z-index: 100;
+  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
+  top: 30%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  right: 25%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
 }
 
 .kdo-buttons {
-  position: fixed;
-  top: 7053px;
-  right: 143px;
-  z-index: 100;
+  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
+  top: 70%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  right: 10%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
 }
 
 .ursaff-buttons:hover,
-.kdo-buttons:hover{
+.kdo-buttons:hover {
   transform: scale(1.05);
 }
