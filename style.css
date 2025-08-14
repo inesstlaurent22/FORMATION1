@@ -165,7 +165,7 @@ html, body {
 
 .carteimage-button {
   position: absolute;
-  top: 67.8vh;
+  top: 80.8vh;
   left: 60.9vw;
   width: 29%;
   height: auto;
@@ -249,9 +249,9 @@ html, body {
 /* === BOUTON CRÉATION === */
 .creation2-button {
   position: absolute;
-  top: 20vh;
-  left: 60vw;
-  width: 70px;
+  top: 10vh;
+  left: 20vw;
+  width: 30px;
   height: auto;
   object-fit: contain;
   display: block;
@@ -267,8 +267,8 @@ html, body {
 /* === BOUTON LANCEMENT === */
 .lancement2-button {
   position: absolute;
-  top: 35vh;
-  left: 60vw;
+  top: 15vh;
+  left: 20vw;
   width: 90px;
   height: auto;
   object-fit: contain;
