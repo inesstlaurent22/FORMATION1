@@ -130,7 +130,7 @@ html, body {
 .boutontresor-button {
   position: absolute;
   top: 10%;
-  left: 55%;
+  left: 54.5%;
   width: 48%;
   height: auto;
   object-fit: contain;
@@ -165,7 +165,7 @@ html, body {
 
 .carteimage-button {
   position: absolute;
-  top: 80.8vh;
+  top: 100.8vh;
   left: 60.9vw;
   width: 29%;
   height: auto;
@@ -231,8 +231,8 @@ html, body {
 /* === BOUTON MARKETING === */
 .marketingpt-buttons {
   position: absolute;
-  top: 60vh;
-  left: 60vw;
+  top: 10vh;
+  left: 20vw;
   width: 15px;
   height: auto;
   object-fit: contain;
@@ -250,7 +250,7 @@ html, body {
 .creation2-button {
   position: absolute;
   top: 10vh;
-  left: 20vw;
+  left: 40vw;
   width: 30px;
   height: auto;
   object-fit: contain;
@@ -267,8 +267,8 @@ html, body {
 /* === BOUTON LANCEMENT === */
 .lancement2-button {
   position: absolute;
-  top: 15vh;
-  left: 20vw;
+  top: 20vh;
+  left: 40vw;
   width: 90px;
   height: auto;
   object-fit: contain;
