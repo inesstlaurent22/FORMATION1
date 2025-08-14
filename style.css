@@ -130,7 +130,7 @@ html, body {
 .boutontresor-button {
   position: absolute;
   top: 10%;
-  left: 54.5%;
+  left: 51.5%;
   width: 48%;
   height: auto;
   object-fit: contain;
@@ -165,7 +165,7 @@ html, body {
 
 .carteimage-button {
   position: absolute;
-  top: 100.8vh;
+  top: 120.8vh;
   left: 60.9vw;
   width: 29%;
   height: auto;
@@ -206,8 +206,8 @@ html, body {
 .creation2-button {
   position: absolute;
   top: 10%;
-  left: 40%;
-  width: 30px;
+  left: 55%;
+  width: 15px;
   height: auto;
   object-fit: contain;
   display: block;
@@ -223,8 +223,8 @@ html, body {
 /* === BOUTON LANCEMENT === */
 .lancement2-button {
   position: absolute;
-  top: 10%;
-  left: 40%;
+  top: 20%;
+  left: 55%;
   width: 90px;
   height: auto;
   object-fit: contain;
@@ -305,8 +305,8 @@ html, body {
 /* === BOUTON PARCHEMIN === */
 .parchemin-button {
   position: absolute;
-  bottom: 2%;
-  left: 60%;
+  bottom: 1%;
+  left: 58%;
   transform: translateX(-50%);
   z-index: 30; /* ✅ CORRIGÉ : Bien au-dessus du fond */
 }
@@ -349,8 +349,8 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour businessplan-button */
 .businessplan-button {
   position: absolute;
-  top: 20%; /* ✅ CORRIGÉ : Valeur raisonnable */
-  left: 60%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  top: 70%; 
+  left: 60%; 
   width: 319px;
   height: 334px;
   display: block;
@@ -366,8 +366,8 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour boutonrouge-button */
 .boutonrouge-button {
   position: absolute;
-  top: 80%; /* ✅ CORRIGÉ : Valeur raisonnable */
-  left: 40%; /* ✅ CORRIGÉ : Valeur raisonnable */
+  top: 50%; 
+  left: 40%; 
   width: 314px;
   height: auto;
   display: block;
