@@ -202,50 +202,6 @@ html, body {
   z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
-/* === BOUTONS FORMATION DANS MENU === */
-.formation-button {
-  position: absolute;
-  top: 70%;
-  left: 65%;
-  transform: translate(-50%, -50%); /* ✅ AJOUTÉ : Centrage correct */
-  display: flex;
-  flex-direction: row;
-  gap: 22px;
-  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.formation-button img {
-  width: 70px;
-  height: auto;
-  object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.formation-button:hover {
-  transform: translate(-50%, -50%) scale(1.05); /* ✅ CORRIGÉ : Maintient le centrage */
-}
-
-/* === BOUTON MARKETING === */
-.marketingpt-button {
-  position: absolute;
-  top: 10%;
-  left: 40%;
-  width: 30px;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.marketingpt-button:hover {
-  transform: scale(1.05);
-}
-
 /* === BOUTON CRÉATION === */
 .creation2-button {
   position: absolute;
