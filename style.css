@@ -249,8 +249,8 @@ html, body {
 /* === BOUTON CRÉATION === */
 .creation2-button {
   position: absolute;
-  top: 10vh;
-  left: 40vw;
+  top: 10%;
+  left: 40%;
   width: 30px;
   height: auto;
   object-fit: contain;
@@ -267,8 +267,8 @@ html, body {
 /* === BOUTON LANCEMENT === */
 .lancement2-button {
   position: absolute;
-  top: 20vh;
-  left: 40vw;
+  top: 10%;
+  left: 40%;
   width: 90px;
   height: auto;
   object-fit: contain;
