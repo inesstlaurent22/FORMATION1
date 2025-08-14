@@ -229,11 +229,11 @@ html, body {
 }
 
 /* === BOUTON MARKETING === */
-.marketingpt-buttons {
+.marketingpt-button {
   position: absolute;
-  top: 10vh;
-  left: 20vw;
-  width: 15px;
+  top: 10%;
+  left: 40%;
+  width: 30px;
   height: auto;
   object-fit: contain;
   display: block;
@@ -242,7 +242,7 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.marketingpt-buttons:hover {
+.marketingpt-button:hover {
   transform: scale(1.05);
 }
 
