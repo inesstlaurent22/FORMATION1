@@ -141,7 +141,7 @@ html, body {
 }
 
 .boutontresor-button:hover {
-  transform: scale(1.05);
+  transform: scale(0.5);
 }
 
 /* PAGE START */
@@ -165,7 +165,7 @@ html, body {
 
 .carteimage-button {
   position: absolute;
-  bottom: 5vh;
+  bottom: 2vh;
   left: 63vw;
   width: 29%;
   height: auto;
@@ -206,8 +206,8 @@ html, body {
 .creation2-button {
   position: absolute;
   top: 16%;
-  left: 72%;
-  width: 15px;
+  left: 75%;
+  width: 10px;
   height: auto;
   object-fit: contain;
   display: block;
@@ -223,8 +223,8 @@ html, body {
 /* === BOUTON LANCEMENT === */
 .lancement2-button {
   position: absolute;
-  top: 40%;
-  left: 68%;
+  top: 46%;
+  left: 78%;
   width: 90px;
   height: auto;
   object-fit: contain;
