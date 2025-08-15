@@ -143,29 +143,6 @@ html, body {
 .boutontresor-button:hover {
   transform: scale(1.05);
 }
-/* Effet de brillance */
-.boutontresor-button::after {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -75%;
-  width: 200%;
-  height: 200%;
-  background: linear-gradient(
-    120deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.5) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  transform: rotate(25deg);
-  transition: left 0.6s ease-in-out;
-  pointer-events: none;
-}
-
-/* Animation au survol */
-.boutontresor-button:hover::after {
-  left: 125%;
-}
 
 /* PAGE START */
 .fond-start {
