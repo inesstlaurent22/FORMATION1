@@ -416,17 +416,6 @@ html, body {
 }
 
 .communication-button {
-  left: 331px + 306px; /* 280px bouton + ~26px espacement */
-  top: 2704px;
-}
-
-.commerce-button {
-  left: 331px + 612px;
-  top: 2704px;
-}
-
-/* Si le calcul est trop complexe dans CSS pur, voici les valeurs explicites : */
-.communication-button {
   left: 637px;
   top: 2704px;
 }
@@ -436,13 +425,25 @@ html, body {
   top: 2704px;
 }
 
-/* Bouton finance */
+/* Bouton finance & legal */
 .finance-button {
   position: absolute;
   left: 329px;
   top: 3275px;
   width: 226px;
   height: 297px;
+  display: block;
+  z-index: 25;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.legal-button {
+  position: absolute;
+  left: 678px;
+  top: 3276px;
+  width: 223px;
+  height: 296px;
   display: block;
   z-index: 25;
   cursor: pointer;
