@@ -372,8 +372,8 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour businessplan-button */
 .businessplan-button {
   position: absolute;
-  top: 60%; 
-  left: 80%; 
+  bottom: 40%; 
+  left: 75%; 
   width: 184px;
   height: 236px;
   display: block;
@@ -389,7 +389,7 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour boutonrouge-button */
 .boutonrouge-button {
   position: absolute;
-  top: 15516px; 
+  top: 13516px; 
   left: 592px; 
   width: 263px;
   height: 274px;
@@ -434,25 +434,31 @@ html, body {
 
 /* Positionnement individuel */
 .marketing-button {
-  left: 301px;
-  top: 2604px;
+  left: 308px;
+  top: 2595px;
 }
 
 .communication-button {
   left: 637px;
-  top: 2604px;
+  top: 2595px;
 }
 
 .commerce-button {
-  left: 903px;
-  top: 2604px;
+  left: 983px;
+  top: 2595px;
+}
+
+.marketing-button,
+.communication-button,
+.commerce-button :hover {
+  transform: scale(1.05);
 }
 
 /* Bouton finance & legal */
 .finance-button {
   position: absolute;
   left: 319px;
-  top: 3326px;
+  top: 2996px;
   width: 226px;
   height: 297px;
   display: block;
@@ -461,10 +467,14 @@ html, body {
   transition: transform 0.3s ease;
 }
 
+.finance-button :hover {
+  transform: scale(1.05);
+}
+
 .legal-button {
   position: absolute;
-  left: 620px;
-  top: 3326px;
+  left: 660px;
+  top: 2990px;
   width: 223px;
   height: 296px;
   display: block;
@@ -473,12 +483,16 @@ html, body {
   transition: transform 0.3s ease;
 }
 
+.legal-button :hover {
+  transform: scale(1.05);
+}
+
 
 /* Bouton rouge - CORRIGÉ */
 .boutonrouge1-button {
   position: absolute;
-  top: 3934px; 
-  left: 300px; 
+  top: 3884px; 
+  left: 400px; 
   width: 185px;
   height: 193px;
   z-index: 25; 
