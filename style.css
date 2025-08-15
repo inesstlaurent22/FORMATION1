@@ -411,8 +411,8 @@ html, body {
 
 /* Positionnement individuel */
 .marketing-button {
-  left: 311px;
-  top: 2504px;
+  left: 301px;
+  top: 2604px;
 }
 
 .communication-button {
@@ -421,15 +421,15 @@ html, body {
 }
 
 .commerce-button {
-  left: 1093px;
-  top: 2404px;
+  left: 903px;
+  top: 2604px;
 }
 
 /* Bouton finance & legal */
 .finance-button {
   position: absolute;
-  left: 329px;
-  top: 2875px;
+  left: 319px;
+  top: 3326px;
   width: 226px;
   height: 297px;
   display: block;
@@ -440,8 +440,8 @@ html, body {
 
 .legal-button {
   position: absolute;
-  left: 598px;
-  top: 2976px;
+  left: 620px;
+  top: 3326px;
   width: 223px;
   height: 296px;
   display: block;
@@ -454,8 +454,8 @@ html, body {
 /* Bouton rouge - CORRIGÉ */
 .boutonrouge1-button {
   position: absolute;
-  top: 4134px; 
-  left: 200px; 
+  top: 3934px; 
+  left: 300px; 
   width: 185px;
   height: 193px;
   z-index: 25; 
