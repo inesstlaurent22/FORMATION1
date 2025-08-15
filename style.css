@@ -350,7 +350,7 @@ html, body {
 .businessplan-button {
   position: absolute;
   top: 949px; 
-  left: 8994px; 
+  left: 294px; 
   width: 184px;
   height: 236px;
   display: block;
@@ -366,8 +366,8 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour boutonrouge-button */
 .boutonrouge-button {
   position: absolute;
-  top: 592px; 
-  left: 13516px; 
+  top: 13516px; 
+  left: 592px; 
   width: 263px;
   height: 274px;
   display: block;
@@ -454,8 +454,8 @@ html, body {
 /* Bouton rouge - CORRIGÉ */
 .boutonrouge1-button {
   position: absolute;
-  top: 600px; 
-  left: 4134px; 
+  top: 4134px; 
+  left: 200px; 
   width: 185px;
   height: 193px;
   z-index: 25; 
