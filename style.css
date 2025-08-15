@@ -493,6 +493,10 @@ html, body {
   z-index: 70; /* ✅ CORRIGÉ : Bouton retour prioritaire */
 }
 
+.retour-buttons:hover {
+  transform: scale(1.05);
+}
+
 /* Boutons au-dessus de l'image - CORRIGÉ */
 .suitecomm-buttons,
 .flyers2-buttons {
