@@ -506,13 +506,13 @@ html, body {
 }
 
 .suitecomm-buttons {
-  top: 70%; /* ✅ CORRIGÉ : Valeur en pourcentage */
-  left: 70%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  top: 400px; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  left: 85%; /* ✅ CORRIGÉ : Valeur en pourcentage */
 }
 
 .flyers2-buttons {
-  top: 50%; /* ✅ CORRIGÉ : Valeur en pourcentage */
-  left: 60%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  top: 300px; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  left: 75%; /* ✅ CORRIGÉ : Valeur en pourcentage */
 }
 
 .suitecomm-buttons:hover,
