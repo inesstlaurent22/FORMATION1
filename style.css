@@ -165,8 +165,8 @@ html, body {
 
 .carteimage-button {
   position: absolute;
-  bottom: 1vh;
-  left: 64vw;
+  bottom: 0.7vh;
+  left: 65vw;
   width: 29%;
   height: auto;
   object-fit: contain;
@@ -349,7 +349,7 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour businessplan-button */
 .businessplan-button {
   position: absolute;
-  top: 400px; 
+  top: 8900px; 
   right: 65%; 
   width: 184px;
   height: 236px;
@@ -366,7 +366,7 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour boutonrouge-button */
 .boutonrouge-button {
   position: absolute;
-  top: 14016px; 
+  top: 14516px; 
   left: 612px; 
   width: 263px;
   height: 274px;
@@ -421,12 +421,18 @@ html, body {
 }
 
 .commerce-button {
-  left: 903px;
-  top: 2505px;
+  left: 983px;
+  top: 2805px;
 }
 
-.marketing-button,
-.communication-button,
+.marketing-button:hover {
+  transform: scale(1.05);
+}
+
+.communication-button:hover {
+  transform: scale(1.05);
+}
+
 .commerce-button :hover {
   transform: scale(1.05);
 }
