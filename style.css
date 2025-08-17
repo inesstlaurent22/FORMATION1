@@ -518,31 +518,38 @@ html, body {
 }
 
 /* Boutons au-dessus de l'image - CORRIGÉ */
-.suitecomm-buttons,
-.flyers2-buttons {
+.suitecomm-buttons {
   position: absolute;
-  width: 224px;
-  height: 285px;
+  left: 1015px;
+  top: 8208px;
+  width: 227px;
+  height: 236px;
   display: block;
+  z-index: 25;
   cursor: pointer;
   transition: transform 0.3s ease;
-  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
 }
 
-.suitecomm-buttons {
-  bottom: 10%; /* ✅ CORRIGÉ : Valeur en pourcentage */
-  left: 80%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+.suitecomm-buttons :hover {
+  transform: scale(1.05);
 }
 
 .flyers2-buttons {
-  bottom: 20%; /* ✅ CORRIGÉ : Valeur en pourcentage */
-  left: 75%; /* ✅ CORRIGÉ : Valeur en pourcentage */
+  position: absolute;
+  left: 924px;
+  top: 7725px;
+  width: 205px;
+  height: 263px;
+  display: block;
+  z-index: 25;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.suitecomm-buttons:hover,
-.flyers2-buttons:hover {
+.flyers2-buttons :hover {
   transform: scale(1.05);
 }
+
 
 /* COMMUNICATION - Page 8 */
 .communication-container {
@@ -563,26 +570,38 @@ html, body {
   z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
-/* Boutons fixés à des positions visibles dans l'écran */
 .charte2-buttons {
-  position: fixed;
-  top: 80%;
-  right: 5%;
-  z-index: 70; /* ✅ CORRIGÉ : Boutons fixes prioritaires */
+  position: absolute;
+  left: 814px;
+  top: 4096px;
+  width: 217px;
+  height: 279px;
+  display: block;
+  z-index: 25;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.charte2-buttons :hover {
+  transform: scale(1.05);
 }
 
 .boutonrouge-buttons {
-  position: fixed;
-  top: 70%;
-  right: 5%;
-  z-index: 70; /* ✅ CORRIGÉ : Boutons fixes prioritaires */
+  position: absolute;
+  left: 683px;
+  top: 5206px;
+  width: 175px;
+  height: 183px;
+  display: block;
+  z-index: 25;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-/* Effets au survol */
-.charte2-buttons:hover,
-.boutonrouge-buttons:hover {
+.boutonrouge-buttons :hover {
   transform: scale(1.05);
 }
+
 
 /* COMMERCE - Page 9 - CORRIGÉ */
 .commerce-container {
@@ -602,6 +621,7 @@ html, body {
   object-fit: cover;
   z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
+
 
 .boutonrougeco-buttons {
   position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
