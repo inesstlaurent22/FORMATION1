@@ -520,8 +520,8 @@ html, body {
 /* Boutons au-dessus de l'image - CORRIGÉ */
 .suitecomm-buttons {
   position: absolute;
-  left: 1150px;
-  top: 8000px;
+  left: 1050px;
+  top: 7900px;
   width: 227px;
   height: 236px;
   display: block;
@@ -537,7 +537,7 @@ html, body {
 .flyers2-buttons {
   position: absolute;
   left: 945px;
-  top: 7300px;
+  top: 7380px;
   width: 205px;
   height: 263px;
   display: block;
@@ -625,7 +625,7 @@ html, body {
 .boutonrougeco-buttons {
   position: absolute;
   left: 1022px;
-  top: 4428px;
+  top: 4400px;
   width: 162px;
   height: 168px;
   display: block;
@@ -728,8 +728,8 @@ html, body {
 }
 .kdo-buttons {
   position: absolute;
-  left: 514px;
-  top: 5096px;
+  left: 384px;
+  top: 8096px;
   width: 217px;
   height: 279px;
   display: block;
