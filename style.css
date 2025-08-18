@@ -520,8 +520,8 @@ html, body {
 /* Boutons au-dessus de l'image - CORRIGÉ */
 .suitecomm-buttons {
   position: absolute;
-  left: 1015px;
-  top: 8208px;
+  left: 1150px;
+  top: 8000px;
   width: 227px;
   height: 236px;
   display: block;
@@ -536,8 +536,8 @@ html, body {
 
 .flyers2-buttons {
   position: absolute;
-  left: 924px;
-  top: 7725px;
+  left: 935px;
+  top: 7600px;
   width: 205px;
   height: 263px;
   display: block;
@@ -622,25 +622,38 @@ html, body {
   z-index: 1; /* ✅ CORRIGÉ : Fond de base */
 }
 
-
 .boutonrougeco-buttons {
-  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
-  top: 100px; /* ✅ CORRIGÉ : Valeur raisonnable */
-  right: 50%; /* ✅ CORRIGÉ : Valeur raisonnable */
-  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
+  position: absolute;
+  left: 1022px;
+  top: 4498px;
+  width: 162px;
+  height: 168px;
+  display: block;
+  z-index: 25;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.boutonrougeco1-buttons {
-  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
-  bottom: 100px; /* ✅ CORRIGÉ : Valeur raisonnable */
-  right: 50%; /* ✅ CORRIGÉ : Valeur raisonnable */
-  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
-}
-
-.boutonrougeco-buttons:hover,
-.boutonrougeco1-buttons:hover {
+.boutonrougeco-buttons :hover {
   transform: scale(1.05);
 }
+.boutonrougeco1-buttons {
+  position: absolute;
+  left: 697px;
+  top: 7795px;
+  width: 136px;
+  height: 142px;
+  display: block;
+  z-index: 25;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.boutonrougeco1-buttons :hover {
+  transform: scale(1.05);
+}
+
+
 
 /* FINANCE - Page 10 - CORRIGÉ */
 .finance-container {
@@ -662,15 +675,22 @@ html, body {
 }
 
 .boutonrougefi-buttons {
-  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
-  bottom: 100px; /* ✅ CORRIGÉ : Valeur raisonnable */
-  right: 50%; /* ✅ CORRIGÉ : Valeur raisonnable */
-  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
+  position: absolute;
+  left: 665px;
+  top: 7671px;
+  width: 192px;
+  height: 202px;
+  display: block;
+  z-index: 25;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.boutonrougefi-buttons:hover {
+.charte2-buttons :hover {
   transform: scale(1.05);
 }
+
+
 
 /* LEGAL - Page 11 - CORRIGÉ */
 .legal-container {
@@ -692,20 +712,33 @@ html, body {
 }
 
 .ursaff-buttons {
-  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
-  top: 300px; /* ✅ CORRIGÉ : Valeur raisonnable */
-  right: 50%; /* ✅ CORRIGÉ : Valeur raisonnable */
-  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
+  position: absolute;
+  left: 665px;
+  top: 2393px;
+  width: 265px;
+  height: 154px;
+  display: block;
+  z-index: 25;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.kdo-buttons {
-  position: absolute; /* ✅ CORRIGÉ : absolute au lieu de fixed */
-  bottom: 100px; /* ✅ CORRIGÉ : Valeur raisonnable */
-  left: 200px; /* ✅ CORRIGÉ : Valeur raisonnable */
-  z-index: 25; /* ✅ CORRIGÉ : Au-dessus du fond */
-}
-
-.ursaff-buttons:hover,
-.kdo-buttons:hover {
+.ursaff-buttons :hover {
   transform: scale(1.05);
 }
+.kdo-buttons {
+  position: absolute;
+  left: 814px;
+  top: 4096px;
+  width: 217px;
+  height: 279px;
+  display: block;
+  z-index: 25;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.kdo-buttons :hover {
+  transform: scale(1.05);
+}
+
