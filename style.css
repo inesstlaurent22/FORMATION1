@@ -165,7 +165,7 @@ html, body {
 
 .carteimage-button {
   position: absolute;
-  bottom: 0vh;
+  bottom: -0,9vh;
   left: 63.5vw;
   width: 29%;
   height: auto;
@@ -349,7 +349,7 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour businessplan-button */
 .businessplan-button {
   position: absolute;
-  top: 9850px; 
+  top: 9900px; 
   left: 64%; 
   width: 184px;
   height: 236px;
@@ -366,7 +366,7 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour boutonrouge-button */
 .boutonrouge-button {
   position: absolute;
-  top: 14550px; 
+  top: 14555px; 
   left: 612px; 
   width: 300px;
   height: 300px;
@@ -521,7 +521,7 @@ html, body {
 .suitecomm-buttons {
   position: absolute;
   left: 1150px;
-  top: 7950px;
+  top: 8000px;
   width: 227px;
   height: 236px;
   display: block;
