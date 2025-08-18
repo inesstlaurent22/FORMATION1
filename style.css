@@ -520,8 +520,8 @@ html, body {
 /* Boutons au-dessus de l'image - CORRIGÉ */
 .suitecomm-buttons {
   position: absolute;
-  left: 1150px;
-  top: 8000px;
+  left: 1050px;
+  top: 7850px;
   width: 227px;
   height: 236px;
   display: block;
@@ -537,7 +537,7 @@ html, body {
 .flyers2-buttons {
   position: absolute;
   left: 935px;
-  top: 7600px;
+  top: 7450px;
   width: 205px;
   height: 263px;
   display: block;
