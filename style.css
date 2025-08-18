@@ -349,7 +349,7 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour businessplan-button */
 .businessplan-button {
   position: absolute;
-  top: 9960px; 
+  top: 9970px; 
   left: 64%; 
   width: 184px;
   height: 236px;
@@ -366,8 +366,8 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour boutonrouge-button */
 .boutonrouge-button {
   position: absolute;
-  top: 14900px; 
-  left: 618px; 
+  top: 14600px; 
+  left: 610px; 
   width: 300px;
   height: 300px;
   display: block;
@@ -520,7 +520,7 @@ html, body {
 /* Boutons au-dessus de l'image - CORRIGÉ */
 .suitecomm-buttons {
   position: absolute;
-  left: 1200px;
+  left: 800px;
   top: 7880px;
   width: 227px;
   height: 236px;
@@ -537,7 +537,7 @@ html, body {
 .flyers2-buttons {
   position: absolute;
   left: 955px;
-  top: 7200px;
+  top: 7800px;
   width: 205px;
   height: 263px;
   display: block;
