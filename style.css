@@ -366,7 +366,7 @@ html, body {
 /* ✅ CORRIGÉ : Positionnement réaliste pour boutonrouge-button */
 .boutonrouge-button {
   position: absolute;
-  top: 14300px; 
+  top: 14360px; 
   left: 610px; 
   width: 300px;
   height: 300px;
@@ -520,7 +520,7 @@ html, body {
 /* Boutons au-dessus de l'image - CORRIGÉ */
 .suitecomm-buttons {
   position: absolute;
-  left: 1000px;
+  left: 1080px;
   top: 7880px;
   width: 227px;
   height: 236px;
@@ -537,7 +537,7 @@ html, body {
 .flyers2-buttons {
   position: absolute;
   left: 955px;
-  top: 7400px;
+  top: 7370px;
   width: 205px;
   height: 263px;
   display: block;
@@ -625,7 +625,7 @@ html, body {
 .boutonrougeco-buttons {
   position: absolute;
   left: 1022px;
-  top: 4600px;
+  top: 4500px;
   width: 162px;
   height: 168px;
   display: block;
@@ -639,7 +639,7 @@ html, body {
 }
 .boutonrougeco1-buttons {
   position: absolute;
-  left: 720px;
+  left: 700px;
   top: 7795px;
   width: 30px;
   height: auto;
@@ -728,8 +728,8 @@ html, body {
 }
 .kdo-buttons {
   position: absolute;
-  left: 280px;
-  top: 7050px;
+  left: 250px;
+  top: 7120px;
   width: 217px;
   height: 279px;
   display: block;
